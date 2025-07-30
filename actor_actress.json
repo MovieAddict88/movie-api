@@ -1,0 +1,158 @@
+{
+  "actors": [
+    {
+      "id": 1,
+      "name": "Anthony Hopkins",
+      "type": "actor",
+      "role": "Dr. Hannibal Lecter",
+      "image": "https://example.com/anthony_hopkins.jpg",
+      "born": "December 31, 1937",
+      "height": "5'9\" (175 cm)",
+      "bio": "Sir Philip Anthony Hopkins CBE is a Welsh actor, director, and producer. One of Britain's most recognizable and prolific actors, he is known for his performances on the screen and stage."
+    },
+    {
+      "id": 2,
+      "name": "Jodie Foster",
+      "type": "actress",
+      "role": "Clarice Starling",
+      "image": "https://example.com/jodie_foster.jpg",
+      "born": "November 19, 1962",
+      "height": "5'3\" (160 cm)",
+      "bio": "Alicia Christian Foster is an American actress, filmmaker, and producer. She has won two Academy Awards, three British Academy Film Awards, three Golden Globe Awards, and the Cecil B. DeMille Award."
+    },
+    {
+      "id": 3,
+      "name": "Ben Affleck",
+      "type": "actor",
+      "role": "Nick Dunne",
+      "image": "https://example.com/ben_affleck.jpg",
+      "born": "August 15, 1972",
+      "height": "6'2\" (188 cm)",
+      "bio": "Benjamin Géza Affleck-Boldt is an American actor, film director, producer, and screenwriter. He is the recipient of various accolades, including two Academy Awards and three Golden Globe Awards."
+    },
+    {
+      "id": 4,
+      "name": "Rosamund Pike",
+      "type": "actress",
+      "role": "Amy Elliott Dunne",
+      "image": "https://example.com/rosamund_pike.jpg",
+      "born": "January 27, 1979",
+      "height": "5'9\" (175 cm)",
+      "bio": "Rosamund Mary Ellen Pike is an English actress. She began her acting career by appearing in stage productions including Romeo and Juliet and Gas Light."
+    },
+    {
+      "id": 5,
+      "name": "Daniel Craig",
+      "type": "actor",
+      "role": "Mikael Blomkvist",
+      "image": "https://example.com/daniel_craig.jpg",
+      "born": "March 2, 1968",
+      "height": "5'10\" (178 cm)",
+      "bio": "Daniel Wroughton Craig CMG is an English actor. He gained international fame playing the fictional British secret agent James Bond in five films from 2006 to 2021."
+    },
+    {
+      "id": 6,
+      "name": "Rooney Mara",
+      "type": "actress",
+      "role": "Lisbeth Salander",
+      "image": "https://example.com/rooney_mara.jpg",
+      "born": "April 17, 1985",
+      "height": "5'3\" (160 cm)",
+      "bio": "Patricia Rooney Mara is an American actress. She has received various accolades, including nominations for two Academy Awards, three Golden Globe Awards, and a Tony Award."
+    },
+    {
+      "id": 7,
+      "name": "Tom Hardy",
+      "type": "actor",
+      "role": "Various Characters",
+      "image": "https://example.com/tom_hardy.jpg",
+      "born": "September 15, 1977",
+      "height": "5'9\" (175 cm)",
+      "bio": "Edward Thomas Hardy CBE is an English actor, producer, and former model. After studying acting at the Drama Centre London, he made his film debut in Ridley Scott's Black Hawk Down."
+    },
+    {
+      "id": 8,
+      "name": "Charlize Theron",
+      "type": "actress",
+      "role": "Various Characters",
+      "image": "https://example.com/charlize_theron.jpg",
+      "born": "August 7, 1975",
+      "height": "5'10\" (178 cm)",
+      "bio": "Charlize Theron is a South African and American actress and producer. She is the recipient of various accolades, including an Academy Award, a Golden Globe Award, and a Screen Actors Guild Award."
+    },
+    {
+      "id": 9,
+      "name": "Leonardo DiCaprio",
+      "type": "actor",
+      "role": "Various Characters",
+      "image": "https://example.com/leonardo_dicaprio.jpg",
+      "born": "November 11, 1974",
+      "height": "6'0\" (183 cm)",
+      "bio": "Leonardo Wilhelm DiCaprio is an American actor, film producer, and environmentalist. Known for his work in biopics and period films, DiCaprio is the recipient of numerous accolades."
+    },
+    {
+      "id": 10,
+      "name": "Sandra Bullock",
+      "type": "actress",
+      "role": "Various Characters",
+      "image": "https://example.com/sandra_bullock.jpg",
+      "born": "July 26, 1964",
+      "height": "5'7\" (170 cm)",
+      "bio": "Sandra Annette Bullock is an American actress and producer. She was the world's highest-paid actress in 2010 and 2014. Bullock has received various accolades, including an Academy Award and a Golden Globe Award."
+    }
+  ],
+  "actresses": [
+    {
+      "id": 11,
+      "name": "Scarlett Johansson",
+      "type": "actress",
+      "role": "Various Characters",
+      "image": "https://example.com/scarlett_johansson.jpg",
+      "born": "November 22, 1984",
+      "height": "5'3\" (160 cm)",
+      "bio": "Scarlett Ingrid Johansson is an American actress. The world's highest-paid actress in 2018 and 2019, she has made multiple appearances in the Forbes Celebrity 100."
+    },
+    {
+      "id": 12,
+      "name": "Jennifer Lawrence",
+      "type": "actress",
+      "role": "Various Characters",
+      "image": "https://example.com/jennifer_lawrence.jpg",
+      "born": "August 15, 1990",
+      "height": "5'9\" (175 cm)",
+      "bio": "Jennifer Shrader Lawrence is an American actress. The world's highest-paid actress in 2015 and 2016, her films have grossed over $6 billion worldwide to date."
+    },
+    {
+      "id": 13,
+      "name": "Emma Stone",
+      "type": "actress",
+      "role": "Various Characters",
+      "image": "https://example.com/emma_stone.jpg",
+      "born": "November 6, 1988",
+      "height": "5'6\" (168 cm)",
+      "bio": "Emily Jean Stone is an American actress. She is the recipient of various accolades, including an Academy Award, a British Academy Film Award, and a Golden Globe Award."
+    },
+    {
+      "id": 14,
+      "name": "Margot Robbie",
+      "type": "actress",
+      "role": "Various Characters",
+      "image": "https://example.com/margot_robbie.jpg",
+      "born": "July 2, 1990",
+      "height": "5'6\" (168 cm)",
+      "bio": "Margot Elise Robbie is an Australian actress and producer. She is known for her work in both blockbuster and independent films, and has received various accolades."
+    },
+    {
+      "id": 15,
+      "name": "Gal Gadot",
+      "type": "actress",
+      "role": "Wonder Woman",
+      "image": "https://example.com/gal_gadot.jpg",
+      "born": "April 30, 1985",
+      "height": "5'10\" (178 cm)",
+      "bio": "Gal Gadot is an Israeli actress, model, and producer. At age 18, she was crowned Miss Israel 2004. She then served in the Israel Defense Forces for two years."
+    }
+  ],
+  "total_actors": 10,
+  "total_actresses": 5
+}

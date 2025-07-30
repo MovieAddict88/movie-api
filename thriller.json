@@ -1,0 +1,172 @@
+{
+  "genre_info": {
+    "id": 1,
+    "title": "Thriller",
+    "description": "Suspenseful and exciting movies that keep you on the edge of your seat",
+    "total_movies": 25
+  },
+  "thriller_movies": [
+    {
+      "id": 1,
+      "title": "The Silence of the Lambs",
+      "type": "movie",
+      "label": "Classic Thriller",
+      "sublabel": "Psychological Horror",
+      "imdb": "8.6",
+      "downloadas": "The Silence of the Lambs (1991)",
+      "comment": true,
+      "playas": "The Silence of the Lambs",
+      "description": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
+      "classification": "R",
+      "year": "1991",
+      "duration": "118 min",
+      "rating": 8.6,
+      "image": "https://example.com/silence_lambs_poster.jpg",
+      "cover": "https://example.com/silence_lambs_cover.jpg",
+      "genres": [
+        {
+          "id": 1,
+          "title": "Thriller"
+        },
+        {
+          "id": 2,
+          "title": "Crime"
+        },
+        {
+          "id": 3,
+          "title": "Drama"
+        }
+      ],
+      "sources": [
+        {
+          "id": 1,
+          "title": "1080p",
+          "url": "https://example.com/silence_lambs_1080p.mp4",
+          "quality": "1080p",
+          "size": "2.1 GB"
+        },
+        {
+          "id": 2,
+          "title": "720p",
+          "url": "https://example.com/silence_lambs_720p.mp4",
+          "quality": "720p",
+          "size": "1.2 GB"
+        }
+      ],
+      "trailer": {
+        "id": 1,
+        "title": "Official Trailer",
+        "url": "https://example.com/silence_lambs_trailer.mp4",
+        "quality": "720p"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Gone Girl",
+      "type": "movie",
+      "label": "Modern Thriller",
+      "sublabel": "Psychological Drama",
+      "imdb": "8.1",
+      "downloadas": "Gone Girl (2014)",
+      "comment": true,
+      "playas": "Gone Girl",
+      "description": "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
+      "classification": "R",
+      "year": "2014",
+      "duration": "149 min",
+      "rating": 8.1,
+      "image": "https://example.com/gone_girl_poster.jpg",
+      "cover": "https://example.com/gone_girl_cover.jpg",
+      "genres": [
+        {
+          "id": 1,
+          "title": "Thriller"
+        },
+        {
+          "id": 4,
+          "title": "Mystery"
+        },
+        {
+          "id": 3,
+          "title": "Drama"
+        }
+      ],
+      "sources": [
+        {
+          "id": 3,
+          "title": "1080p",
+          "url": "https://example.com/gone_girl_1080p.mp4",
+          "quality": "1080p",
+          "size": "2.5 GB"
+        },
+        {
+          "id": 4,
+          "title": "720p",
+          "url": "https://example.com/gone_girl_720p.mp4",
+          "quality": "720p",
+          "size": "1.4 GB"
+        }
+      ],
+      "trailer": {
+        "id": 2,
+        "title": "Official Trailer",
+        "url": "https://example.com/gone_girl_trailer.mp4",
+        "quality": "720p"
+      }
+    },
+    {
+      "id": 3,
+      "title": "The Girl with the Dragon Tattoo",
+      "type": "movie",
+      "label": "Crime Thriller",
+      "sublabel": "Mystery",
+      "imdb": "7.8",
+      "downloadas": "The Girl with the Dragon Tattoo (2011)",
+      "comment": true,
+      "playas": "The Girl with the Dragon Tattoo",
+      "description": "Journalist Mikael Blomkvist is aided in his search for a woman who has been missing for forty years by Lisbeth Salander, a young computer hacker.",
+      "classification": "R",
+      "year": "2011",
+      "duration": "158 min",
+      "rating": 7.8,
+      "image": "https://example.com/dragon_tattoo_poster.jpg",
+      "cover": "https://example.com/dragon_tattoo_cover.jpg",
+      "genres": [
+        {
+          "id": 1,
+          "title": "Thriller"
+        },
+        {
+          "id": 2,
+          "title": "Crime"
+        },
+        {
+          "id": 4,
+          "title": "Mystery"
+        }
+      ],
+      "sources": [
+        {
+          "id": 5,
+          "title": "1080p",
+          "url": "https://example.com/dragon_tattoo_1080p.mp4",
+          "quality": "1080p",
+          "size": "2.3 GB"
+        },
+        {
+          "id": 6,
+          "title": "720p",
+          "url": "https://example.com/dragon_tattoo_720p.mp4",
+          "quality": "720p",
+          "size": "1.3 GB"
+        }
+      ],
+      "trailer": {
+        "id": 3,
+        "title": "Official Trailer",
+        "url": "https://example.com/dragon_tattoo_trailer.mp4",
+        "quality": "720p"
+      }
+    }
+  ]
+}
