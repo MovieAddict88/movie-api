@@ -957,29 +957,76 @@
     {
       "id": 1,
       "title": "Basic Plan",
+      "description": "Perfect for casual viewers",
       "price": 9.99,
       "currency": "USD",
-      "duration": "monthly",
+      "duration": "30",
+      "enabled": true,
+      "billing_type": "monthly",
       "features": [
         "HD Quality",
         "No Ads",
-        "Basic Support"
+        "Basic Support",
+        "Watch on 1 device"
       ]
     },
     {
       "id": 2,
       "title": "Premium Plan",
+      "description": "Best value for movie lovers",
       "price": 19.99,
       "currency": "USD",
-      "duration": "monthly",
+      "duration": "30",
+      "enabled": true,
+      "billing_type": "monthly",
       "features": [
         "4K Quality",
         "No Ads",
         "Premium Support",
-        "Download"
+        "Download",
+        "Watch on 4 devices",
+        "Exclusive content"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Family Plan",
+      "description": "Share with your family",
+      "price": 29.99,
+      "currency": "USD",
+      "duration": "30",
+      "enabled": false,
+      "billing_type": "monthly",
+      "features": [
+        "4K Quality",
+        "No Ads",
+        "Premium Support",
+        "Download",
+        "Watch on 6 devices",
+        "Parental controls"
       ]
     }
   ],
+  "subscription_config": {
+    "enabled": false,
+    "monthly_billing_enabled": true,
+    "free_trial_days": 7,
+    "grace_period_days": 3,
+    "auto_renewal_enabled": true,
+    "payment_methods": [
+      "paypal",
+      "stripe",
+      "google_play",
+      "apple_pay"
+    ],
+    "currency_default": "USD",
+    "subscription_required_for": [
+      "premium_movies",
+      "4k_quality",
+      "download",
+      "no_ads"
+    ]
+  },
   "video_sources": {
     "big_buck_bunny": {
       "title": "Big Buck Bunny",
