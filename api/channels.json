@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "title": "Sample News Channel",
+    "image": "https://example.com/news-channel.jpg",
+    "detail_url": "https://raw.githubusercontent.com/MovieAddict88/movie-api/main/api/channel_details/1.json"
+    
+  },
+  {
+    "id": 2,
+    "title": "Sample Sports Channel",
+    "image": "https://example.com/sports-channel.jpg",
+    "detail_url": "https://raw.githubusercontent.com/MovieAddict88/movie-api/main/api/channel_details/2.json"
+  }
+]
