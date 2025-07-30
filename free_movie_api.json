@@ -585,12 +585,12 @@
       "title": "Sample TV Series",
       "type": "series",
       "label": "Drama",
-      "sublabel": "Season 1",
+      "sublabel": "2 Seasons",
       "imdb": "8.2",
-      "downloadas": "sample-series-s01",
+      "downloadas": "sample-series",
       "comment": true,
       "playas": "video",
-      "description": "A gripping drama series with multiple seasons.",
+      "description": "A gripping drama series with 2 seasons. Each season contains 1 episode with multiple quality options and subtitles.",
       "classification": "TV-14",
       "year": "2023",
       "duration": "45:00",
@@ -647,8 +647,90 @@
                   "title": "Episode 1 1080p",
                   "quality": "1080p",
                   "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                },
+                {
+                  "id": 6,
+                  "type": "video",
+                  "title": "Episode 1 720p",
+                  "quality": "720p",
+                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                },
+                {
+                  "id": 7,
+                  "type": "video",
+                  "title": "Episode 1 480p",
+                  "quality": "480p",
+                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
                 }
-              ]
+              ],
+              "subtitles": [
+                {
+                  "id": 1,
+                  "title": "English",
+                  "language": "en",
+                  "url": "https://example.com/subtitles/ep1-en.vtt"
+                },
+                {
+                  "id": 2,
+                  "title": "Spanish",
+                  "language": "es",
+                  "url": "https://example.com/subtitles/ep1-es.vtt"
+                }
+              ],
+              "views": 5000,
+              "downloads": 1200
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Season 2",
+          "episodes": [
+            {
+              "id": 2,
+              "title": "Episode 1",
+              "episode_number": 1,
+              "image": "https://example.com/ep2.jpg",
+              "duration": "45:00",
+              "sources": [
+                {
+                  "id": 8,
+                  "type": "video",
+                  "title": "Episode 1 1080p",
+                  "quality": "1080p",
+                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                },
+                {
+                  "id": 9,
+                  "type": "video",
+                  "title": "Episode 1 720p",
+                  "quality": "720p",
+                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                },
+                {
+                  "id": 10,
+                  "type": "video",
+                  "title": "Episode 1 480p",
+                  "quality": "480p",
+                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                }
+              ],
+              "subtitles": [
+                {
+                  "id": 3,
+                  "title": "English",
+                  "language": "en",
+                  "url": "https://example.com/subtitles/ep2-en.vtt"
+                },
+                {
+                  "id": 4,
+                  "title": "Spanish",
+                  "language": "es",
+                  "url": "https://example.com/subtitles/ep2-es.vtt"
+                }
+              ],
+              "views": 3000,
+              "downloads": 800
             }
           ]
         }
@@ -929,6 +1011,32 @@
         "quality": "1080p",
         "type": "live"
       }
+    }
+  },
+  "ads_config": {
+    "admob": {
+      "banner_id": "ca-app-pub-3940256099942544/6300978111",
+      "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+      "rewarded_id": "ca-app-pub-3940256099942544/5224354917",
+      "native_id": "ca-app-pub-3940256099942544/2247696110",
+      "app_id": "ca-app-pub-3940256099942544~3347511713"
+    },
+    "facebook": {
+      "banner_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
+      "interstitial_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
+      "rewarded_id": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
+      "native_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"
+    },
+    "settings": {
+      "banner_enabled": true,
+      "interstitial_enabled": true,
+      "rewarded_enabled": true,
+      "native_enabled": true,
+      "interstitial_clicks": 3,
+      "native_lines": 6,
+      "banner_type": "ADMOB",
+      "interstitial_type": "ADMOB",
+      "native_type": "ADMOB"
     }
   }
 }
