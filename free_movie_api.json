@@ -124,6 +124,7 @@
           "shares": 1200
         }
       },
+      
       {
         "id": 2,
         "title": "Sample News Channel",
@@ -132,7 +133,7 @@
         "url": "channels/1",
         "channel": {
           "id": 1,
-          "title": "Sample News Channel",
+          "title": "AZ2",
           "label": "News",
           "sublabel": "24/7 News",
           "description": "24/7 news coverage from around the world",
@@ -142,20 +143,31 @@
           "shares": 800,
           "rating": 7.8,
           "comment": true,
-          "image": "https://example.com/news-channel.jpg",
+          "image": "https://i.imgur.com/1zsdloF.png",
           "playas": "live",
           "sources": [
             {
               "id": 6,
               "type": "live",
-              "title": "Live Stream",
-              "quality": "1080p",
+              "title": "AZ2",
+              "quality": "720p",
               "size": "Live",
               "kind": "hls",
               "premium": "false",
               "external": false,
-              "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-            }
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_5.m3u8"
+            },
+            {
+            "id": 7,
+            "type": "live",
+            "title": "AZ2",
+            "quality": "480p",
+            "size": "Live",
+            "kind": "hls",
+            "premium": "false",
+            "external": false,
+            "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_4.m3u8"
+          }
           ],
           "categories": [
             {
@@ -166,7 +178,7 @@
           "countries": [
             {
               "id": 1,
-              "title": "USA"
+              "title": "PH"
             }
           ],
           "comments": [
