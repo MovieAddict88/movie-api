@@ -1,1 +1,41 @@
-
+{
+  "id": 1,
+  "title": "Big Buck Bunny",
+  "type": "movie",
+  "label": "Animation",
+  "sublabel": "Short Film",
+  "imdb": "8.5",
+  "downloadas": "big-buck-bunny.mp4",
+  "comment": true,
+  "playas": "video",
+  "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him by throwing nuts, hitting his flowers, and destroying his home, he snaps and goes after them.",
+  "classification": "G",
+  "year": "2008",
+  "duration": "10:00",
+  "rating": 8.5,
+  "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+  "cover": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+  "genres": [
+    { "id": 6, "title": "Animation" }
+  ],
+  "sources": [
+    { "id": 1, "type": "video", "title": "Big Buck Bunny 1080p", "quality": "1080p", "size": "264MB", "kind": "mp4", "premium": "false", "external": false, "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" },
+    { "id": 2, "type": "video", "title": "Big Buck Bunny 720p", "quality": "720p", "size": "128MB", "kind": "mp4", "premium": "false", "external": false, "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" },
+    { "id": 3, "type": "video", "title": "Big Buck Bunny 480p", "quality": "480p", "size": "64MB", "kind": "mp4", "premium": "false", "external": false, "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" }
+  ],
+  "trailer": { "id": 4, "type": "video", "title": "Big Buck Bunny Trailer", "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" },
+  "actors": [
+    { "id": 1, "name": "Tom Hanks", "type": "actor", "role": "Lead Actor", "image": "https://example.com/tom-hanks.jpg", "born": "1956-07-09", "height": "6'0\"", "bio": "American actor and filmmaker" }
+  ],
+  "subtitles": [
+    { "id": 1, "title": "English", "language": "en", "url": "https://example.com/subtitles/big-buck-bunny-en.vtt" },
+    { "id": 2, "title": "Spanish", "language": "es", "url": "https://example.com/subtitles/big-buck-bunny-es.vtt" }
+  ],
+  "comments": [
+    { "id": 1, "user": "John Doe", "comment": "Amazing animation! Love this movie.", "created_at": "2024-01-15T10:30:00Z" },
+    { "id": 2, "user": "Jane Smith", "comment": "Great for kids and adults alike!", "created_at": "2024-01-14T15:45:00Z" }
+  ],
+  "views": 15000,
+  "downloads": 5000,
+  "shares": 1200
+}
