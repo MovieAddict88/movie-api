@@ -961,7 +961,7 @@
       "price": 9.99,
       "currency": "USD",
       "duration": "30",
-      "enabled": true,
+      "enabled": false,
       "billing_type": "monthly",
       "features": [
         "HD Quality",
@@ -977,7 +977,7 @@
       "price": 19.99,
       "currency": "USD",
       "duration": "30",
-      "enabled": true,
+      "enabled": false,
       "billing_type": "monthly",
       "features": [
         "4K Quality",
@@ -1009,10 +1009,10 @@
   ],
   "subscription_config": {
     "enabled": false,
-    "monthly_billing_enabled": true,
+    "monthly_billing_enabled": false,
     "free_trial_days": 7,
     "grace_period_days": 3,
-    "auto_renewal_enabled": true,
+    "auto_renewal_enabled": false,
     "payment_methods": [
       "paypal",
       "stripe",
@@ -1075,10 +1075,10 @@
       "native_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"
     },
     "settings": {
-      "banner_enabled": true,
-      "interstitial_enabled": true,
-      "rewarded_enabled": true,
-      "native_enabled": true,
+      "banner_enabled": false,
+      "interstitial_enabled": false,
+      "rewarded_enabled": false,
+      "native_enabled": false,
       "interstitial_clicks": 3,
       "native_lines": 6,
       "banner_type": "ADMOB",
