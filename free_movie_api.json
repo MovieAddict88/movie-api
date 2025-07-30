@@ -127,7 +127,7 @@
       
       {
         "id": 2,
-        "title": "Sample News Channel",
+        "title": "Tv Channels",
         "type": "channel",
         "image": "https://example.com/news-channel.jpg",
         "url": "channels/1",
