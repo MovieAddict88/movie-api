@@ -45,7 +45,7 @@
               "title": "Big Buck Bunny 1080p",
               "quality": "1080p",
               "size": "264MB",
-              "kind": "mp4",
+              "kind": "both",
               "premium": "false",
               "external": false,
               "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
@@ -56,7 +56,7 @@
               "title": "Big Buck Bunny 720p",
               "quality": "720p",
               "size": "128MB",
-              "kind": "mp4",
+              "kind": "both",
               "premium": "false",
               "external": false,
               "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
@@ -67,7 +67,7 @@
               "title": "Big Buck Bunny 480p",
               "quality": "480p",
               "size": "64MB",
-              "kind": "mp4",
+              "kind": "both",
               "premium": "false",
               "external": false,
               "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
@@ -152,7 +152,7 @@
               "title": "720p",
               "quality": "720p",
               "size": "Live",
-              "kind": "hls",
+              "kind": "play",
               "premium": "false",
               "external": false,
               "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_5.m3u8"
@@ -163,7 +163,7 @@
               "title": "480p",
               "quality": "480p",
               "size": "Live",
-              "kind": "hls",
+              "kind": "play",
               "premium": "false",
               "external": false,
               "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_4.m3u8"
@@ -174,7 +174,7 @@
               "title": "360p",
               "quality": "360p",
               "size": "Live",
-              "kind": "hls",
+              "kind": "play",
               "premium": "false",
               "external": false,
               "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_3.m3u8"
@@ -185,7 +185,7 @@
               "title": "240p",
               "quality": "240p",
               "size": "Live",
-              "kind": "hls",
+              "kind": "play",
               "premium": "false",
               "external": false,
               "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_2.m3u8"
@@ -196,7 +196,7 @@
               "title": "144p",
               "quality": "144p",
               "size": "Live",
-              "kind": "hls",
+              "kind": "play",
               "premium": "false",
               "external": false,
               "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_1.m3u8"
@@ -244,7 +244,7 @@
               "title": "HD",
               "quality": "HD",
               "size": "Live",
-              "kind": "hls",
+              "kind": "play",
               "premium": "false",
               "external": false,
               "url": "https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index.m3u8"
@@ -292,7 +292,7 @@
               "title": "Live",
               "quality": "HD",
               "size": "Live",
-              "kind": "hls",
+              "kind": "play",
               "premium": "false",
               "external": false,
               "url": "https://live-faws.akamaized.net/out/v1/df7b60b4411f4270ab431913de807bf4/index.m3u8"
@@ -340,7 +340,7 @@
               "title": "HD",
               "quality": "HD",
               "size": "Live",
-              "kind": "hls",
+              "kind": "play",
               "premium": "false",
               "external": false,
               "url": "https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index.m3u8"
@@ -494,7 +494,7 @@
             "title": "720p",
             "quality": "720p",
             "size": "Live",
-            "kind": "hls",
+            "kind": "play",
             "premium": "false",
             "external": false,
             "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_5.m3u8"
@@ -505,7 +505,7 @@
             "title": "480p",
             "quality": "480p",
             "size": "Live",
-            "kind": "hls",
+            "kind": "play",
             "premium": "false",
             "external": false,
             "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_4.m3u8"
@@ -516,7 +516,7 @@
             "title": "360p",
             "quality": "360p",
             "size": "Live",
-            "kind": "hls",
+            "kind": "play",
             "premium": "false",
             "external": false,
             "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_3.m3u8"
@@ -527,7 +527,7 @@
             "title": "240p",
             "quality": "240p",
             "size": "Live",
-            "kind": "hls",
+            "kind": "play",
             "premium": "false",
             "external": false,
             "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_2.m3u8"
@@ -538,7 +538,7 @@
             "title": "144p",
             "quality": "144p",
             "size": "Live",
-            "kind": "hls",
+            "kind": "play",
             "premium": "false",
             "external": false,
             "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_1.m3u8"
@@ -579,7 +579,7 @@
             "title": "HD",
             "quality": "HD",
             "size": "Live",
-            "kind": "hls",
+            "kind": "play",
             "premium": "false",
             "external": false,
             "url": "https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index.m3u8"
@@ -620,7 +620,7 @@
             "title": "Live",
             "quality": "HD",
             "size": "Live",
-            "kind": "hls",
+            "kind": "play",
             "premium": "false",
             "external": false,
             "url": "https://live-faws.akamaized.net/out/v1/df7b60b4411f4270ab431913de807bf4/index.m3u8"
@@ -661,7 +661,7 @@
             "title": "HD",
             "quality": "HD",
             "size": "Live",
-            "kind": "hls",
+            "kind": "play",
             "premium": "false",
             "external": false,
             "url": "https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index.m3u8"
@@ -702,7 +702,7 @@
             "title": "Live",
             "quality": "HD",
             "size": "Live",
-            "kind": "hls",
+            "kind": "play",
             "premium": "false",
             "external": false,
             "url": "https://live-faws.akamaized.net/out/v1/df7b60b4411f4270ab431913de807bf4/index.m3u8"
@@ -1094,7 +1094,7 @@
           "title": "Live Stream",
           "quality": "1080p",
           "size": "Live",
-          "kind": "hls",
+          "kind": "play",
           "premium": "false",
           "external": false,
           "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
@@ -1142,7 +1142,7 @@
           "title": "Live Sports Stream",
           "quality": "720p",
           "size": "Live",
-          "kind": "hls",
+          "kind": "play",
           "premium": "false",
           "external": false,
           "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
@@ -1190,7 +1190,7 @@
           "title": "720p",
           "quality": "720p",
           "size": "Live",
-          "kind": "hls",
+          "kind": "play",
           "premium": "false",
           "external": false,
           "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_5.m3u8"
@@ -1201,7 +1201,7 @@
           "title": "480p",
           "quality": "480p",
           "size": "Live",
-          "kind": "hls",
+          "kind": "play",
           "premium": "false",
           "external": false,
           "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_4.m3u8"
@@ -1212,7 +1212,7 @@
           "title": "360p",
           "quality": "360p",
           "size": "Live",
-          "kind": "hls",
+          "kind": "play",
           "premium": "false",
           "external": false,
           "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_3.m3u8"
@@ -1223,7 +1223,7 @@
           "title": "240p",
           "quality": "240p",
           "size": "Live",
-          "kind": "hls",
+          "kind": "play",
           "premium": "false",
           "external": false,
           "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_2.m3u8"
@@ -1234,7 +1234,7 @@
           "title": "144p",
           "quality": "144p",
           "size": "Live",
-          "kind": "hls",
+          "kind": "play",
           "premium": "false",
           "external": false,
           "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_1.m3u8"
