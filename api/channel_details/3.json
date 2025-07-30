@@ -1,0 +1,27 @@
+{
+  "id": 3,
+  "title": "AZ2",
+  "label": "Entertainment",
+  "sublabel": "AZ2",
+  "description": "AZ2",
+  "website": "",
+  "classification": "Entertainment",
+  "views": 0,
+  "shares": 0,
+  "rating": 0,
+  "comment": true,
+  "image": "https://i.imgur.com/1zsdloF.png",
+  "poster": "https://i.imgur.com/1zsdloF.png",
+  "thumbnail": "https://i.imgur.com/1zsdloF.png",
+  "playas": "live",
+  "countries": [ { "id": 1, "title": "Philippines" } ],
+  "categories": [ { "id": 1, "title": "Entertainment" } ],
+  "sources": [
+    { "id": 1, "type": "live", "title": "AZ2 720p", "quality": "720p", "kind": "hls", "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_5.m3u8" },
+    { "id": 2, "type": "live", "title": "AZ2 480p", "quality": "480p", "kind": "hls", "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_4.m3u8" },
+    { "id": 3, "type": "live", "title": "AZ2 360p", "quality": "360p", "kind": "hls", "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_3.m3u8" },
+    { "id": 4, "type": "live", "title": "AZ2 240p", "quality": "240p", "kind": "hls", "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_2.m3u8" },
+    { "id": 5, "type": "live", "title": "AZ2 144p", "quality": "144p", "kind": "hls", "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_1.m3u8" }
+  ],
+  "comments": []
+}
