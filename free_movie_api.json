@@ -126,72 +126,6 @@
       },
       
       {
-        "id": 2,
-        "title": "Tv Channels",
-        "type": "channel",
-        "image": "https://example.com/news-channel.jpg",
-        "url": "channels/1",
-        "channel": {
-          "id": 1,
-          "title": "AZ2",
-          "label": "News",
-          "sublabel": "24/7 News",
-          "description": "24/7 news coverage from around the world",
-          "website": "https://example-news.com",
-          "classification": "News",
-          "views": 25000,
-          "shares": 800,
-          "rating": 7.8,
-          "comment": true,
-          "image": "https://i.imgur.com/1zsdloF.png",
-          "playas": "live",
-          "sources": [
-            {
-              "id": 6,
-              "type": "live",
-              "title": "AZ2",
-              "quality": "720p",
-              "size": "Live",
-              "kind": "hls",
-              "premium": "false",
-              "external": false,
-              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_5.m3u8"
-            },
-            {
-            "id": 7,
-            "type": "live",
-            "title": "AZ2",
-            "quality": "480p",
-            "size": "Live",
-            "kind": "hls",
-            "premium": "false",
-            "external": false,
-            "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_4.m3u8"
-          }
-          ],
-          "categories": [
-            {
-              "id": 1,
-              "title": "News"
-            }
-          ],
-          "countries": [
-            {
-              "id": 1,
-              "title": "PH"
-            }
-          ],
-          "comments": [
-            {
-              "id": 1,
-              "user": "News Viewer",
-              "comment": "Great coverage!",
-              "created_at": "2024-01-15T09:15:00Z"
-            }
-          ]
-        }
-      },
-      {
         "id": 3,
         "title": "AZ2",
         "type": "channel",
@@ -272,6 +206,102 @@
             {
               "id": 3,
               "title": "Entertainment"
+            }
+          ],
+          "countries": [
+            {
+              "id": 1,
+              "title": "PH"
+            }
+          ],
+          "comments": []
+        }
+      },
+      {
+        "id": 4,
+        "title": "Cine Mo!",
+        "type": "channel",
+        "image": "https://i.imgur.com/KUwrSOH.png",
+        "url": "channels/4",
+        "channel": {
+          "id": 4,
+          "title": "Cine Mo!",
+          "label": "Movies",
+          "sublabel": "PH",
+          "description": "Cine Mo! is a Filipino pay television channel owned by ABS-CBN.",
+          "website": "https://example-news.com",
+          "classification": "Movies",
+          "views": 0,
+          "shares": 0,
+          "rating": 0,
+          "comment": true,
+          "image": "https://i.imgur.com/KUwrSOH.png",
+          "playas": "live",
+          "sources": [
+            {
+              "id": 11,
+              "type": "live",
+              "title": "HD",
+              "quality": "HD",
+              "size": "Live",
+              "kind": "hls",
+              "premium": "false",
+              "external": false,
+              "url": "https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index.m3u8"
+            }
+          ],
+          "categories": [
+            {
+              "id": 5,
+              "title": "Movies"
+            }
+          ],
+          "countries": [
+            {
+              "id": 1,
+              "title": "PH"
+            }
+          ],
+          "comments": []
+        }
+      },
+      {
+        "id": 5,
+        "title": "Kapamilya Channel",
+        "type": "channel",
+        "image": "https://i.imgur.com/Dcys2TG.png",
+        "url": "channels/5",
+        "channel": {
+          "id": 5,
+          "title": "Kapamilya Channel",
+          "label": "General",
+          "sublabel": "PH",
+          "description": "",
+          "website": "https://example-news.com",
+          "classification": "General",
+          "views": 0,
+          "shares": 0,
+          "rating": 8,
+          "comment": true,
+          "image": "https://i.imgur.com/Dcys2TG.png",
+          "playas": "live",
+          "sources": [
+            {
+              "id": 12,
+              "type": "live",
+              "title": "Live",
+              "quality": "HD",
+              "size": "Live",
+              "kind": "hls",
+              "premium": "false",
+              "external": false,
+              "url": "https://live-faws.akamaized.net/out/v1/df7b60b4411f4270ab431913de807bf4/index.m3u8"
+            }
+          ],
+          "categories": [
+            {
+              "id": 6,
+              "title": "General"
             }
           ],
           "countries": [
@@ -396,185 +426,89 @@
     ],
     "channels": [
       {
-        "id": 1,
-        "title": "Sample News Channel",
-        "label": "News",
-        "sublabel": "24/7 News",
-        "description": "24/7 news coverage from around the world",
+        "id": 3,
+        "title": "AZ2",
+        "label": "Entertainment",
+        "sublabel": "Philippines",
+        "description": "AZ2",
         "website": "https://example-news.com",
         "classification": "News",
         "views": 25000,
         "shares": 800,
         "rating": 7.8,
         "comment": true,
-        "image": "https://example.com/news-channel.jpg",
+        "image": "https://i.imgur.com/1zsdloF.png",
         "playas": "live",
         "sources": [
           {
             "id": 6,
             "type": "live",
-            "title": "Live Stream",
-            "quality": "1080p",
-            "size": "Live",
-            "kind": "hls",
-            "premium": "false",
-            "external": false,
-            "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-          }
-        ],
-        "categories": [
-          {
-            "id": 1,
-            "title": "News"
-          }
-        ],
-        "countries": [
-          {
-            "id": 1,
-            "title": "USA"
-          }
-        ],
-        "comments": [
-          {
-            "id": 1,
-            "user": "News Viewer",
-            "comment": "Great coverage!",
-            "created_at": "2024-01-15T09:15:00Z"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "title": "Sample Sports Channel",
-        "label": "Sports",
-        "sublabel": "Live Sports",
-        "description": "Live sports coverage and highlights",
-        "website": "https://example-sports.com",
-        "classification": "Sports",
-        "views": 18000,
-        "shares": 600,
-        "rating": 8.1,
-        "comment": true,
-        "image": "https://example.com/sports-channel.jpg",
-        "playas": "live",
-        "sources": [
-          {
-            "id": 7,
-            "type": "live",
-            "title": "Live Sports Stream",
+            "title": "720p",
             "quality": "720p",
             "size": "Live",
             "kind": "hls",
             "premium": "false",
             "external": false,
-            "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+            "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_5.m3u8"
+          },
+          {
+            "id": 7,
+            "type": "live",
+            "title": "480p",
+            "quality": "480p",
+            "size": "Live",
+            "kind": "hls",
+            "premium": "false",
+            "external": false,
+            "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_4.m3u8"
+          },
+          {
+            "id": 8,
+            "type": "live",
+            "title": "360p",
+            "quality": "360p",
+            "size": "Live",
+            "kind": "hls",
+            "premium": "false",
+            "external": false,
+            "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_3.m3u8"
+          },
+          {
+            "id": 9,
+            "type": "live",
+            "title": "240p",
+            "quality": "240p",
+            "size": "Live",
+            "kind": "hls",
+            "premium": "false",
+            "external": false,
+            "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_2.m3u8"
+          },
+          {
+            "id": 10,
+            "type": "live",
+            "title": "144p",
+            "quality": "144p",
+            "size": "Live",
+            "kind": "hls",
+            "premium": "false",
+            "external": false,
+            "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_1.m3u8"
           }
         ],
         "categories": [
           {
-            "id": 2,
-            "title": "Sports"
+            "id": 3,
+            "title": "Entertainment"
           }
         ],
         "countries": [
           {
             "id": 1,
-            "title": "USA"
+            "title": "PH"
           }
         ],
-        "comments": [
-          {
-            "id": 1,
-            "user": "Sports Fan",
-            "comment": "Amazing sports coverage!",
-            "created_at": "2024-01-15T11:20:00Z"
-          }
-        ]
-    },
-    {
-      "id": 3,
-      "title": "AZ2",
-      "label": "Entertainment",
-      "sublabel": "Philippines",
-      "description": "AZ2",
-      "website": "https://example-news.com",
-      "classification": "News",
-      "views": 25000,
-      "shares": 800,
-      "rating": 7.8,
-      "comment": true,
-      "image": "https://i.imgur.com/1zsdloF.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 6,
-          "type": "live",
-          "title": "720p",
-          "quality": "720p",
-          "size": "Live",
-          "kind": "hls",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_5.m3u8"
-        },
-        {
-          "id": 7,
-          "type": "live",
-          "title": "480p",
-          "quality": "480p",
-          "size": "Live",
-          "kind": "hls",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_4.m3u8"
-        },
-        {
-          "id": 8,
-          "type": "live",
-          "title": "360p",
-          "quality": "360p",
-          "size": "Live",
-          "kind": "hls",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_3.m3u8"
-        },
-        {
-          "id": 9,
-          "type": "live",
-          "title": "240p",
-          "quality": "240p",
-          "size": "Live",
-          "kind": "hls",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_2.m3u8"
-        },
-        {
-          "id": 10,
-          "type": "live",
-          "title": "144p",
-          "quality": "144p",
-          "size": "Live",
-          "kind": "hls",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_1.m3u8"
-        }
-      ],
-      "categories": [
-        {
-          "id": 3,
-          "title": "Entertainment"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "PH"
-        }
-      ],
-      "comments": []
+        "comments": []
       }
     ],
     "actors": [
