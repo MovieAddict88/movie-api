@@ -1,15 +1,20 @@
 [
   {
     "id": 1,
-    "title": "News Channel",
+    "title": "Sample News Channel",
     "image": "https://example.com/news-channel.jpg",
-    "detail_url": "https://raw.githubusercontent.com/MovieAddict88/movie-api/main/api/channel_details/1.json"
-    
+    "detail_url": "api/channel_details/1.json"
   },
   {
     "id": 2,
-    "title": "Sports Channel",
+    "title": "Sample Sports Channel",
     "image": "https://example.com/sports-channel.jpg",
-    "detail_url": "https://raw.githubusercontent.com/MovieAddict88/movie-api/main/api/channel_details/2.json"
+    "detail_url": "api/channel_details/2.json"
+  },
+  {
+    "id": 3,
+    "title": "AZ2",
+    "image": "https://i.imgur.com/1zsdloF.png",
+    "detail_url": "api/channel_details/3.json"
   }
 ]
