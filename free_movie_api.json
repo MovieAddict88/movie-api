@@ -953,79 +953,16 @@
       "title": "Germany"
     }
   ],
-  "subscription_plans": [
-    {
-      "id": 1,
-      "title": "Basic Plan",
-      "description": "Perfect for casual viewers",
-      "price": 9.99,
-      "currency": "USD",
-      "duration": "30",
-      "enabled": true,
-      "billing_type": "monthly",
-      "features": [
-        "HD Quality",
-        "No Ads",
-        "Basic Support",
-        "Watch on 1 device"
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Premium Plan",
-      "description": "Best value for movie lovers",
-      "price": 19.99,
-      "currency": "USD",
-      "duration": "30",
-      "enabled": true,
-      "billing_type": "monthly",
-      "features": [
-        "4K Quality",
-        "No Ads",
-        "Premium Support",
-        "Download",
-        "Watch on 4 devices",
-        "Exclusive content"
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Family Plan",
-      "description": "Share with your family",
-      "price": 29.99,
-      "currency": "USD",
-      "duration": "30",
-      "enabled": false,
-      "billing_type": "monthly",
-      "features": [
-        "4K Quality",
-        "No Ads",
-        "Premium Support",
-        "Download",
-        "Watch on 6 devices",
-        "Parental controls"
-      ]
-    }
-  ],
+  "subscription_plans": [],
   "subscription_config": {
-    "enabled": true,
-    "monthly_billing_enabled": true,
-    "free_trial_days": 7,
-    "grace_period_days": 3,
-    "auto_renewal_enabled": true,
-    "payment_methods": [
-      "paypal",
-      "stripe",
-      "google_play",
-      "apple_pay"
-    ],
+    "enabled": false,
+    "monthly_billing_enabled": false,
+    "free_trial_days": 0,
+    "grace_period_days": 0,
+    "auto_renewal_enabled": false,
+    "payment_methods": [],
     "currency_default": "USD",
-    "subscription_required_for": [
-      "premium_movies",
-      "4k_quality",
-      "download",
-      "no_ads"
-    ]
+    "subscription_required_for": []
   },
   "video_sources": {
     "big_buck_bunny": {
@@ -1061,29 +998,6 @@
     }
   },
   "ads_config": {
-    "admob": {
-      "banner_id": "ca-app-pub-3940256099942544/6300978111",
-      "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
-      "rewarded_id": "ca-app-pub-3940256099942544/5224354917",
-      "native_id": "ca-app-pub-3940256099942544/2247696110",
-      "app_id": "ca-app-pub-3940256099942544~3347511713"
-    },
-    "facebook": {
-      "banner_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
-      "interstitial_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
-      "rewarded_id": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
-      "native_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"
-    },
-    "settings": {
-      "banner_enabled": true,
-      "interstitial_enabled": true,
-      "rewarded_enabled": true,
-      "native_enabled": true,
-      "interstitial_clicks": 3,
-      "native_lines": 6,
-      "banner_type": "ADMOB",
-      "interstitial_type": "ADMOB",
-      "native_type": "ADMOB"
-    }
+    "enabled": false
   }
 }
