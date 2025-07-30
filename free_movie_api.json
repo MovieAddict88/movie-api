@@ -393,7 +393,7 @@
             "title": "Big Buck Bunny 1080p",
             "quality": "1080p",
             "size": "264MB",
-            "kind": "mp4",
+            "kind": "both",
             "premium": "false",
             "external": false,
             "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
@@ -404,7 +404,7 @@
             "title": "Big Buck Bunny 720p",
             "quality": "720p",
             "size": "128MB",
-            "kind": "mp4",
+            "kind": "both",
             "premium": "false",
             "external": false,
             "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
@@ -415,7 +415,7 @@
             "title": "Big Buck Bunny 480p",
             "quality": "480p",
             "size": "64MB",
-            "kind": "mp4",
+            "kind": "both",
             "premium": "false",
             "external": false,
             "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
@@ -837,7 +837,7 @@
           "title": "Big Buck Bunny 1080p",
           "quality": "1080p",
           "size": "264MB",
-          "kind": "mp4",
+          "kind": "both",
           "premium": "false",
           "external": false,
           "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
@@ -848,7 +848,7 @@
           "title": "Big Buck Bunny 720p",
           "quality": "720p",
           "size": "128MB",
-          "kind": "mp4",
+          "kind": "both",
           "premium": "false",
           "external": false,
           "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
@@ -859,7 +859,7 @@
           "title": "Big Buck Bunny 480p",
           "quality": "480p",
           "size": "64MB",
-          "kind": "mp4",
+          "kind": "both",
           "premium": "false",
           "external": false,
           "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
