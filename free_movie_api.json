@@ -1,50 +1,41 @@
 {
   "api_info": {
-    "version": "2.0",
-    "description": "Enhanced Free Movie & TV Streaming JSON API with TMDB Integration",
-    "last_updated": "2024-12-19",
-    "total_movies": 1,
+    "version": "1.0",
+    "description": "Free Movie & TV Streaming JSON API for Mobile Apps",
+    "last_updated": "2024-01-15",
+    "total_movies": 2,
     "total_channels": 26,
-    "total_actors": 2,
-    "total_series": 1
+    "total_actors": 2
   },
   "home": {
     "slides": [
       {
         "id": 1,
-        "title": "The Avengers",
+        "title": "Big Buck Bunny",
         "type": "movie",
-        "image": "",
+        "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
         "url": "movies/1",
         "poster": {
           "id": 1,
-          "title": "The Avengers",
+          "title": "Big Buck Bunny",
           "type": "movie",
-          "label": "Science Fiction",
-          "sublabel": "TMDB Rating: 7.8",
-          "imdb": "7.8",
-          "downloadas": "the-avengers.mp4",
+          "label": "Animation",
+          "sublabel": "Short Film",
+          "imdb": "8.5",
+          "downloadas": "big-buck-bunny.mp4",
           "comment": true,
           "playas": "video",
-          "description": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
-          "classification": "PG-13",
-          "year": "2012",
-          "duration": "143:00",
-          "rating": 7.8,
-          "image": "",
-          "cover": "",
+          "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him by throwing nuts, hitting his flowers, and destroying his home, he snaps and goes after them.",
+          "classification": "G",
+          "year": "2008",
+          "duration": "10:00",
+          "rating": 8.5,
+          "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+          "cover": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
           "genres": [
             {
-              "id": 878,
-              "title": "Science Fiction"
-            },
-            {
-              "id": 28,
-              "title": "Action"
-            },
-            {
-              "id": 12,
-              "title": "Adventure"
+              "id": 6,
+              "title": "Animation"
             }
           ],
           "sources": [
@@ -80,75 +71,24 @@
               "premium": "false",
               "external": false,
               "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-            },
-            {
-              "id": 4,
-              "type": "video",
-              "title": "The Avengers - VidSrc",
-              "quality": "HD",
-              "size": "Auto",
-              "kind": "both",
-              "premium": "false",
-              "external": true,
-              "url": "https://vidsrc.net/embed/movie/24428"
             }
           ],
           "trailer": {
-            "id": 5,
+            "id": 4,
             "type": "video",
-            "title": "The Avengers Trailer",
-            "url": "https://www.youtube.com/watch?v=hIR8Ar-Z4hw"
+            "title": "Big Buck Bunny Trailer",
+            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
           },
           "actors": [
             {
               "id": 1,
-              "name": "Robert Downey Jr.",
+              "name": "Tom Hanks",
               "type": "actor",
-              "role": "Tony Stark / Iron Man",
-              "image": "",
-              "born": "",
-              "height": "",
-              "bio": ""
-            },
-            {
-              "id": 2,
-              "name": "Chris Evans",
-              "type": "actor",
-              "role": "Steve Rogers / Captain America",
-              "image": "",
-              "born": "",
-              "height": "",
-              "bio": ""
-            },
-            {
-              "id": 3,
-              "name": "Mark Ruffalo",
-              "type": "actor",
-              "role": "Bruce Banner / The Hulk",
-              "image": "",
-              "born": "",
-              "height": "",
-              "bio": ""
-            },
-            {
-              "id": 4,
-              "name": "Chris Hemsworth",
-              "type": "actor",
-              "role": "Thor",
-              "image": "",
-              "born": "",
-              "height": "",
-              "bio": ""
-            },
-            {
-              "id": 5,
-              "name": "Scarlett Johansson",
-              "type": "actor",
-              "role": "Natasha Romanoff / Black Widow",
-              "image": "",
-              "born": "",
-              "height": "",
-              "bio": ""
+              "role": "Lead Actor",
+              "image": "https://example.com/tom-hanks.jpg",
+              "born": "1956-07-09",
+              "height": "6'0\"",
+              "bio": "American actor and filmmaker"
             }
           ],
           "subtitles": [
@@ -156,248 +96,124 @@
               "id": 1,
               "title": "English",
               "language": "en",
-              "url": "https://example.com/subtitles/the-avengers-en.vtt"
+              "url": "https://example.com/subtitles/big-buck-bunny-en.vtt"
+            },
+            {
+              "id": 2,
+              "title": "Spanish",
+              "language": "es",
+              "url": "https://example.com/subtitles/big-buck-bunny-es.vtt"
             }
-          ]
+          ],
+          "comments": [
+            {
+              "id": 1,
+              "user": "John Doe",
+              "comment": "Amazing animation! Love this movie.",
+              "created_at": "2024-01-15T10:30:00Z"
+            },
+            {
+              "id": 2,
+              "user": "Jane Smith",
+              "comment": "Great for kids and adults alike!",
+              "created_at": "2024-01-14T15:45:00Z"
+            }
+          ],
+          "views": 15000,
+          "downloads": 5000,
+          "shares": 1200
         }
       },
       {
-        "id": 2,
-        "title": "Breaking Bad",
-        "type": "series",
-        "image": "",
-        "url": "series/2",
-        "poster": {
-          "id": 2,
-          "title": "Breaking Bad",
-          "type": "series",
-          "label": "Drama",
-          "sublabel": "TMDB Rating: 8.9",
-          "imdb": "8.926",
+        "id": 1,
+        "title": "AZ2",
+        "type": "channel",
+        "image": "https://i.imgur.com/1zsdloF.png",
+        "url": "channels/1",
+        "channel": {
+          "id": 1,
+          "title": "AZ2",
+          "label": "Entertainment",
+          "sublabel": "Philippines",
+          "description": "AZ2",
+          "website": "https://example-news.com",
+          "classification": "News",
+          "views": 25000,
+          "shares": 800,
+          "rating": 7.8,
           "comment": true,
-          "playas": "video",
-          "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
-          "classification": "TV-MA",
-          "year": "2008",
-          "rating": 8.926,
-          "image": "",
-          "cover": "",
-          "genres": [
+          "image": "https://i.imgur.com/1zsdloF.png",
+          "playas": "live",
+          "sources": [
             {
-              "id": 18,
-              "title": "Drama"
+              "id": 6,
+              "type": "live",
+              "title": "720p",
+              "quality": "720p",
+              "size": "Live",
+              "kind": "play",
+              "premium": "false",
+              "external": false,
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_5.m3u8"
             },
             {
-              "id": 80,
-              "title": "Crime"
+              "id": 7,
+              "type": "live",
+              "title": "480p",
+              "quality": "480p",
+              "size": "Live",
+              "kind": "play",
+              "premium": "false",
+              "external": false,
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_4.m3u8"
+            },
+            {
+              "id": 8,
+              "type": "live",
+              "title": "360p",
+              "quality": "360p",
+              "size": "Live",
+              "kind": "play",
+              "premium": "false",
+              "external": false,
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_3.m3u8"
+            },
+            {
+              "id": 9,
+              "type": "live",
+              "title": "240p",
+              "quality": "240p",
+              "size": "Live",
+              "kind": "play",
+              "premium": "false",
+              "external": false,
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_2.m3u8"
+            },
+            {
+              "id": 10,
+              "type": "live",
+              "title": "144p",
+              "quality": "144p",
+              "size": "Live",
+              "kind": "play",
+              "premium": "false",
+              "external": false,
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_1.m3u8"
             }
           ],
-          "trailer": {
-            "id": 999,
-            "type": "video",
-            "title": "Breaking Bad Trailer",
-            "url": "https://www.youtube.com/watch?v=XZ8daibM3AE"
-          },
-          "actors": [
-            {
-              "id": 1,
-              "name": "Bryan Cranston",
-              "type": "actor",
-              "role": "Walter White",
-              "image": "",
-              "born": "",
-              "height": "",
-              "bio": ""
-            },
-            {
-              "id": 2,
-              "name": "Aaron Paul",
-              "type": "actor",
-              "role": "Jesse Pinkman",
-              "image": "",
-              "born": "",
-              "height": "",
-              "bio": ""
-            },
+          "categories": [
             {
               "id": 3,
-              "name": "Anna Gunn",
-              "type": "actor",
-              "role": "Skyler White",
-              "image": "",
-              "born": "",
-              "height": "",
-              "bio": ""
-            },
-            {
-              "id": 4,
-              "name": "RJ Mitte",
-              "type": "actor",
-              "role": "Walter White Jr.",
-              "image": "",
-              "born": "",
-              "height": "",
-              "bio": ""
-            },
-            {
-              "id": 5,
-              "name": "Dean Norris",
-              "type": "actor",
-              "role": "Hank Schrader",
-              "image": "",
-              "born": "",
-              "height": "",
-              "bio": ""
+              "title": "Entertainment"
             }
           ],
-          "seasons": [
+          "countries": [
             {
               "id": 1,
-              "title": "Season 1",
-              "description": "Season 1 of Breaking Bad",
-              "episodes": [
-                {
-                  "id": 1,
-                  "title": "Pilot",
-                  "description": "When an unassuming high school chemistry teacher discovers he has a rare form of lung cancer, he decides to team up with a former student and create a top of the line crystal meth in a used RV, to provide for his family once he is gone.",
-                  "duration": "47:00",
-                  "rating": 8.5,
-                  "air_date": "2008-01-20",
-                  "image": "",
-                  "sources": [
-                    {
-                      "id": 1,
-                      "type": "video",
-                      "title": "Big Buck Bunny 1080p",
-                      "quality": "1080p",
-                      "size": "264MB",
-                      "kind": "both",
-                      "premium": "false",
-                      "external": false,
-                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-                    },
-                    {
-                      "id": 2,
-                      "type": "video",
-                      "title": "Big Buck Bunny 720p",
-                      "quality": "720p",
-                      "size": "128MB",
-                      "kind": "both",
-                      "premium": "false",
-                      "external": false,
-                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-                    },
-                    {
-                      "id": 3,
-                      "type": "video",
-                      "title": "Big Buck Bunny 480p",
-                      "quality": "480p",
-                      "size": "64MB",
-                      "kind": "both",
-                      "premium": "false",
-                      "external": false,
-                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-                    },
-                    {
-                      "id": 4,
-                      "type": "video",
-                      "title": "The Avengers - VidSrc",
-                      "quality": "HD",
-                      "size": "Auto",
-                      "kind": "both",
-                      "premium": "false",
-                      "external": true,
-                      "url": "https://vidsrc.net/embed/movie/24428"
-                    },
-                    {
-                      "id": 5,
-                      "type": "video",
-                      "title": "Pilot - VidSrc",
-                      "quality": "HD",
-                      "size": "Auto",
-                      "kind": "both",
-                      "premium": "false",
-                      "external": true,
-                      "url": "https://vidsrc.net/embed/tv/1396/1/1"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": 2,
-              "title": "Season 2",
-              "description": "Season 2 of Breaking Bad",
-              "episodes": [
-                {
-                  "id": 1,
-                  "title": "Seven Thirty-Seven",
-                  "description": "Walt and Jesse are vividly reminded of Tuco\u2019s volatile nature, and try to figure a way out of their business partnership. Hank attempts to mend fences between the estranged Marie and Skyler.",
-                  "duration": "47:00",
-                  "rating": 8.4,
-                  "air_date": "2009-03-08",
-                  "image": "",
-                  "sources": [
-                    {
-                      "id": 1,
-                      "type": "video",
-                      "title": "Big Buck Bunny 1080p",
-                      "quality": "1080p",
-                      "size": "264MB",
-                      "kind": "both",
-                      "premium": "false",
-                      "external": false,
-                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-                    },
-                    {
-                      "id": 2,
-                      "type": "video",
-                      "title": "Big Buck Bunny 720p",
-                      "quality": "720p",
-                      "size": "128MB",
-                      "kind": "both",
-                      "premium": "false",
-                      "external": false,
-                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-                    },
-                    {
-                      "id": 3,
-                      "type": "video",
-                      "title": "Big Buck Bunny 480p",
-                      "quality": "480p",
-                      "size": "64MB",
-                      "kind": "both",
-                      "premium": "false",
-                      "external": false,
-                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-                    },
-                    {
-                      "id": 4,
-                      "type": "video",
-                      "title": "The Avengers - VidSrc",
-                      "quality": "HD",
-                      "size": "Auto",
-                      "kind": "both",
-                      "premium": "false",
-                      "external": true,
-                      "url": "https://vidsrc.net/embed/movie/24428"
-                    },
-                    {
-                      "id": 5,
-                      "type": "video",
-                      "title": "Seven Thirty-Seven - VidSrc",
-                      "quality": "HD",
-                      "size": "Auto",
-                      "kind": "both",
-                      "premium": "false",
-                      "external": true,
-                      "url": "https://vidsrc.net/embed/tv/1396/2/1"
-                    }
-                  ]
-                }
-              ]
+              "title": "PH"
             }
-          ]
+          ],
+          "comments": []
         }
       },
       {
@@ -513,8 +329,6 @@
         "year": "2008",
         "duration": "10:00",
         "rating": 8.5,
-        "views": 15000,
-        "created_at": "2024-01-01",
         "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
         "cover": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
         "genres": [
@@ -604,6 +418,7 @@
             "created_at": "2024-01-14T15:45:00Z"
           }
         ],
+        "views": 15000,
         "downloads": 5000,
         "shares": 1200
       }
@@ -816,8 +631,6 @@
       "year": "2023",
       "duration": "45:00",
       "rating": 8.2,
-      "views": 8000,
-      "created_at": "2024-01-02",
       "image": "https://example.com/sample-series.jpg",
       "cover": "https://example.com/sample-series-cover.jpg",
       "genres": [
@@ -849,6 +662,7 @@
           "created_at": "2024-01-15T12:00:00Z"
         }
       ],
+      "views": 8000,
       "downloads": 2000,
       "shares": 500,
       "seasons": [
