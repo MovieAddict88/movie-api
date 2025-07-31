@@ -19,7 +19,7 @@
         "id": 1,
         "title": "The Avengers",
         "type": "movie",
-        "image": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+        "image": "",
         "url": "movies/1",
         "poster": {
           "id": 1,
@@ -38,9 +38,9 @@
           "year": "2012",
           "duration": "143:00",
           "rating": 7.7,
-          "image": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
-          "cover": "https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
-          "backdrop_path": "https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+          "image": "",
+          "cover": "",
+          "backdrop_path": "",
           "genres": [
             {
               "id": 28,
@@ -102,7 +102,7 @@
               "name": "Robert Downey Jr.",
               "type": "actor",
               "role": "Tony Stark / Iron Man",
-              "image": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg",
+              "image": "",
               "born": "1965-04-04",
               "height": "5'9\"",
               "bio": "American actor and producer"
@@ -112,7 +112,7 @@
               "name": "Chris Evans",
               "type": "actor",
               "role": "Steve Rogers / Captain America",
-              "image": "https://image.tmdb.org/t/p/w185/3bOGNsHlrswhyW79uvIHH1V43JI.jpg",
+              "image": "",
               "born": "1981-06-13",
               "height": "6'0\"",
               "bio": "American actor"
@@ -122,7 +122,7 @@
               "name": "Mark Ruffalo",
               "type": "actor",
               "role": "Bruce Banner / Hulk",
-              "image": "https://image.tmdb.org/t/p/w185/z3dvKqMNDQWk3QLxzumloQVR0pv.jpg",
+              "image": "",
               "born": "1967-11-22",
               "height": "5'8\"",
               "bio": "American actor and producer"
@@ -132,7 +132,7 @@
               "name": "Chris Hemsworth",
               "type": "actor",
               "role": "Thor",
-              "image": "https://image.tmdb.org/t/p/w185/jpurJ9jAcLCYjgHHfYF32m3zJYm.jpg",
+              "image": "",
               "born": "1983-08-11",
               "height": "6'3\"",
               "bio": "Australian actor"
@@ -142,7 +142,7 @@
               "name": "Scarlett Johansson",
               "type": "actress",
               "role": "Natasha Romanoff / Black Widow",
-              "image": "https://image.tmdb.org/t/p/w185/6NsMbJXRlDZuDzatN2akFdGuTvx.jpg",
+              "image": "",
               "born": "1984-11-22",
               "height": "5'3\"",
               "bio": "American actress"
@@ -152,7 +152,7 @@
               "name": "Jeremy Renner",
               "type": "actor",
               "role": "Clint Barton / Hawkeye",
-              "image": "https://image.tmdb.org/t/p/w185/lB5fjqNnKLHLCEr6HL8xVjQVKMu.jpg",
+              "image": "",
               "born": "1971-01-07",
               "height": "5'10\"",
               "bio": "American actor"
