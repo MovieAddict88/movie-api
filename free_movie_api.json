@@ -5,13 +5,7 @@
     "last_updated": "2024-01-15",
     "total_movies": 2,
     "total_channels": 26,
-    "total_actors": 2,
-    "tmdb_integration": {
-      "enabled": true,
-      "api_key": "ec926176bf467b3f7735e3154238c161",
-      "base_url": "https://api.themoviedb.org/3",
-      "image_base_url": "https://image.tmdb.org/t/p/w500"
-    }
+    "total_actors": 2
   },
   "home": {
     "slides": [
@@ -28,8 +22,6 @@
           "label": "Action",
           "sublabel": "Superhero",
           "imdb": "8.0",
-          "tmdb_id": 24428,
-          "tmdb_rating": 7.7,
           "downloadas": "the-avengers-2012.mp4",
           "comment": true,
           "playas": "video",
@@ -40,7 +32,6 @@
           "rating": 7.7,
           "image": "",
           "cover": "",
-          "backdrop_path": "",
           "genres": [
             {
               "id": 28,
@@ -188,35 +179,7 @@
           ],
           "views": 250000,
           "downloads": 15000,
-          "shares": 8500,
-          "tmdb_metadata": {
-            "adult": false,
-            "budget": 220000000,
-            "revenue": 1518815515,
-            "runtime": 143,
-            "status": "Released",
-            "tagline": "Some assembly required.",
-            "vote_average": 7.7,
-            "vote_count": 28847,
-            "production_companies": [
-              {
-                "id": 420,
-                "name": "Marvel Studios"
-              }
-            ],
-            "production_countries": [
-              {
-                "iso_3166_1": "US",
-                "name": "United States of America"
-              }
-            ],
-            "spoken_languages": [
-              {
-                "iso_639_1": "en",
-                "name": "English"
-              }
-            ]
-          }
+          "shares": 8500
         }
       },
       {
@@ -416,8 +379,6 @@
         "label": "Action",
         "sublabel": "Superhero",
         "imdb": "8.0",
-        "tmdb_id": 24428,
-        "tmdb_rating": 7.7,
         "downloadas": "the-avengers-2012.mp4",
         "comment": true,
         "playas": "video",
@@ -430,7 +391,6 @@
         "created_at": "2024-01-01",
         "image": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
         "cover": "https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
-        "backdrop_path": "https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
         "genres": [
           {
             "id": 28,
@@ -577,35 +537,7 @@
           }
         ],
         "downloads": 15000,
-        "shares": 8500,
-        "tmdb_metadata": {
-          "adult": false,
-          "budget": 220000000,
-          "revenue": 1518815515,
-          "runtime": 143,
-          "status": "Released",
-          "tagline": "Some assembly required.",
-          "vote_average": 7.7,
-          "vote_count": 28847,
-          "production_companies": [
-            {
-              "id": 420,
-              "name": "Marvel Studios"
-            }
-          ],
-          "production_countries": [
-            {
-              "iso_3166_1": "US",
-              "name": "United States of America"
-            }
-          ],
-          "spoken_languages": [
-            {
-              "iso_639_1": "en",
-              "name": "English"
-            }
-          ]
-        }
+        "shares": 8500
       }
     ],
     "channels": [],
@@ -659,8 +591,6 @@
             "label": "Action",
             "sublabel": "Superhero",
             "imdb": "8.0",
-            "tmdb_id": 24428,
-            "tmdb_rating": 7.7,
             "downloadas": "the-avengers-2012.mp4",
             "comment": true,
             "playas": "video",
@@ -769,35 +699,7 @@
             ],
             "views": 250000,
             "downloads": 15000,
-            "shares": 8500,
-            "tmdb_metadata": {
-              "adult": false,
-              "budget": 220000000,
-              "revenue": 1518815515,
-              "runtime": 143,
-              "status": "Released",
-              "tagline": "Some assembly required.",
-              "vote_average": 7.7,
-              "vote_count": 28847,
-              "production_companies": [
-                {
-                  "id": 420,
-                  "name": "Marvel Studios"
-                }
-              ],
-              "production_countries": [
-                {
-                  "iso_3166_1": "US",
-                  "name": "United States of America"
-                }
-              ],
-              "spoken_languages": [
-                {
-                  "iso_639_1": "en",
-                  "name": "English"
-                }
-              ]
-            }
+            "shares": 8500
           }
         ]
       },
@@ -1099,8 +1001,6 @@
       "label": "Action",
       "sublabel": "Superhero",
       "imdb": "8.0",
-      "tmdb_id": 24428,
-      "tmdb_rating": 7.7,
       "downloadas": "the-avengers-2012.mp4",
       "comment": true,
       "playas": "video",
@@ -1111,7 +1011,6 @@
       "rating": 7.7,
       "image": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
       "cover": "https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
-      "backdrop_path": "https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
       "genres": [
         {
           "id": 28,
@@ -1259,35 +1158,7 @@
       ],
       "views": 250000,
       "downloads": 15000,
-      "shares": 8500,
-      "tmdb_metadata": {
-        "adult": false,
-        "budget": 220000000,
-        "revenue": 1518815515,
-        "runtime": 143,
-        "status": "Released",
-        "tagline": "Some assembly required.",
-        "vote_average": 7.7,
-        "vote_count": 28847,
-        "production_companies": [
-          {
-            "id": 420,
-            "name": "Marvel Studios"
-          }
-        ],
-        "production_countries": [
-          {
-            "iso_3166_1": "US",
-            "name": "United States of America"
-          }
-        ],
-        "spoken_languages": [
-          {
-            "iso_639_1": "en",
-            "name": "English"
-          }
-        ]
-      }
+      "shares": 8500
     },
     {
       "id": 2,
@@ -1296,8 +1167,6 @@
       "label": "Sci-Fi",
       "sublabel": "2 Seasons",
       "imdb": "8.7",
-      "tmdb_id": 66732,
-      "tmdb_rating": 8.6,
       "downloadas": "stranger-things",
       "comment": true,
       "playas": "video",
@@ -1310,7 +1179,6 @@
       "created_at": "2024-01-02",
       "image": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
       "cover": "https://image.tmdb.org/t/p/w1280/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
-      "backdrop_path": "https://image.tmdb.org/t/p/w1280/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
       "genres": [
         {
           "id": 18,
@@ -1416,7 +1284,6 @@
           "id": 1,
           "title": "Season 1",
           "season_number": 1,
-          "tmdb_season_id": 77680,
           "air_date": "2016-07-15",
           "overview": "In 1983, the disappearance of a young boy in small-town Indiana leads to a dark mystery involving secret experiments, terrifying supernatural forces, and a strange little girl.",
           "poster_path": "https://image.tmdb.org/t/p/w500/rbnuP7hlynAMLdqcQRCpZW9qDkV.jpg",
@@ -1426,7 +1293,6 @@
               "title": "Chapter One: The Vanishing of Will Byers",
               "episode_number": 1,
               "season_number": 1,
-              "tmdb_episode_id": 975084,
               "air_date": "2016-07-15",
               "overview": "On his way home from a friend's house, young Will sees something terrifying. Nearby, a sinister secret lurks in the depths of a government lab.",
               "image": "https://image.tmdb.org/t/p/w500/AdwF3A0SPl8Fz8oHkVZdE4TQqNr.jpg",
@@ -1478,7 +1344,6 @@
           "id": 2,
           "title": "Season 2",
           "season_number": 2,
-          "tmdb_season_id": 77681,
           "air_date": "2017-10-27",
           "overview": "It's 1984 and the citizens of Hawkins, Indiana are still reeling from the horrors of the Demogorgon and the secrets of Hawkins Lab. Will Byers has been rescued from the Upside Down but a bigger, sinister entity still threatens those who survived.",
           "poster_path": "https://image.tmdb.org/t/p/w500/lXS60geme1LlEob5Wgvj3KilClA.jpg",
@@ -1488,7 +1353,6 @@
               "title": "Chapter One: MADMAX",
               "episode_number": 1,
               "season_number": 2,
-              "tmdb_episode_id": 1122094,
               "air_date": "2017-10-27",
               "overview": "As the town preps for Halloween, a high-scoring rival shakes things up in the arcade, and a skeptical Hopper inspects a field of rotting pumpkins.",
               "image": "https://image.tmdb.org/t/p/w500/retBkOlLHmWmHYfOILOBBrtLNiX.jpg",
@@ -1536,53 +1400,7 @@
             }
           ]
         }
-      ],
-      "tmdb_metadata": {
-        "adult": false,
-        "first_air_date": "2016-07-15",
-        "last_air_date": "2022-07-01",
-        "number_of_episodes": 42,
-        "number_of_seasons": 4,
-        "status": "Ended",
-        "tagline": "Every ending has a beginning.",
-        "type": "Scripted",
-        "vote_average": 8.6,
-        "vote_count": 15234,
-        "created_by": [
-          {
-            "id": 1232186,
-            "name": "Matt Duffer"
-          },
-          {
-            "id": 1232187,
-            "name": "Ross Duffer"
-          }
-        ],
-        "networks": [
-          {
-            "id": 213,
-            "name": "Netflix"
-          }
-        ],
-        "production_companies": [
-          {
-            "id": 2575,
-            "name": "21 Laps Entertainment"
-          }
-        ],
-        "production_countries": [
-          {
-            "iso_3166_1": "US",
-            "name": "United States of America"
-          }
-        ],
-        "spoken_languages": [
-          {
-            "iso_639_1": "en",
-            "name": "English"
-          }
-        ]
-      }
+      ]
     },
     {
       "id": 3,
@@ -2823,7 +2641,6 @@
       "born": "1965-04-04",
       "height": "5'9\"",
       "bio": "American actor and producer",
-      "tmdb_id": 3223,
       "movies": [
         {
           "id": 1,
@@ -2842,7 +2659,6 @@
       "born": "2004-02-19",
       "height": "5'4\"",
       "bio": "British actress",
-      "tmdb_id": 1190668,
       "movies": [
         {
           "id": 2,
