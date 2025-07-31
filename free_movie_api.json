@@ -277,6 +277,31 @@
         "views": 150000,
         "downloads": 25000,
         "shares": 12000
+      },
+      {
+        "id": 2,
+        "title": "Breaking Bad",
+        "type": "series",
+        "label": "Drama",
+        "sublabel": "Crime Thriller",
+        "downloadas": "breaking-bad.mp4",
+        "comment": true,
+        "playas": "video",
+        "classification": "TV-MA",
+        "year": "2008",
+        "duration": "45:00",
+        "image": "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg",
+        "cover": "https://image.tmdb.org/t/p/w1280/tsRy63Mu5cu8etL1X7ZLyf7UP1M.jpg",
+        "genres": [
+          {
+            "id": 3,
+            "title": "Drama"
+          },
+          {
+            "id": 7,
+            "title": "Crime"
+          }
+        ]
       }
     ],
     "channels": [
@@ -534,6 +559,142 @@
       "views": 150000,
       "downloads": 25000,
       "shares": 12000
+    },
+    {
+      "id": 2,
+      "title": "Breaking Bad",
+      "type": "series",
+      "label": "Drama",
+      "sublabel": "Crime Thriller",
+      "downloadas": "breaking-bad.mp4",
+      "comment": true,
+      "playas": "video",
+      "classification": "TV-MA",
+      "year": "2008",
+      "duration": "45:00",
+      "image": "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg",
+      "cover": "https://image.tmdb.org/t/p/w1280/tsRy63Mu5cu8etL1X7ZLyf7UP1M.jpg",
+      "genres": [
+        {
+          "id": 3,
+          "title": "Drama"
+        },
+        {
+          "id": 7,
+          "title": "Crime"
+        }
+      ],
+      "seasons": [
+        {
+          "id": 1,
+          "season_number": 1,
+          "title": "Season 1",
+          "episodes": [
+            {
+              "id": 1,
+              "episode_number": 1,
+              "title": "Pilot",
+              "year": "2008",
+              "duration": "58:00",
+              "image": "https://image.tmdb.org/t/p/w500/7O8aD9EncoZpAscmPLlc0yCtoY.jpg",
+              "sources": [
+                {
+                  "id": 101,
+                  "type": "embed",
+                  "title": "VidSrc Stream",
+                  "quality": "HD",
+                  "size": "Stream",
+                  "kind": "play",
+                  "premium": "false",
+                  "external": true,
+                  "url": "https://vidsrc.net/embed/tv/81189/1/1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "season_number": 2,
+          "title": "Season 2",
+          "episodes": [
+            {
+              "id": 2,
+              "episode_number": 1,
+              "title": "Seven Thirty-Seven",
+              "year": "2009",
+              "duration": "47:00",
+              "image": "https://image.tmdb.org/t/p/w500/4r2xPaKKhvBmzgtdOTKr3GwKPH2.jpg",
+              "sources": [
+                {
+                  "id": 201,
+                  "type": "embed",
+                  "title": "VidSrc Stream",
+                  "quality": "HD",
+                  "size": "Stream",
+                  "kind": "play",
+                  "premium": "false",
+                  "external": true,
+                  "url": "https://vidsrc.net/embed/tv/81189/2/1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "id": 3,
+          "name": "Bryan Cranston",
+          "type": "actor",
+          "role": "Walter White",
+          "image": "https://image.tmdb.org/t/p/w185/9dvZ0Id5RtnCGianoayNJBFrNVU.jpg",
+          "born": "1956-03-07",
+          "height": "5'10\"",
+          "bio": "American actor and producer"
+        },
+        {
+          "id": 4,
+          "name": "Aaron Paul",
+          "type": "actor",
+          "role": "Jesse Pinkman",
+          "image": "https://image.tmdb.org/t/p/w185/lOhc6dA4dTbTbO3gZNYbYPU2bJo.jpg",
+          "born": "1979-08-27",
+          "height": "5'7\"",
+          "bio": "American actor"
+        }
+      ],
+      "subtitles": [
+        {
+          "id": 3,
+          "title": "English",
+          "language": "en",
+          "url": "https://example.com/subtitles/breaking-bad-en.vtt"
+        },
+        {
+          "id": 4,
+          "title": "Spanish",
+          "language": "es",
+          "url": "https://example.com/subtitles/breaking-bad-es.vtt"
+        }
+      ],
+      "comments": [
+        {
+          "id": 3,
+          "user": "TV Fan",
+          "comment": "Best TV series ever created! Incredible writing and acting.",
+          "created_at": "2024-01-15T12:00:00Z"
+        },
+        {
+          "id": 4,
+          "user": "Drama Lover",
+          "comment": "Bryan Cranston's performance is phenomenal!",
+          "created_at": "2024-01-14T18:30:00Z"
+        }
+      ],
+      "views": 250000,
+      "downloads": 45000,
+      "shares": 18000
     }
   ],
   "channels": [
@@ -636,7 +797,13 @@
     {
       "id": 3,
       "title": "Drama",
-      "posters": []
+      "posters": [
+        {
+          "id": 2,
+          "title": "Breaking Bad",
+          "image": "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
+        }
+      ]
     },
     {
       "id": 4,
@@ -658,6 +825,17 @@
       "id": 6,
       "title": "Animation",
       "posters": []
+    },
+    {
+      "id": 7,
+      "title": "Crime",
+      "posters": [
+        {
+          "id": 2,
+          "title": "Breaking Bad",
+          "image": "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
+        }
+      ]
     }
   ],
   "categories": [
