@@ -283,44 +283,95 @@
       {
         "id": 1,
         "title": "AZ2",
-        "label": "General",
-        "sublabel": "US",
-        "website": "https://example.com",
-        "classification": "General",
-        "views": 0,
-        "shares": 0,
-        "rating": 4.2,
-        "comment": true,
-        "image": "https://i.imgur.com/example.png",
-        "playas": "live",
-        "sources": [
-          {
-            "id": 101,
-            "type": "live",
-            "title": "HD",
-            "quality": "HD",
-            "size": "Live",
-            "kind": "play",
-            "premium": "false",
-            "external": false,
-            "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_az2_hd1.mpd"
-          }
-        ],
-        "categories": [
-          {
-            "id": 959,
-            "title": "General"
-          }
-        ],
-        "countries": [
-          {
-            "id": 1,
-            "title": "US"
-          }
-        ],
-        "comments": []
-      }
-    ],
+        "type": "channel",
+        "image": "https://i.imgur.com/1zsdloF.png",
+        "url": "channels/1",
+        "channel": {
+          "id": 1,
+          "title": "AZ2",
+          "label": "Entertainment",
+          "sublabel": "Philippines",
+          "description": "AZ2",
+          "website": "https://example-news.com",
+          "classification": "News",
+          "views": 25000,
+          "shares": 800,
+          "rating": 7.8,
+          "comment": true,
+          "image": "https://i.imgur.com/1zsdloF.png",
+          "playas": "live",
+          "sources": [
+            {
+              "id": 6,
+              "type": "live",
+              "title": "720p",
+              "quality": "720p",
+              "size": "Live",
+              "kind": "play",
+              "premium": "false",
+              "external": false,
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_5.m3u8"
+            },
+            {
+              "id": 7,
+              "type": "live",
+              "title": "480p",
+              "quality": "480p",
+              "size": "Live",
+              "kind": "play",
+              "premium": "false",
+              "external": false,
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_4.m3u8"
+            },
+            {
+              "id": 8,
+              "type": "live",
+              "title": "360p",
+              "quality": "360p",
+              "size": "Live",
+              "kind": "play",
+              "premium": "false",
+              "external": false,
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_3.m3u8"
+            },
+            {
+              "id": 9,
+              "type": "live",
+              "title": "240p",
+              "quality": "240p",
+              "size": "Live",
+              "kind": "play",
+              "premium": "false",
+              "external": false,
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_2.m3u8"
+            },
+            {
+              "id": 10,
+              "type": "live",
+              "title": "144p",
+              "quality": "144p",
+              "size": "Live",
+              "kind": "play",
+              "premium": "false",
+              "external": false,
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_1.m3u8"
+            }
+          ],
+          "categories": [
+            {
+              "id": 3,
+              "title": "Entertainment"
+            }
+          ],
+          "countries": [
+            {
+              "id": 1,
+              "title": "PH"
+            }
+          ],
+          "comments": []
+        }
+      },
     "actors": [
       {
         "id": 1,
