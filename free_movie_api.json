@@ -62,7 +62,7 @@
               "title": "VidSrc 1080p",
               "quality": "1080p",
               "size": "Streaming",
-              "kind": "both",
+              "kind": "play",
               "premium": "false",
               "external": true,
               "url": "https://vidsrc.net/embed/movie/24428"
@@ -73,7 +73,7 @@
               "title": "VidSrc 720p",
               "quality": "720p",
               "size": "Streaming",
-              "kind": "both",
+              "kind": "play",
               "premium": "false",
               "external": true,
               "url": "https://vidsrc.net/embed/movie/24428"
@@ -84,7 +84,7 @@
               "title": "VidSrc 480p",
               "quality": "480p",
               "size": "Streaming",
-              "kind": "both",
+              "kind": "play",
               "premium": "false",
               "external": true,
               "url": "https://vidsrc.net/embed/movie/24428"
