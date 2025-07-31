@@ -2001,6 +2001,14 @@
     {
       "id": 4,
       "title": "Documentary"
+    },
+    {
+      "id": 5,
+      "title": "Movies"
+    },
+    {
+      "id": 6,
+      "title": "General"
     }
   ],
   "countries": [
@@ -2019,6 +2027,10 @@
     {
       "id": 4,
       "title": "Germany"
+    },
+    {
+      "id": 5,
+      "title": "Philippines"
     }
   ],
   "subscription_plans": [],
