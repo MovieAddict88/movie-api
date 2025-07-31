@@ -775,6 +775,111 @@
           ]
         }
       ]
+    },
+    {
+      "id": 3,
+      "title": "Comedy Central Series",
+      "type": "series",
+      "label": "Comedy",
+      "sublabel": "3 Seasons",
+      "imdb": "7.8",
+      "downloadas": "comedy-central-series",
+      "comment": true,
+      "playas": "video",
+      "description": "A hilarious comedy series with 3 seasons of laughs.",
+      "classification": "TV-14",
+      "year": "2022",
+      "duration": "30:00",
+      "rating": 7.8,
+      "views": 12000,
+      "created_at": "2024-01-03",
+      "image": "https://example.com/comedy-series.jpg",
+      "cover": "https://example.com/comedy-series-cover.jpg",
+      "genres": [
+        {
+          "id": 2,
+          "title": "Comedy"
+        }
+      ],
+      "sources": [],
+      "trailer": null,
+      "actors": [],
+      "subtitles": [],
+      "comments": [],
+      "views": 12000,
+      "downloads": 3000,
+      "shares": 800,
+      "seasons": []
+    },
+    {
+      "id": 4,
+      "title": "Sci-Fi Adventures",
+      "type": "series",
+      "label": "Sci-Fi",
+      "sublabel": "1 Season",
+      "imdb": "8.5",
+      "downloadas": "sci-fi-adventures",
+      "comment": true,
+      "playas": "video",
+      "description": "An exciting sci-fi series exploring space and time.",
+      "classification": "TV-PG",
+      "year": "2024",
+      "duration": "60:00",
+      "rating": 8.5,
+      "views": 15000,
+      "created_at": "2024-01-04",
+      "image": "https://example.com/scifi-series.jpg",
+      "cover": "https://example.com/scifi-series-cover.jpg",
+      "genres": [
+        {
+          "id": 5,
+          "title": "Sci-Fi"
+        }
+      ],
+      "sources": [],
+      "trailer": null,
+      "actors": [],
+      "subtitles": [],
+      "comments": [],
+      "views": 15000,
+      "downloads": 4000,
+      "shares": 1200,
+      "seasons": []
+    },
+    {
+      "id": 5,
+      "title": "Horror Nights",
+      "type": "series",
+      "label": "Horror",
+      "sublabel": "2 Seasons",
+      "imdb": "7.2",
+      "downloadas": "horror-nights",
+      "comment": true,
+      "playas": "video",
+      "description": "A spine-chilling horror series with supernatural elements.",
+      "classification": "TV-MA",
+      "year": "2023",
+      "duration": "45:00",
+      "rating": 7.2,
+      "views": 9000,
+      "created_at": "2024-01-05",
+      "image": "https://example.com/horror-series.jpg",
+      "cover": "https://example.com/horror-series-cover.jpg",
+      "genres": [
+        {
+          "id": 4,
+          "title": "Horror"
+        }
+      ],
+      "sources": [],
+      "trailer": null,
+      "actors": [],
+      "subtitles": [],
+      "comments": [],
+      "views": 9000,
+      "downloads": 2500,
+      "shares": 600,
+      "seasons": []
     }
   ],
   "channels": [
