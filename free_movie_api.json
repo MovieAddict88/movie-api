@@ -1,2067 +1,1095 @@
 {
   "api_info": {
-    "version": "1.0",
-    "description": "Free Movie & TV Streaming JSON API for Mobile Apps",
+    "version": "2.1",
+    "description": "CineMax Movie API - Ratings auto-detected by TMDB",
     "last_updated": "2024-01-15",
-    "total_movies": 2,
-    "total_channels": 26,
-    "total_actors": 2
+    "total_movies": 3,
+    "total_channels": 2,
+    "total_actors": 5
   },
   "home": {
     "slides": [
       {
         "id": 1,
-        "title": "Big Buck Bunny",
+        "title": "Avengers: Endgame",
+        "description": "The epic conclusion to the Infinity Saga",
+        "image": "https://image.tmdb.org/t/p/original/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
         "type": "movie",
-        "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
-        "url": "movies/1",
-        "poster": {
-          "id": 1,
-          "title": "Big Buck Bunny",
-          "type": "movie",
-          "label": "Animation",
-          "sublabel": "Short Film",
-          "imdb": "8.5",
-          "downloadas": "big-buck-bunny.mp4",
-          "comment": true,
-          "playas": "video",
-          "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him by throwing nuts, hitting his flowers, and destroying his home, he snaps and goes after them.",
-          "classification": "G",
-          "year": "2008",
-          "duration": "10:00",
-          "rating": 8.5,
-          "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
-          "cover": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
-          "genres": [
-            {
-              "id": 6,
-              "title": "Animation"
-            }
-          ],
-          "sources": [
-            {
-              "id": 1,
-              "type": "video",
-              "title": "Big Buck Bunny 1080p",
-              "quality": "1080p",
-              "size": "264MB",
-              "kind": "both",
-              "premium": "false",
-              "external": false,
-              "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-            },
-            {
-              "id": 2,
-              "type": "video",
-              "title": "Big Buck Bunny 720p",
-              "quality": "720p",
-              "size": "128MB",
-              "kind": "both",
-              "premium": "false",
-              "external": false,
-              "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-            },
-            {
-              "id": 3,
-              "type": "video",
-              "title": "Big Buck Bunny 480p",
-              "quality": "480p",
-              "size": "64MB",
-              "kind": "both",
-              "premium": "false",
-              "external": false,
-              "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-            }
-          ],
-          "trailer": {
-            "id": 4,
-            "type": "video",
-            "title": "Big Buck Bunny Trailer",
-            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-          },
-          "actors": [
-            {
-              "id": 1,
-              "name": "Tom Hanks",
-              "type": "actor",
-              "role": "Lead Actor",
-              "image": "https://example.com/tom-hanks.jpg",
-              "born": "1956-07-09",
-              "height": "6'0\"",
-              "bio": "American actor and filmmaker"
-            }
-          ],
-          "subtitles": [
-            {
-              "id": 1,
-              "title": "English",
-              "language": "en",
-              "url": "https://example.com/subtitles/big-buck-bunny-en.vtt"
-            },
-            {
-              "id": 2,
-              "title": "Spanish",
-              "language": "es",
-              "url": "https://example.com/subtitles/big-buck-bunny-es.vtt"
-            }
-          ],
-          "comments": [
-            {
-              "id": 1,
-              "user": "John Doe",
-              "comment": "Amazing animation! Love this movie.",
-              "created_at": "2024-01-15T10:30:00Z"
-            },
-            {
-              "id": 2,
-              "user": "Jane Smith",
-              "comment": "Great for kids and adults alike!",
-              "created_at": "2024-01-14T15:45:00Z"
-            }
-          ],
-          "views": 15000,
-          "downloads": 5000,
-          "shares": 1200
-        }
-      },
-      {
-        "id": 1,
-        "title": "AZ2",
-        "type": "channel",
-        "image": "https://i.imgur.com/1zsdloF.png",
-        "url": "channels/1",
-        "channel": {
-          "id": 1,
-          "title": "AZ2",
-          "label": "Entertainment",
-          "sublabel": "Philippines",
-          "description": "AZ2",
-          "website": "https://example-news.com",
-          "classification": "News",
-          "views": 25000,
-          "shares": 800,
-          "rating": 7.8,
-          "comment": true,
-          "image": "https://i.imgur.com/1zsdloF.png",
-          "playas": "live",
-          "sources": [
-            {
-              "id": 6,
-              "type": "live",
-              "title": "720p",
-              "quality": "720p",
-              "size": "Live",
-              "kind": "play",
-              "premium": "false",
-              "external": false,
-              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_5.m3u8"
-            },
-            {
-              "id": 7,
-              "type": "live",
-              "title": "480p",
-              "quality": "480p",
-              "size": "Live",
-              "kind": "play",
-              "premium": "false",
-              "external": false,
-              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_4.m3u8"
-            },
-            {
-              "id": 8,
-              "type": "live",
-              "title": "360p",
-              "quality": "360p",
-              "size": "Live",
-              "kind": "play",
-              "premium": "false",
-              "external": false,
-              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_3.m3u8"
-            },
-            {
-              "id": 9,
-              "type": "live",
-              "title": "240p",
-              "quality": "240p",
-              "size": "Live",
-              "kind": "play",
-              "premium": "false",
-              "external": false,
-              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_2.m3u8"
-            },
-            {
-              "id": 10,
-              "type": "live",
-              "title": "144p",
-              "quality": "144p",
-              "size": "Live",
-              "kind": "play",
-              "premium": "false",
-              "external": false,
-              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_1.m3u8"
-            }
-          ],
-          "categories": [
-            {
-              "id": 3,
-              "title": "Entertainment"
-            }
-          ],
-          "countries": [
-            {
-              "id": 1,
-              "title": "PH"
-            }
-          ],
-          "comments": []
-        }
+        "movie_id": 299534
       },
       {
         "id": 2,
-        "title": "Cine Mo!",
-        "type": "channel",
-        "image": "https://i.imgur.com/KUwrSOH.png",
-        "url": "channels/2",
-        "channel": {
-          "id": 2,
-          "title": "Cine Mo!",
-          "label": "Movies",
-          "sublabel": "PH",
-          "description": "Cine Mo! is a Filipino pay television channel owned by ABS-CBN.",
-          "website": "https://example-news.com",
-          "classification": "Movies",
-          "views": 0,
-          "shares": 0,
-          "rating": 0,
-          "comment": true,
-          "image": "https://i.imgur.com/KUwrSOH.png",
-          "playas": "live",
-          "sources": [
-            {
-              "id": 11,
-              "type": "live",
-              "title": "HD",
-              "quality": "HD",
-              "size": "Live",
-              "kind": "play",
-              "premium": "false",
-              "external": false,
-              "url": "https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index.m3u8"
-            }
-          ],
-          "categories": [
-            {
-              "id": 5,
-              "title": "Movies"
-            }
-          ],
-          "countries": [
-            {
-              "id": 1,
-              "title": "PH"
-            }
-          ],
-          "comments": []
-        }
-      },
-      {
-        "id": 3,
-        "title": "Kapamilya Channel",
-        "type": "channel",
-        "image": "https://i.imgur.com/Dcys2TG.png",
-        "url": "channels/3",
-        "channel": {
-          "id": 3,
-          "title": "Kapamilya Channel",
-          "label": "General",
-          "sublabel": "PH",
-          "description": "",
-          "website": "https://example-news.com",
-          "classification": "General",
-          "views": 0,
-          "shares": 0,
-          "rating": 8,
-          "comment": true,
-          "image": "https://i.imgur.com/Dcys2TG.png",
-          "playas": "live",
-          "sources": [
-            {
-              "id": 12,
-              "type": "live",
-              "title": "Live",
-              "quality": "HD",
-              "size": "Live",
-              "kind": "play",
-              "premium": "false",
-              "external": false,
-              "url": "https://live-faws.akamaized.net/out/v1/df7b60b4411f4270ab431913de807bf4/index.m3u8"
-            }
-          ],
-          "categories": [
-            {
-              "id": 6,
-              "title": "General"
-            }
-          ],
-          "countries": [
-            {
-              "id": 1,
-              "title": "PH"
-            }
-          ],
-          "comments": []
-        }
+        "title": "Breaking Bad",
+        "description": "A high school chemistry teacher turned methamphetamine manufacturer",
+        "image": "https://image.tmdb.org/t/p/original/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
+        "type": "tv",
+        "tv_id": 1396
       }
     ],
     "featured_movies": [
       {
-        "id": 1,
-        "title": "Big Buck Bunny",
+        "id": 299534,
+        "title": "Avengers: Endgame",
         "type": "movie",
-        "label": "Animation",
-        "sublabel": "Short Film",
-        "imdb": "8.5",
-        "downloadas": "big-buck-bunny.mp4",
-        "comment": true,
-        "playas": "video",
-        "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him by throwing nuts, hitting his flowers, and destroying his home, he snaps and goes after them.",
-        "classification": "G",
-        "year": "2008",
-        "duration": "10:00",
-        "rating": 8.5,
-        "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
-        "cover": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+        "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore balance to the universe once and for all, no matter what it takes.",
+        "year": "2019",
+        "duration": "181 min",
+        "classification": "PG-13",
+        "image": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+        "cover": "https://image.tmdb.org/t/p/original/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
         "genres": [
           {
-            "id": 6,
-            "title": "Animation"
-          }
-        ],
-        "sources": [
-          {
-            "id": 1,
-            "type": "video",
-            "title": "Big Buck Bunny 1080p",
-            "quality": "1080p",
-            "size": "264MB",
-            "kind": "both",
-            "premium": "false",
-            "external": false,
-            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            "id": 12,
+            "title": "Adventure"
           },
           {
-            "id": 2,
-            "type": "video",
-            "title": "Big Buck Bunny 720p",
-            "quality": "720p",
-            "size": "128MB",
-            "kind": "both",
-            "premium": "false",
-            "external": false,
-            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            "id": 878,
+            "title": "Science Fiction"
           },
           {
-            "id": 3,
-            "type": "video",
-            "title": "Big Buck Bunny 480p",
-            "quality": "480p",
-            "size": "64MB",
-            "kind": "both",
-            "premium": "false",
-            "external": false,
-            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            "id": 28,
+            "title": "Action"
           }
         ],
-        "trailer": {
-          "id": 4,
-          "type": "video",
-          "title": "Big Buck Bunny Trailer",
-          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-        },
         "actors": [
           {
             "id": 1,
+            "name": "Robert Downey Jr.",
+            "image": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Chris Evans",
+            "image": "https://image.tmdb.org/t/p/w185/3bOGNsHlrswhyW0vlEw2t5Gvh0s.jpg"
+          }
+        ],
+        "views": 1500000,
+        "created_at": "2019-04-26",
+        "sources": [
+          {
+            "id": 1,
+            "type": "embed",
+            "title": "Watch Online",
+            "quality": "HD",
+            "size": "N/A",
+            "kind": "stream",
+            "premium": "0",
+            "external": true,
+            "url": "https://vidsrc.net/embed/movie/299534"
+          }
+        ],
+        "trailer": {
+          "id": 1,
+          "type": "youtube",
+          "title": "Official Trailer",
+          "quality": "HD",
+          "size": "N/A",
+          "kind": "trailer",
+          "premium": "0",
+          "external": true,
+          "url": "https://www.youtube.com/watch?v=TcMBFSGVi1c"
+        }
+      },
+      {
+        "id": 550,
+        "title": "Fight Club",
+        "type": "movie",
+        "description": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+        "year": "1999",
+        "duration": "139 min",
+        "classification": "R",
+        "image": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+        "cover": "https://image.tmdb.org/t/p/original/52AfXWuXCHn3UjD17rBruA9f5qb.jpg",
+        "genres": [
+          {
+            "id": 18,
+            "title": "Drama"
+          },
+          {
+            "id": 53,
+            "title": "Thriller"
+          }
+        ],
+        "actors": [
+          {
+            "id": 3,
+            "name": "Brad Pitt",
+            "image": "https://image.tmdb.org/t/p/w185/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Edward Norton",
+            "image": "https://image.tmdb.org/t/p/w185/5XBzD5WuTyVQZeS4VI25z2moMeY.jpg"
+          }
+        ],
+        "views": 850000,
+        "created_at": "1999-10-15",
+        "sources": [
+          {
+            "id": 2,
+            "type": "embed",
+            "title": "Watch Online",
+            "quality": "HD",
+            "size": "N/A",
+            "kind": "stream",
+            "premium": "0",
+            "external": true,
+            "url": "https://vidsrc.net/embed/movie/550"
+          }
+        ],
+        "trailer": {
+          "id": 2,
+          "type": "youtube",
+          "title": "Official Trailer",
+          "quality": "HD",
+          "size": "N/A",
+          "kind": "trailer",
+          "premium": "0",
+          "external": true,
+          "url": "https://www.youtube.com/watch?v=SUXWAEX2jlg"
+        }
+      },
+      {
+        "id": 13,
+        "title": "Forrest Gump",
+        "type": "movie",
+        "description": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all the things he has attained, his love for the girl he met in childhood never waivers.",
+        "year": "1994",
+        "duration": "142 min",
+        "classification": "PG-13",
+        "image": "https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+        "cover": "https://image.tmdb.org/t/p/original/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+        "genres": [
+          {
+            "id": 35,
+            "title": "Comedy"
+          },
+          {
+            "id": 18,
+            "title": "Drama"
+          },
+          {
+            "id": 10749,
+            "title": "Romance"
+          }
+        ],
+        "actors": [
+          {
+            "id": 5,
             "name": "Tom Hanks",
-            "type": "actor",
-            "role": "Lead Actor",
-            "image": "https://example.com/tom-hanks.jpg",
-            "born": "1956-07-09",
-            "height": "6'0\"",
-            "bio": "American actor and filmmaker"
+            "image": "https://image.tmdb.org/t/p/w185/8A7j8dx4XuhXqzxvTvT0Vh0h3nM.jpg"
           }
         ],
-        "subtitles": [
+        "views": 1200000,
+        "created_at": "1994-07-06",
+        "sources": [
           {
-            "id": 1,
-            "title": "English",
-            "language": "en",
-            "url": "https://example.com/subtitles/big-buck-bunny-en.vtt"
-          },
-          {
-            "id": 2,
-            "title": "Spanish",
-            "language": "es",
-            "url": "https://example.com/subtitles/big-buck-bunny-es.vtt"
+            "id": 3,
+            "type": "embed",
+            "title": "Watch Online",
+            "quality": "HD",
+            "size": "N/A",
+            "kind": "stream",
+            "premium": "0",
+            "external": true,
+            "url": "https://vidsrc.net/embed/movie/13"
           }
         ],
-        "comments": [
-          {
-            "id": 1,
-            "user": "John Doe",
-            "comment": "Amazing animation! Love this movie.",
-            "created_at": "2024-01-15T10:30:00Z"
-          },
-          {
-            "id": 2,
-            "user": "Jane Smith",
-            "comment": "Great for kids and adults alike!",
-            "created_at": "2024-01-14T15:45:00Z"
-          }
-        ],
-        "views": 15000,
-        "downloads": 5000,
-        "shares": 1200
+        "trailer": {
+          "id": 3,
+          "type": "youtube",
+          "title": "Official Trailer",
+          "quality": "HD",
+          "size": "N/A",
+          "kind": "trailer",
+          "premium": "0",
+          "external": true,
+          "url": "https://www.youtube.com/watch?v=bLvqoHBptjg"
+        }
       }
     ],
-    "channels": [],
-    "actors": [
+    "channels": [
       {
-        "id": 1,
-        "name": "Tom Hanks",
-        "type": "actor",
-        "role": "Lead Actor",
-        "image": "https://example.com/tom-hanks.jpg",
-        "born": "1956-07-09",
-        "height": "6'0\"",
-        "bio": "American actor and filmmaker",
-        "movies": [
+        "id": 1396,
+        "title": "Breaking Bad",
+        "type": "series",
+        "description": "When an unassuming high school chemistry teacher discovers he has a rare form of lung cancer, he decides to team up with a former student and secure the future of his family by manufacturing and selling crystallized methamphetamine.",
+        "year": "2008",
+        "classification": "TV-MA",
+        "image": "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
+        "views": 950000,
+        "shares": 15000,
+        "comment": true,
+        "playas": "serie",
+        "sources": [
+          {
+            "id": 4,
+            "type": "embed",
+            "title": "Watch Online",
+            "quality": "HD",
+            "size": "N/A",
+            "kind": "stream",
+            "premium": "0",
+            "external": true,
+            "url": "https://vidsrc.net/embed/tv/1396"
+          }
+        ],
+        "seasons": [
           {
             "id": 1,
-            "title": "Big Buck Bunny",
-            "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
-            "year": "2008"
+            "title": "Season 1",
+            "season_number": 1,
+            "episodes": [
+              {
+                "id": 1,
+                "title": "Pilot",
+                "episode_number": 1,
+                "season_number": 1,
+                "description": "Walter White, a struggling high school chemistry teacher, is diagnosed with inoperable lung cancer and turns to a life of crime.",
+                "duration": "58 min",
+                "sources": [
+                  {
+                    "id": 101,
+                    "type": "embed",
+                    "title": "Watch Episode",
+                    "quality": "HD",
+                    "url": "https://vidsrc.net/embed/tv/1396/1/1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Season 2",
+            "season_number": 2,
+            "episodes": [
+              {
+                "id": 2,
+                "title": "Seven Thirty-Seven",
+                "episode_number": 1,
+                "season_number": 2,
+                "description": "Walt and Jesse attempt to tie up loose ends. The desperate situation gets more complicated with the flip of a coin.",
+                "duration": "47 min",
+                "sources": [
+                  {
+                    "id": 201,
+                    "type": "embed",
+                    "title": "Watch Episode",
+                    "quality": "HD",
+                    "url": "https://vidsrc.net/embed/tv/1396/2/1"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "categories": [
+          {
+            "id": 1,
+            "title": "Drama"
+          }
+        ],
+        "countries": [
+          {
+            "id": 1,
+            "title": "United States"
           }
         ]
       },
       {
-        "id": 2,
-        "name": "Emma Watson",
-        "type": "actress",
-        "role": "Lead Actress",
-        "image": "https://example.com/emma-watson.jpg",
-        "born": "1990-04-15",
-        "height": "5'5\"",
-        "bio": "English actress and activist",
-        "movies": [
+        "id": 1399,
+        "title": "Game of Thrones",
+        "type": "series",
+        "description": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+        "year": "2011",
+        "classification": "TV-MA",
+        "image": "https://image.tmdb.org/t/p/w500/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+        "views": 1100000,
+        "shares": 18000,
+        "comment": true,
+        "playas": "serie",
+        "sources": [
+          {
+            "id": 5,
+            "type": "embed",
+            "title": "Watch Online",
+            "quality": "HD",
+            "size": "N/A",
+            "kind": "stream",
+            "premium": "0",
+            "external": true,
+            "url": "https://vidsrc.net/embed/tv/1399"
+          }
+        ],
+        "seasons": [
+          {
+            "id": 3,
+            "title": "Season 1",
+            "season_number": 1,
+            "episodes": [
+              {
+                "id": 3,
+                "title": "Winter Is Coming",
+                "episode_number": 1,
+                "season_number": 1,
+                "description": "Eddard Stark is torn between his family and an old friend when asked to serve at the side of King Robert Baratheon.",
+                "duration": "62 min",
+                "sources": [
+                  {
+                    "id": 301,
+                    "type": "embed",
+                    "title": "Watch Episode",
+                    "quality": "HD",
+                    "url": "https://vidsrc.net/embed/tv/1399/1/1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "title": "Season 2",
+            "season_number": 2,
+            "episodes": [
+              {
+                "id": 4,
+                "title": "The North Remembers",
+                "episode_number": 1,
+                "season_number": 2,
+                "description": "As Robb Stark and his northern army continue the war against the Lannisters, Tyrion arrives in King's Landing to counsel Joffrey.",
+                "duration": "53 min",
+                "sources": [
+                  {
+                    "id": 401,
+                    "type": "embed",
+                    "title": "Watch Episode",
+                    "quality": "HD",
+                    "url": "https://vidsrc.net/embed/tv/1399/2/1"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "categories": [
+          {
+            "id": 1,
+            "title": "Drama"
+          },
           {
             "id": 2,
-            "title": "Sample TV Series",
-            "image": "https://example.com/sample-series.jpg",
-            "year": "2023"
+            "title": "Fantasy"
+          }
+        ],
+        "countries": [
+          {
+            "id": 1,
+            "title": "United States"
           }
         ]
+      }
+    ],
+    "actors": [
+      {
+        "id": 1,
+        "name": "Robert Downey Jr.",
+        "image": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg",
+        "biography": "Robert John Downey Jr. is an American actor and producer. His career has been characterized by critical and popular success in his youth, followed by a period of substance abuse and legal troubles, before a resurgence of commercial success later in his career."
+      },
+      {
+        "id": 2,
+        "name": "Chris Evans",
+        "image": "https://image.tmdb.org/t/p/w185/3bOGNsHlrswhyW0vlEw2t5Gvh0s.jpg",
+        "biography": "Christopher Robert Evans is an American actor. He began his career with roles in television series such as Opposite Sex in 2000. Following appearances in several teen films including 2001's Not Another Teen Movie, he gained attention for his portrayal of Marvel Comics character the Human Torch in 2005's Fantastic Four and 2007's Fantastic Four: Rise of the Silver Surfer."
+      },
+      {
+        "id": 3,
+        "name": "Brad Pitt",
+        "image": "https://image.tmdb.org/t/p/w185/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg",
+        "biography": "William Bradley Pitt is an American actor and film producer. He has received multiple awards and nominations including an Academy Award as producer under his own company Plan B Entertainment."
+      },
+      {
+        "id": 4,
+        "name": "Edward Norton",
+        "image": "https://image.tmdb.org/t/p/w185/5XBzD5WuTyVQZeS4VI25z2moMeY.jpg",
+        "biography": "Edward Harrison Norton is an American actor, producer and filmmaker. He has been nominated for three Academy Awards for his work in the films Primal Fear, American History X and Birdman."
+      },
+      {
+        "id": 5,
+        "name": "Tom Hanks",
+        "image": "https://image.tmdb.org/t/p/w185/8A7j8dx4XuhXqzxvTvT0Vh0h3nM.jpg",
+        "biography": "Thomas Jeffrey Hanks is an American actor and filmmaker. Known for both his comedic and dramatic roles, Hanks is one of the most popular and recognizable film stars worldwide, and is regarded as an American cultural icon."
       }
     ],
     "genres": [
       {
-        "id": 1,
-        "title": "Action",
-        "posters": []
+        "id": 28,
+        "title": "Action"
       },
       {
-        "id": 2,
-        "title": "Comedy",
-        "posters": []
+        "id": 12,
+        "title": "Adventure"
       },
       {
-        "id": 3,
-        "title": "Drama",
-        "posters": [
-          {
-            "id": 2,
-            "title": "Sample TV Series",
-            "image": "https://example.com/sample-series.jpg"
-          }
-        ]
+        "id": 16,
+        "title": "Animation"
       },
       {
-        "id": 4,
-        "title": "Horror",
-        "posters": []
+        "id": 35,
+        "title": "Comedy"
       },
       {
-        "id": 5,
-        "title": "Sci-Fi",
-        "posters": []
+        "id": 80,
+        "title": "Crime"
       },
       {
-        "id": 6,
-        "title": "Animation",
-        "posters": [
-          {
-            "id": 1,
-            "title": "Big Buck Bunny",
-            "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
-          }
-        ]
+        "id": 99,
+        "title": "Documentary"
+      },
+      {
+        "id": 18,
+        "title": "Drama"
+      },
+      {
+        "id": 10751,
+        "title": "Family"
+      },
+      {
+        "id": 14,
+        "title": "Fantasy"
+      },
+      {
+        "id": 36,
+        "title": "History"
+      },
+      {
+        "id": 27,
+        "title": "Horror"
+      },
+      {
+        "id": 10402,
+        "title": "Music"
+      },
+      {
+        "id": 9648,
+        "title": "Mystery"
+      },
+      {
+        "id": 10749,
+        "title": "Romance"
+      },
+      {
+        "id": 878,
+        "title": "Science Fiction"
+      },
+      {
+        "id": 10770,
+        "title": "TV Movie"
+      },
+      {
+        "id": 53,
+        "title": "Thriller"
+      },
+      {
+        "id": 10752,
+        "title": "War"
+      },
+      {
+        "id": 37,
+        "title": "Western"
       }
     ]
   },
   "movies": [
     {
-      "id": 1,
-      "title": "Big Buck Bunny",
+      "id": 299534,
+      "title": "Avengers: Endgame",
       "type": "movie",
-      "label": "Animation",
-      "sublabel": "Short Film",
-      "imdb": "8.5",
-      "downloadas": "big-buck-bunny.mp4",
-      "comment": true,
-      "playas": "video",
-      "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him by throwing nuts, hitting his flowers, and destroying his home, he snaps and goes after them.",
-      "classification": "G",
-      "year": "2008",
-      "duration": "10:00",
-      "rating": 8.5,
-      "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
-      "cover": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+      "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore balance to the universe once and for all, no matter what it takes.",
+      "year": "2019",
+      "duration": "181 min",
+      "classification": "PG-13",
+      "image": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+      "cover": "https://image.tmdb.org/t/p/original/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
       "genres": [
         {
-          "id": 6,
-          "title": "Animation"
+          "id": 12,
+          "title": "Adventure"
+        },
+        {
+          "id": 878,
+          "title": "Science Fiction"
+        },
+        {
+          "id": 28,
+          "title": "Action"
         }
       ],
+      "actors": [
+        {
+          "id": 1,
+          "name": "Robert Downey Jr.",
+          "image": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Chris Evans",
+          "image": "https://image.tmdb.org/t/p/w185/3bOGNsHlrswhyW0vlEw2t5Gvh0s.jpg"
+        }
+      ],
+      "views": 1500000,
+      "created_at": "2019-04-26",
       "sources": [
         {
           "id": 1,
-          "type": "video",
-          "title": "Big Buck Bunny 1080p",
-          "quality": "1080p",
-          "size": "264MB",
-          "kind": "both",
-          "premium": "false",
-          "external": false,
-          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-        },
-        {
-          "id": 2,
-          "type": "video",
-          "title": "Big Buck Bunny 720p",
-          "quality": "720p",
-          "size": "128MB",
-          "kind": "both",
-          "premium": "false",
-          "external": false,
-          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-        },
-        {
-          "id": 3,
-          "type": "video",
-          "title": "Big Buck Bunny 480p",
-          "quality": "480p",
-          "size": "64MB",
-          "kind": "both",
-          "premium": "false",
-          "external": false,
-          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          "type": "embed",
+          "title": "Watch Online",
+          "quality": "HD",
+          "size": "N/A",
+          "kind": "stream",
+          "premium": "0",
+          "external": true,
+          "url": "https://vidsrc.net/embed/movie/299534"
         }
       ],
       "trailer": {
-        "id": 4,
-        "type": "video",
-        "title": "Big Buck Bunny Trailer",
-        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-      },
-      "actors": [
-        {
-          "id": 1,
-          "name": "Tom Hanks",
-          "type": "actor",
-          "role": "Lead Actor",
-          "image": "https://example.com/tom-hanks.jpg",
-          "born": "1956-07-09",
-          "height": "6'0\"",
-          "bio": "American actor and filmmaker"
-        }
-      ],
-      "subtitles": [
-        {
-          "id": 1,
-          "title": "English",
-          "language": "en",
-          "url": "https://example.com/subtitles/big-buck-bunny-en.vtt"
-        },
-        {
-          "id": 2,
-          "title": "Spanish",
-          "language": "es",
-          "url": "https://example.com/subtitles/big-buck-bunny-es.vtt"
-        }
-      ],
-      "comments": [
-        {
-          "id": 1,
-          "user": "John Doe",
-          "comment": "Amazing animation! Love this movie.",
-          "created_at": "2024-01-15T10:30:00Z"
-        },
-        {
-          "id": 2,
-          "user": "Jane Smith",
-          "comment": "Great for kids and adults alike!",
-          "created_at": "2024-01-14T15:45:00Z"
-        }
-      ],
-      "views": 15000,
-      "downloads": 5000,
-      "shares": 1200
+        "id": 1,
+        "type": "youtube",
+        "title": "Official Trailer",
+        "quality": "HD",
+        "size": "N/A",
+        "kind": "trailer",
+        "premium": "0",
+        "external": true,
+        "url": "https://www.youtube.com/watch?v=TcMBFSGVi1c"
+      }
     },
     {
-      "id": 2,
-      "title": "Sample TV Series",
-      "type": "series",
-      "label": "Drama",
-      "sublabel": "2 Seasons",
-      "imdb": "8.2",
-      "downloadas": "sample-series",
-      "comment": true,
-      "playas": "video",
-      "description": "A gripping drama series with 2 seasons. Each season contains 1 episode with multiple quality options and subtitles.",
-      "classification": "TV-14",
-      "year": "2023",
-      "duration": "45:00",
-      "rating": 8.2,
-      "image": "https://example.com/sample-series.jpg",
-      "cover": "https://example.com/sample-series-cover.jpg",
+      "id": 550,
+      "title": "Fight Club",
+      "type": "movie",
+      "description": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+      "year": "1999",
+      "duration": "139 min",
+      "classification": "R",
+      "image": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+      "cover": "https://image.tmdb.org/t/p/original/52AfXWuXCHn3UjD17rBruA9f5qb.jpg",
       "genres": [
         {
-          "id": 3,
+          "id": 18,
           "title": "Drama"
+        },
+        {
+          "id": 53,
+          "title": "Thriller"
         }
       ],
-      "sources": [],
-      "trailer": null,
       "actors": [
         {
-          "id": 2,
-          "name": "Emma Watson",
-          "type": "actress",
-          "role": "Lead Actress",
-          "image": "https://example.com/emma-watson.jpg",
-          "born": "1990-04-15",
-          "height": "5'5\"",
-          "bio": "English actress and activist"
-        }
-      ],
-      "subtitles": [],
-      "comments": [
+          "id": 3,
+          "name": "Brad Pitt",
+          "image": "https://image.tmdb.org/t/p/w185/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg"
+        },
         {
-          "id": 1,
-          "user": "Series Fan",
-          "comment": "Amazing series! Can't wait for season 2.",
-          "created_at": "2024-01-15T12:00:00Z"
+          "id": 4,
+          "name": "Edward Norton",
+          "image": "https://image.tmdb.org/t/p/w185/5XBzD5WuTyVQZeS4VI25z2moMeY.jpg"
         }
       ],
-      "views": 8000,
-      "downloads": 2000,
-      "shares": 500,
+      "views": 850000,
+      "created_at": "1999-10-15",
+      "sources": [
+        {
+          "id": 2,
+          "type": "embed",
+          "title": "Watch Online",
+          "quality": "HD",
+          "size": "N/A",
+          "kind": "stream",
+          "premium": "0",
+          "external": true,
+          "url": "https://vidsrc.net/embed/movie/550"
+        }
+      ],
+      "trailer": {
+        "id": 2,
+        "type": "youtube",
+        "title": "Official Trailer",
+        "quality": "HD",
+        "size": "N/A",
+        "kind": "trailer",
+        "premium": "0",
+        "external": true,
+        "url": "https://www.youtube.com/watch?v=SUXWAEX2jlg"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Forrest Gump",
+      "type": "movie",
+      "description": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all the things he has attained, his love for the girl he met in childhood never waivers.",
+      "year": "1994",
+      "duration": "142 min",
+      "classification": "PG-13",
+      "image": "https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+      "cover": "https://image.tmdb.org/t/p/original/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+      "genres": [
+        {
+          "id": 35,
+          "title": "Comedy"
+        },
+        {
+          "id": 18,
+          "title": "Drama"
+        },
+        {
+          "id": 10749,
+          "title": "Romance"
+        }
+      ],
+      "actors": [
+        {
+          "id": 5,
+          "name": "Tom Hanks",
+          "image": "https://image.tmdb.org/t/p/w185/8A7j8dx4XuhXqzxvTvT0Vh0h3nM.jpg"
+        }
+      ],
+      "views": 1200000,
+      "created_at": "1994-07-06",
+      "sources": [
+        {
+          "id": 3,
+          "type": "embed",
+          "title": "Watch Online",
+          "quality": "HD",
+          "size": "N/A",
+          "kind": "stream",
+          "premium": "0",
+          "external": true,
+          "url": "https://vidsrc.net/embed/movie/13"
+        }
+      ],
+      "trailer": {
+        "id": 3,
+        "type": "youtube",
+        "title": "Official Trailer",
+        "quality": "HD",
+        "size": "N/A",
+        "kind": "trailer",
+        "premium": "0",
+        "external": true,
+        "url": "https://www.youtube.com/watch?v=bLvqoHBptjg"
+      }
+    }
+  ],
+  "channels": [
+    {
+      "id": 1396,
+      "title": "Breaking Bad",
+      "type": "series",
+      "description": "When an unassuming high school chemistry teacher discovers he has a rare form of lung cancer, he decides to team up with a former student and secure the future of his family by manufacturing and selling crystallized methamphetamine.",
+      "year": "2008",
+      "classification": "TV-MA",
+      "image": "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
+      "views": 950000,
+      "shares": 15000,
+      "comment": true,
+      "playas": "serie",
+      "sources": [
+        {
+          "id": 4,
+          "type": "embed",
+          "title": "Watch Online",
+          "quality": "HD",
+          "size": "N/A",
+          "kind": "stream",
+          "premium": "0",
+          "external": true,
+          "url": "https://vidsrc.net/embed/tv/1396"
+        }
+      ],
       "seasons": [
         {
           "id": 1,
           "title": "Season 1",
+          "season_number": 1,
           "episodes": [
             {
               "id": 1,
-              "title": "Episode 1",
+              "title": "Pilot",
               "episode_number": 1,
-              "image": "https://example.com/ep1.jpg",
-              "duration": "45:00",
+              "season_number": 1,
+              "description": "Walter White, a struggling high school chemistry teacher, is diagnosed with inoperable lung cancer and turns to a life of crime.",
+              "duration": "58 min",
               "sources": [
                 {
-                  "id": 5,
-                  "type": "video",
-                  "title": "Episode 1 1080p",
-                  "quality": "1080p",
-                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
-                },
-                {
-                  "id": 6,
-                  "type": "video",
-                  "title": "Episode 1 720p",
-                  "quality": "720p",
-                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
-                },
-                {
-                  "id": 7,
-                  "type": "video",
-                  "title": "Episode 1 480p",
-                  "quality": "480p",
-                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                  "id": 101,
+                  "type": "embed",
+                  "title": "Watch Episode",
+                  "quality": "HD",
+                  "url": "https://vidsrc.net/embed/tv/1396/1/1"
                 }
-              ],
-              "subtitles": [
-                {
-                  "id": 1,
-                  "title": "English",
-                  "language": "en",
-                  "url": "https://example.com/subtitles/ep1-en.vtt"
-                },
-                {
-                  "id": 2,
-                  "title": "Spanish",
-                  "language": "es",
-                  "url": "https://example.com/subtitles/ep1-es.vtt"
-                }
-              ],
-              "views": 5000,
-              "downloads": 1200
+              ]
             }
           ]
         },
         {
           "id": 2,
           "title": "Season 2",
+          "season_number": 2,
           "episodes": [
             {
               "id": 2,
-              "title": "Episode 1",
+              "title": "Seven Thirty-Seven",
               "episode_number": 1,
-              "image": "https://example.com/ep2.jpg",
-              "duration": "45:00",
+              "season_number": 2,
+              "description": "Walt and Jesse attempt to tie up loose ends. The desperate situation gets more complicated with the flip of a coin.",
+              "duration": "47 min",
               "sources": [
                 {
-                  "id": 8,
-                  "type": "video",
-                  "title": "Episode 1 1080p",
-                  "quality": "1080p",
-                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-                },
-                {
-                  "id": 9,
-                  "type": "video",
-                  "title": "Episode 1 720p",
-                  "quality": "720p",
-                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-                },
-                {
-                  "id": 10,
-                  "type": "video",
-                  "title": "Episode 1 480p",
-                  "quality": "480p",
-                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                  "id": 201,
+                  "type": "embed",
+                  "title": "Watch Episode",
+                  "quality": "HD",
+                  "url": "https://vidsrc.net/embed/tv/1396/2/1"
                 }
-              ],
-              "subtitles": [
-                {
-                  "id": 3,
-                  "title": "English",
-                  "language": "en",
-                  "url": "https://example.com/subtitles/ep2-en.vtt"
-                },
-                {
-                  "id": 4,
-                  "title": "Spanish",
-                  "language": "es",
-                  "url": "https://example.com/subtitles/ep2-es.vtt"
-                }
-              ],
-              "views": 3000,
-              "downloads": 800
+              ]
             }
           ]
         }
-      ]
-    }
-  ],
-  "channels": [
-    {
-      "id": 1,
-      "title": "AZ2",
-      "label": "Entertainment",
-      "sublabel": "Philippines",
-      "description": "AZ2",
-      "website": "https://example-news.com",
-      "classification": "News",
-      "views": 25000,
-      "shares": 800,
-      "rating": 7.8,
-      "comment": true,
-      "image": "https://i.imgur.com/1zsdloF.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 6,
-          "type": "live",
-          "title": "720p",
-          "quality": "720p",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_5.m3u8"
-        },
-        {
-          "id": 7,
-          "type": "live",
-          "title": "480p",
-          "quality": "480p",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_4.m3u8"
-        },
-        {
-          "id": 8,
-          "type": "live",
-          "title": "360p",
-          "quality": "360p",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_3.m3u8"
-        },
-        {
-          "id": 9,
-          "type": "live",
-          "title": "240p",
-          "quality": "240p",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_2.m3u8"
-        },
-        {
-          "id": 10,
-          "type": "live",
-          "title": "144p",
-          "quality": "144p",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_1.m3u8"
-        }
       ],
       "categories": [
         {
-          "id": 3,
-          "title": "Entertainment"
+          "id": 1,
+          "title": "Drama"
         }
       ],
       "countries": [
         {
           "id": 1,
-          "title": "PH"
+          "title": "United States"
         }
-      ],
-      "comments": []
+      ]
     },
     {
-      "id": 2,
-      "title": "Cine Mo!",
-      "label": "Movies",
-      "sublabel": "PH",
-      "description": "Cine Mo! is a Filipino pay television channel owned by ABS-CBN.",
-      "website": "https://example-news.com",
-      "classification": "Movies",
-      "views": 0,
-      "shares": 0,
-      "rating": 0,
+      "id": 1399,
+      "title": "Game of Thrones",
+      "type": "series",
+      "description": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+      "year": "2011",
+      "classification": "TV-MA",
+      "image": "https://image.tmdb.org/t/p/w500/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+      "views": 1100000,
+      "shares": 18000,
       "comment": true,
-      "image": "https://i.imgur.com/KUwrSOH.png",
-      "playas": "live",
+      "playas": "serie",
       "sources": [
-        {
-          "id": 11,
-          "type": "live",
-          "title": "HD",
-          "quality": "HD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index.m3u8"
-        }
-      ],
-      "categories": [
         {
           "id": 5,
-          "title": "Movies"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "PH"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 3,
-      "title": "Kapamilya Channel",
-      "label": "General",
-      "sublabel": "PH",
-      "description": "",
-      "website": "https://example-news.com",
-      "classification": "General",
-      "views": 0,
-      "shares": 0,
-      "rating": 8,
-      "comment": true,
-      "image": "https://i.imgur.com/Dcys2TG.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 12,
-          "type": "live",
-          "title": "Live",
+          "type": "embed",
+          "title": "Watch Online",
           "quality": "HD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://live-faws.akamaized.net/out/v1/df7b60b4411f4270ab431913de807bf4/index.m3u8"
+          "size": "N/A",
+          "kind": "stream",
+          "premium": "0",
+          "external": true,
+          "url": "https://vidsrc.net/embed/tv/1399"
+        }
+      ],
+      "seasons": [
+        {
+          "id": 3,
+          "title": "Season 1",
+          "season_number": 1,
+          "episodes": [
+            {
+              "id": 3,
+              "title": "Winter Is Coming",
+              "episode_number": 1,
+              "season_number": 1,
+              "description": "Eddard Stark is torn between his family and an old friend when asked to serve at the side of King Robert Baratheon.",
+              "duration": "62 min",
+              "sources": [
+                {
+                  "id": 301,
+                  "type": "embed",
+                  "title": "Watch Episode",
+                  "quality": "HD",
+                  "url": "https://vidsrc.net/embed/tv/1399/1/1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Season 2",
+          "season_number": 2,
+          "episodes": [
+            {
+              "id": 4,
+              "title": "The North Remembers",
+              "episode_number": 1,
+              "season_number": 2,
+              "description": "As Robb Stark and his northern army continue the war against the Lannisters, Tyrion arrives in King's Landing to counsel Joffrey.",
+              "duration": "53 min",
+              "sources": [
+                {
+                  "id": 401,
+                  "type": "embed",
+                  "title": "Watch Episode",
+                  "quality": "HD",
+                  "url": "https://vidsrc.net/embed/tv/1399/2/1"
+                }
+              ]
+            }
+          ]
         }
       ],
       "categories": [
         {
-          "id": 6,
-          "title": "General"
-        }
-      ],
-      "countries": [
-        {
           "id": 1,
-          "title": "PH"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 4,
-      "title": "Sample News Channel",
-      "label": "News",
-      "sublabel": "24/7 News",
-      "description": "24/7 news coverage from around the world",
-      "website": "https://example-news.com",
-      "classification": "News",
-      "views": 25000,
-      "shares": 800,
-      "rating": 7.8,
-      "comment": true,
-      "image": "https://example.com/news-channel.jpg",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 6,
-          "type": "live",
-          "title": "Live Stream",
-          "quality": "1080p",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-        }
-      ],
-      "categories": [
-        {
-          "id": 1,
-          "title": "News"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "USA"
-        }
-      ],
-      "comments": [
-        {
-          "id": 1,
-          "user": "News Viewer",
-          "comment": "Great coverage!",
-          "created_at": "2024-01-15T09:15:00Z"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Sample Sports Channel",
-      "label": "Sports",
-      "sublabel": "Live Sports",
-      "description": "Live sports coverage and highlights",
-      "website": "https://example-sports.com",
-      "classification": "Sports",
-      "views": 18000,
-      "shares": 600,
-      "rating": 8.1,
-      "comment": true,
-      "image": "https://example.com/sports-channel.jpg",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 7,
-          "type": "live",
-          "title": "Live Sports Stream",
-          "quality": "720p",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-        }
-      ],
-      "categories": [
+          "title": "Drama"
+        },
         {
           "id": 2,
-          "title": "Sports"
+          "title": "Fantasy"
         }
       ],
       "countries": [
         {
           "id": 1,
-          "title": "USA"
-        }
-      ],
-      "comments": [
-        {
-          "id": 1,
-          "user": "Sports Fan",
-          "comment": "Amazing sports coverage!",
-          "created_at": "2024-01-15T11:20:00Z"
+          "title": "United States"
         }
       ]
-    },
-    {
-      "id": 6,
-      "title": "Cinemax",
-      "label": "Movies",
-      "sublabel": "US",
-      "description": "Premium movie channel featuring blockbuster films.",
-      "website": "https://example.com",
-      "classification": "Movies",
-      "views": 0,
-      "shares": 0,
-      "rating": 4.5,
-      "comment": true,
-      "image": "https://i.imgur.com/7t4gFCB.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 601,
-          "type": "live",
-          "title": "HD",
-          "quality": "HD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_cinemax.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 296,
-          "title": "Movies"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "US"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 7,
-      "title": "Hits Now",
-      "label": "Music",
-      "sublabel": "US",
-      "description": "Music channel featuring the latest hits.",
-      "website": "https://example.com",
-      "classification": "Music",
-      "views": 0,
-      "shares": 0,
-      "rating": 4.3,
-      "comment": true,
-      "image": "https://i.imgur.com/S3pNx8G.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 701,
-          "type": "live",
-          "title": "HD",
-          "quality": "HD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hitsnow.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 474,
-          "title": "Music"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "US"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 8,
-      "title": "Hits",
-      "label": "Music",
-      "sublabel": "US",
-      "description": "Music channel playing popular hits across decades.",
-      "website": "https://example.com",
-      "classification": "Music",
-      "views": 0,
-      "shares": 0,
-      "rating": 4.2,
-      "comment": true,
-      "image": "https://i.imgur.com/jghDgUJ.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 801,
-          "type": "live",
-          "title": "HD",
-          "quality": "HD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 474,
-          "title": "Music"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "US"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 9,
-      "title": "Hits Movies",
-      "label": "Movies",
-      "sublabel": "US",
-      "description": "Movie channel featuring popular films.",
-      "website": "https://example.com",
-      "classification": "Movies",
-      "views": 0,
-      "shares": 0,
-      "rating": 4.4,
-      "comment": true,
-      "image": "https://i.imgur.com/zzdj40q.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 901,
-          "type": "live",
-          "title": "HD",
-          "quality": "HD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_hitsmovies.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 296,
-          "title": "Movies"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "US"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 10,
-      "title": "AXN",
-      "label": "Entertainment",
-      "sublabel": "US",
-      "description": "Action and adventure TV series and movies.",
-      "website": "https://example.com",
-      "classification": "Entertainment",
-      "views": 0,
-      "shares": 0,
-      "rating": 4.5,
-      "comment": true,
-      "image": "https://i.imgur.com/Dj6tVaG.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 1001,
-          "type": "live",
-          "title": "SD",
-          "quality": "SD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_axn_sd.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 414,
-          "title": "Entertainment"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "US"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 11,
-      "title": "Warner TV",
-      "label": "Entertainment",
-      "sublabel": "US",
-      "description": "Warner Bros. entertainment channel featuring series and movies.",
-      "website": "https://example.com",
-      "classification": "Entertainment",
-      "views": 0,
-      "shares": 0,
-      "rating": 4.6,
-      "comment": true,
-      "image": "https://i.imgur.com/vGEL2Ne.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 1101,
-          "type": "live",
-          "title": "HD",
-          "quality": "HD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_warnertvhd.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 414,
-          "title": "Entertainment"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "US"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 12,
-      "title": "Thrill",
-      "label": "Entertainment",
-      "sublabel": "US",
-      "description": "Channel dedicated to thriller and suspense content.",
-      "website": "https://example.com",
-      "classification": "Entertainment",
-      "views": 0,
-      "shares": 0,
-      "rating": 4.3,
-      "comment": true,
-      "image": "https://i.imgur.com/Szf7VBM.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 1201,
-          "type": "live",
-          "title": "SD",
-          "quality": "SD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 414,
-          "title": "Entertainment"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "US"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 13,
-      "title": "Lotus Macau",
-      "label": "Entertainment",
-      "sublabel": "MO",
-      "description": "Macau-based entertainment channel.",
-      "website": "https://example.com",
-      "classification": "Entertainment",
-      "views": 0,
-      "shares": 0,
-      "rating": 3.9,
-      "comment": true,
-      "image": "https://i.imgur.com/sKfzEuf.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 1301,
-          "type": "live",
-          "title": "HD",
-          "quality": "HD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/lotusmacau_prd.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 414,
-          "title": "Entertainment"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "MO"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 14,
-      "title": "IBC13",
-      "label": "General",
-      "sublabel": "PH",
-      "description": "Philippine free-to-air television network.",
-      "website": "https://example.com",
-      "classification": "General",
-      "views": 0,
-      "shares": 0,
-      "rating": 3.8,
-      "comment": true,
-      "image": "https://i.imgur.com/Org4yTu.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 1401,
-          "type": "live",
-          "title": "SD",
-          "quality": "SD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/ibc13_sd.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 959,
-          "title": "General"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "PH"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 15,
-      "title": "PTV4",
-      "label": "News",
-      "sublabel": "PH",
-      "description": "Philippine government-owned news and public affairs channel.",
-      "website": "https://example.com",
-      "classification": "News",
-      "views": 0,
-      "shares": 0,
-      "rating": 3.7,
-      "comment": true,
-      "image": "https://i.imgur.com/Ktl7qZt.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 1501,
-          "type": "live",
-          "title": "SD",
-          "quality": "SD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_ptv4_sd.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 318,
-          "title": "News"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "PH"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 16,
-      "title": "DepEd Channel",
-      "label": "Education",
-      "sublabel": "PH",
-      "description": "Educational channel by the Philippine Department of Education.",
-      "website": "https://example.com",
-      "classification": "Education",
-      "views": 0,
-      "shares": 0,
-      "rating": 4.0,
-      "comment": true,
-      "image": "https://i.imgur.com/TyFFBWn.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 1601,
-          "type": "live",
-          "title": "SD",
-          "quality": "SD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/depedch_sd.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 176,
-          "title": "Education"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "PH"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 17,
-      "title": "Knowledge Channel",
-      "label": "Education",
-      "sublabel": "PH",
-      "description": "Educational channel for students and teachers.",
-      "website": "https://example.com",
-      "classification": "Education",
-      "views": 0,
-      "shares": 0,
-      "rating": 4.2,
-      "comment": true,
-      "image": "https://i.imgur.com/UIqEr2y.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 1701,
-          "type": "live",
-          "title": "HD",
-          "quality": "HD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_knowledgechannel.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 176,
-          "title": "Education"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "PH"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 18,
-      "title": "TVN",
-      "label": "Entertainment",
-      "sublabel": "KR",
-      "description": "Korean entertainment channel featuring dramas and variety shows.",
-      "website": "https://example.com",
-      "classification": "Entertainment",
-      "views": 0,
-      "shares": 0,
-      "rating": 4.5,
-      "comment": true,
-      "image": "https://i.imgur.com/gmM3ncL.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 1801,
-          "type": "live",
-          "title": "HD",
-          "quality": "HD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_tvnpre.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 414,
-          "title": "Entertainment"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "KR"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 19,
-      "title": "NBA TV Philippines",
-      "label": "Sports",
-      "sublabel": "PH",
-      "description": "Philippine feed of NBA TV, covering basketball games and analysis.",
-      "website": "https://example.com",
-      "classification": "Sports",
-      "views": 0,
-      "shares": 0,
-      "rating": 4.7,
-      "comment": true,
-      "image": "https://i.imgur.com/sG7zuX0.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 1901,
-          "type": "live",
-          "title": "HD",
-          "quality": "HD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_nba.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 115,
-          "title": "Sports"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "PH"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 20,
-      "title": "PBA Rush",
-      "label": "Sports",
-      "sublabel": "PH",
-      "description": "Channel dedicated to Philippine Basketball Association (PBA) games.",
-      "website": "https://example.com",
-      "classification": "Sports",
-      "views": 0,
-      "shares": 0,
-      "rating": 4.4,
-      "comment": true,
-      "image": "https://i.imgur.com/J4QCDLG.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 2001,
-          "type": "live",
-          "title": "HD",
-          "quality": "HD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_pbarush_hd1.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 115,
-          "title": "Sports"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "PH"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 21,
-      "title": "BBC Earth",
-      "label": "Documentary",
-      "sublabel": "GB",
-      "description": "Documentary channel featuring nature and science programs.",
-      "website": "https://example.com",
-      "classification": "Documentary",
-      "views": 0,
-      "shares": 0,
-      "rating": 4.8,
-      "comment": true,
-      "image": "https://i.imgur.com/TE9MEV1.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 2101,
-          "type": "live",
-          "title": "HD",
-          "quality": "HD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_bbcearth_hd1.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 64,
-          "title": "Documentary"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "GB"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 22,
-      "title": "History",
-      "label": "Documentary",
-      "sublabel": "US",
-      "description": "Documentary channel featuring historical events and series.",
-      "website": "https://example.com",
-      "classification": "Documentary",
-      "views": 0,
-      "shares": 0,
-      "rating": 4.5,
-      "comment": true,
-      "image": "https://i.imgur.com/BkoC446.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 2201,
-          "type": "live",
-          "title": "HD",
-          "quality": "HD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_historyhd.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 64,
-          "title": "Documentary"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "US"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 23,
-      "title": "Animal Planet",
-      "label": "Documentary",
-      "sublabel": "US",
-      "description": "Documentary channel focused on animals and wildlife.",
-      "website": "https://example.com",
-      "classification": "Documentary",
-      "views": 0,
-      "shares": 0,
-      "rating": 4.4,
-      "comment": true,
-      "image": "https://i.imgur.com/1NcoovM.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 2301,
-          "type": "live",
-          "title": "SD",
-          "quality": "SD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_animal_planet_sd.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 64,
-          "title": "Documentary"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "US"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 24,
-      "title": "Fashion TV",
-      "label": "Lifestyle",
-      "sublabel": "FR",
-      "description": "Fashion and lifestyle channel showcasing runway shows and trends.",
-      "website": "https://example.com",
-      "classification": "Lifestyle",
-      "views": 0,
-      "shares": 0,
-      "rating": 3.9,
-      "comment": true,
-      "image": "https://i.imgur.com/wzjqyZE.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 2401,
-          "type": "live",
-          "title": "HD",
-          "quality": "HD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_fashiontvhd.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 51,
-          "title": "Lifestyle"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "FR"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 25,
-      "title": "Food Network",
-      "label": "Lifestyle",
-      "sublabel": "US",
-      "description": "Cooking and food-related programming.",
-      "website": "https://example.com",
-      "classification": "Lifestyle",
-      "views": 0,
-      "shares": 0,
-      "rating": 4.3,
-      "comment": true,
-      "image": "https://i.imgur.com/EXC1yRz.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 2501,
-          "type": "live",
-          "title": "HD",
-          "quality": "HD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_foodnetwork_hd1.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 51,
-          "title": "Lifestyle"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "US"
-        }
-      ],
-      "comments": []
-    },
-    {
-      "id": 26,
-      "title": "Bloomberg",
-      "label": "News",
-      "sublabel": "US",
-      "description": "Financial news and market updates.",
-      "website": "https://example.com",
-      "classification": "News",
-      "views": 0,
-      "shares": 0,
-      "rating": 4.2,
-      "comment": true,
-      "image": "https://i.imgur.com/pl4w2NN.png",
-      "playas": "live",
-      "sources": [
-        {
-          "id": 2601,
-          "type": "live",
-          "title": "SD",
-          "quality": "SD",
-          "size": "Live",
-          "kind": "play",
-          "premium": "false",
-          "external": false,
-          "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/bloomberg_sd.mpd"
-        }
-      ],
-      "categories": [
-        {
-          "id": 318,
-          "title": "News"
-        }
-      ],
-      "countries": [
-        {
-          "id": 1,
-          "title": "US"
-        }
-      ],
-      "comments": []
     }
   ],
   "actors": [
     {
       "id": 1,
-      "name": "Tom Hanks",
-      "type": "actor",
-      "role": "Lead Actor",
-      "image": "https://example.com/tom-hanks.jpg",
-      "born": "1956-07-09",
-      "height": "6'0\"",
-      "bio": "American actor and filmmaker",
-      "movies": [
-        {
-          "id": 1,
-          "title": "Big Buck Bunny",
-          "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
-          "year": "2008"
-        }
-      ]
+      "name": "Robert Downey Jr.",
+      "image": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg",
+      "biography": "Robert John Downey Jr. is an American actor and producer. His career has been characterized by critical and popular success in his youth, followed by a period of substance abuse and legal troubles, before a resurgence of commercial success later in his career."
     },
     {
       "id": 2,
-      "name": "Emma Watson",
-      "type": "actress",
-      "role": "Lead Actress",
-      "image": "https://example.com/emma-watson.jpg",
-      "born": "1990-04-15",
-      "height": "5'5\"",
-      "bio": "English actress and activist",
-      "movies": [
-        {
-          "id": 2,
-          "title": "Sample TV Series",
-          "image": "https://example.com/sample-series.jpg",
-          "year": "2023"
-        }
-      ]
+      "name": "Chris Evans",
+      "image": "https://image.tmdb.org/t/p/w185/3bOGNsHlrswhyW0vlEw2t5Gvh0s.jpg",
+      "biography": "Christopher Robert Evans is an American actor. He began his career with roles in television series such as Opposite Sex in 2000. Following appearances in several teen films including 2001's Not Another Teen Movie, he gained attention for his portrayal of Marvel Comics character the Human Torch in 2005's Fantastic Four and 2007's Fantastic Four: Rise of the Silver Surfer."
+    },
+    {
+      "id": 3,
+      "name": "Brad Pitt",
+      "image": "https://image.tmdb.org/t/p/w185/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg",
+      "biography": "William Bradley Pitt is an American actor and film producer. He has received multiple awards and nominations including an Academy Award as producer under his own company Plan B Entertainment."
+    },
+    {
+      "id": 4,
+      "name": "Edward Norton",
+      "image": "https://image.tmdb.org/t/p/w185/5XBzD5WuTyVQZeS4VI25z2moMeY.jpg",
+      "biography": "Edward Harrison Norton is an American actor, producer and filmmaker. He has been nominated for three Academy Awards for his work in the films Primal Fear, American History X and Birdman."
+    },
+    {
+      "id": 5,
+      "name": "Tom Hanks",
+      "image": "https://image.tmdb.org/t/p/w185/8A7j8dx4XuhXqzxvTvT0Vh0h3nM.jpg",
+      "biography": "Thomas Jeffrey Hanks is an American actor and filmmaker. Known for both his comedic and dramatic roles, Hanks is one of the most popular and recognizable film stars worldwide, and is regarded as an American cultural icon."
     }
   ],
   "genres": [
     {
-      "id": 1,
-      "title": "Action",
-      "posters": []
+      "id": 28,
+      "title": "Action"
     },
     {
-      "id": 2,
-      "title": "Comedy",
-      "posters": []
+      "id": 12,
+      "title": "Adventure"
     },
     {
-      "id": 3,
-      "title": "Drama",
-      "posters": [
-        {
-          "id": 2,
-          "title": "Sample TV Series",
-          "image": "https://example.com/sample-series.jpg"
-        }
-      ]
+      "id": 16,
+      "title": "Animation"
     },
     {
-      "id": 4,
-      "title": "Horror",
-      "posters": []
+      "id": 35,
+      "title": "Comedy"
     },
     {
-      "id": 5,
-      "title": "Sci-Fi",
-      "posters": []
+      "id": 80,
+      "title": "Crime"
     },
     {
-      "id": 6,
-      "title": "Animation",
-      "posters": [
-        {
-          "id": 1,
-          "title": "Big Buck Bunny",
-          "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
-        }
-      ]
+      "id": 99,
+      "title": "Documentary"
+    },
+    {
+      "id": 18,
+      "title": "Drama"
+    },
+    {
+      "id": 10751,
+      "title": "Family"
+    },
+    {
+      "id": 14,
+      "title": "Fantasy"
+    },
+    {
+      "id": 36,
+      "title": "History"
+    },
+    {
+      "id": 27,
+      "title": "Horror"
+    },
+    {
+      "id": 10402,
+      "title": "Music"
+    },
+    {
+      "id": 9648,
+      "title": "Mystery"
+    },
+    {
+      "id": 10749,
+      "title": "Romance"
+    },
+    {
+      "id": 878,
+      "title": "Science Fiction"
+    },
+    {
+      "id": 10770,
+      "title": "TV Movie"
+    },
+    {
+      "id": 53,
+      "title": "Thriller"
+    },
+    {
+      "id": 10752,
+      "title": "War"
+    },
+    {
+      "id": 37,
+      "title": "Western"
     }
   ],
   "categories": [
     {
       "id": 1,
-      "title": "News"
+      "title": "Drama"
     },
     {
       "id": 2,
-      "title": "Sports"
+      "title": "Fantasy"
     },
     {
       "id": 3,
-      "title": "Entertainment"
+      "title": "Comedy"
     },
     {
       "id": 4,
-      "title": "Documentary"
+      "title": "Action"
+    },
+    {
+      "id": 5,
+      "title": "Thriller"
     }
   ],
   "countries": [
     {
       "id": 1,
-      "title": "USA"
+      "title": "United States"
     },
     {
       "id": 2,
-      "title": "UK"
+      "title": "United Kingdom"
     },
     {
       "id": 3,
-      "title": "France"
+      "title": "Canada"
     },
     {
       "id": 4,
+      "title": "Australia"
+    },
+    {
+      "id": 5,
       "title": "Germany"
     }
   ],
-  "subscription_plans": [],
-  "subscription_config": {
-    "enabled": false,
-    "monthly_billing_enabled": false,
-    "free_trial_days": 0,
-    "grace_period_days": 0,
-    "auto_renewal_enabled": false,
-    "payment_methods": [],
-    "currency_default": "USD",
-    "subscription_required_for": []
-  },
-  "video_sources": {
-    "big_buck_bunny": {
-      "title": "Big Buck Bunny",
-      "description": "Famous open-source animation by Blender Foundation",
-      "urls": {
-        "1080p": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-        "720p": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-        "480p": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-      },
-      "duration": "10:00",
-      "size": "264MB (1080p)",
-      "license": "Creative Commons Attribution 3.0"
+  "subscription_plans": [
+    {
+      "id": 1,
+      "title": "Basic Plan",
+      "price": "4.99",
+      "currency": "USD",
+      "duration": "month",
+      "features": [
+        "HD Quality",
+        "No Ads",
+        "Watch on 1 Device"
+      ]
     },
-    "elephants_dream": {
-      "title": "Elephants Dream",
-      "description": "The world's first open movie",
+    {
+      "id": 2,
+      "title": "Premium Plan",
+      "price": "9.99",
+      "currency": "USD",
+      "duration": "month",
+      "features": [
+        "4K Quality",
+        "No Ads",
+        "Watch on 4 Devices",
+        "Download Content"
+      ]
+    }
+  ],
+  "video_sources": {
+    "avengers_endgame": {
+      "title": "Avengers: Endgame",
+      "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos.",
       "urls": {
-        "1080p": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+        "embed": "https://vidsrc.net/embed/movie/299534"
       },
-      "duration": "11:00",
-      "size": "128MB",
-      "license": "Creative Commons Attribution 2.5"
+      "duration": "181 min",
+      "license": "Licensed Content"
     },
     "live_streams": {
       "test_hls": {
         "title": "Test HLS Stream",
-        "description": "Sample HLS live stream for testing",
+        "description": "A test HLS stream for development purposes",
         "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-        "quality": "1080p",
-        "type": "live"
+        "quality": "720p",
+        "type": "hls"
       }
     }
   },
   "ads_config": {
-    "enabled": false
+    "admob": {
+      "banner_id": "ca-app-pub-3940256099942544/6300978111",
+      "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+      "rewarded_id": "ca-app-pub-3940256099942544/5224354917",
+      "native_id": "ca-app-pub-3940256099942544/2247696110",
+      "app_id": "ca-app-pub-3940256099942544~3347511713"
+    },
+    "facebook": {
+      "banner_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
+      "interstitial_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
+      "rewarded_id": "VID_HD_16_9_15S_APP_INSTALL#YOUR_PLACEMENT_ID",
+      "native_id": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"
+    },
+    "settings": {
+      "banner_enabled": true,
+      "interstitial_enabled": true,
+      "rewarded_enabled": true,
+      "native_enabled": true,
+      "interstitial_clicks": 3,
+      "native_lines": 4,
+      "banner_type": "admob",
+      "interstitial_type": "admob",
+      "native_type": "admob"
+    }
   }
 }
