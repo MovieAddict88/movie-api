@@ -472,13 +472,13 @@
             "id": 1,
             "title": "Big Buck Bunny",
             "type": "movie",
-            "label": "Animation",
-            "sublabel": "Short Film",
+            "label": "Action",
+            "sublabel": "Adventure",
             "imdb": "8.5",
             "downloadas": "big-buck-bunny.mp4",
             "comment": true,
             "playas": "video",
-            "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him by throwing nuts, hitting his flowers, and destroying his home, he snaps and goes after them.",
+            "description": "An action-packed adventure where Big Buck Bunny fights against three troublesome rodents in an epic showdown.",
             "classification": "G",
             "year": "2008",
             "duration": "10:00",
@@ -487,8 +487,8 @@
             "cover": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
             "genres": [
               {
-                "id": 6,
-                "title": "Animation"
+                "id": 1,
+                "title": "Action"
               }
             ],
             "sources": [
