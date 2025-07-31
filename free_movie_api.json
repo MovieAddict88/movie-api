@@ -1,94 +1,161 @@
 {
   "api_info": {
-    "version": "2.0",
-    "description": "Enhanced Free Movie & TV Streaming JSON API with Full Actor Support",
+    "version": "3.0",
+    "description": "Enhanced Free Movie & TV Streaming JSON API with TMDB Integration",
     "last_updated": "2024-01-15",
     "total_movies": 2,
     "total_channels": 26,
-    "total_actors": 2
+    "total_actors": 2,
+    "tmdb_integration": {
+      "enabled": true,
+      "api_key": "ec926176bf467b3f7735e3154238c161",
+      "base_url": "https://api.themoviedb.org/3",
+      "image_base_url": "https://image.tmdb.org/t/p/w500"
+    }
   },
   "home": {
     "slides": [
       {
         "id": 1,
-        "title": "Big Buck Bunny",
+        "title": "The Avengers",
         "type": "movie",
-        "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+        "image": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
         "url": "movies/1",
         "poster": {
           "id": 1,
-          "title": "Big Buck Bunny",
+          "title": "The Avengers",
           "type": "movie",
-          "label": "Animation",
-          "sublabel": "Short Film",
-          "imdb": "8.5",
-          "downloadas": "big-buck-bunny.mp4",
+          "label": "Action",
+          "sublabel": "Superhero",
+          "imdb": "8.0",
+          "tmdb_id": 24428,
+          "tmdb_rating": 7.7,
+          "downloadas": "the-avengers-2012.mp4",
           "comment": true,
           "playas": "video",
-          "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him by throwing nuts, hitting his flowers, and destroying his home, he snaps and goes after them.",
-          "classification": "G",
-          "year": "2008",
-          "duration": "10:00",
-          "rating": 8.5,
-          "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
-          "cover": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+          "description": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+          "classification": "PG-13",
+          "year": "2012",
+          "duration": "143:00",
+          "rating": 7.7,
+          "image": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+          "cover": "https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+          "backdrop_path": "https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
           "genres": [
             {
-              "id": 6,
-              "title": "Animation"
+              "id": 28,
+              "title": "Action"
+            },
+            {
+              "id": 12,
+              "title": "Adventure"
+            },
+            {
+              "id": 878,
+              "title": "Science Fiction"
             }
           ],
           "sources": [
             {
               "id": 1,
-              "type": "video",
-              "title": "Big Buck Bunny 1080p",
+              "type": "embed",
+              "title": "VidSrc 1080p",
               "quality": "1080p",
-              "size": "264MB",
+              "size": "Streaming",
               "kind": "both",
               "premium": "false",
-              "external": false,
-              "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              "external": true,
+              "url": "https://vidsrc.net/embed/movie/24428"
             },
             {
               "id": 2,
-              "type": "video",
-              "title": "Big Buck Bunny 720p",
+              "type": "embed",
+              "title": "VidSrc 720p",
               "quality": "720p",
-              "size": "128MB",
+              "size": "Streaming",
               "kind": "both",
               "premium": "false",
-              "external": false,
-              "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              "external": true,
+              "url": "https://vidsrc.net/embed/movie/24428"
             },
             {
               "id": 3,
-              "type": "video",
-              "title": "Big Buck Bunny 480p",
+              "type": "embed",
+              "title": "VidSrc 480p",
               "quality": "480p",
-              "size": "64MB",
+              "size": "Streaming",
               "kind": "both",
               "premium": "false",
-              "external": false,
-              "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              "external": true,
+              "url": "https://vidsrc.net/embed/movie/24428"
             }
           ],
           "trailer": {
             "id": 4,
             "type": "video",
-            "title": "Big Buck Bunny Trailer",
-            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            "title": "The Avengers Official Trailer",
+            "url": "https://www.youtube.com/watch?v=eOrNdBpGMv8"
           },
           "actors": [
             {
               "id": 1,
-              "name": "Tom Hanks",
+              "name": "Robert Downey Jr.",
               "type": "actor",
-              "role": "Lead Actor",
-              "image": "https://example.com/tom-hanks.jpg",
-              "born": "1956-07-09",
+              "role": "Tony Stark / Iron Man",
+              "image": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg",
+              "born": "1965-04-04",
+              "height": "5'9\"",
+              "bio": "American actor and producer"
+            },
+            {
+              "id": 2,
+              "name": "Chris Evans",
+              "type": "actor",
+              "role": "Steve Rogers / Captain America",
+              "image": "https://image.tmdb.org/t/p/w185/3bOGNsHlrswhyW79uvIHH1V43JI.jpg",
+              "born": "1981-06-13",
               "height": "6'0\"",
-              "bio": "American actor and filmmaker"
+              "bio": "American actor"
+            },
+            {
+              "id": 3,
+              "name": "Mark Ruffalo",
+              "type": "actor",
+              "role": "Bruce Banner / Hulk",
+              "image": "https://image.tmdb.org/t/p/w185/z3dvKqMNDQWk3QLxzumloQVR0pv.jpg",
+              "born": "1967-11-22",
+              "height": "5'8\"",
+              "bio": "American actor and producer"
+            },
+            {
+              "id": 4,
+              "name": "Chris Hemsworth",
+              "type": "actor",
+              "role": "Thor",
+              "image": "https://image.tmdb.org/t/p/w185/jpurJ9jAcLCYjgHHfYF32m3zJYm.jpg",
+              "born": "1983-08-11",
+              "height": "6'3\"",
+              "bio": "Australian actor"
+            },
+            {
+              "id": 5,
+              "name": "Scarlett Johansson",
+              "type": "actress",
+              "role": "Natasha Romanoff / Black Widow",
+              "image": "https://image.tmdb.org/t/p/w185/6NsMbJXRlDZuDzatN2akFdGuTvx.jpg",
+              "born": "1984-11-22",
+              "height": "5'3\"",
+              "bio": "American actress"
+            },
+            {
+              "id": 6,
+              "name": "Jeremy Renner",
+              "type": "actor",
+              "role": "Clint Barton / Hawkeye",
+              "image": "https://image.tmdb.org/t/p/w185/lB5fjqNnKLHLCEr6HL8xVjQVKMu.jpg",
+              "born": "1971-01-07",
+              "height": "5'10\"",
+              "bio": "American actor"
             }
           ],
           "subtitles": [
@@ -96,32 +163,60 @@
               "id": 1,
               "title": "English",
               "language": "en",
-              "url": "https://example.com/subtitles/big-buck-bunny-en.vtt"
+              "url": "https://example.com/subtitles/avengers-en.vtt"
             },
             {
               "id": 2,
               "title": "Spanish",
               "language": "es",
-              "url": "https://example.com/subtitles/big-buck-bunny-es.vtt"
+              "url": "https://example.com/subtitles/avengers-es.vtt"
             }
           ],
           "comments": [
             {
               "id": 1,
-              "user": "John Doe",
-              "comment": "Amazing animation! Love this movie.",
+              "user": "MCU Fan",
+              "comment": "Amazing superhero team-up! The action sequences are incredible.",
               "created_at": "2024-01-15T10:30:00Z"
             },
             {
               "id": 2,
-              "user": "Jane Smith",
-              "comment": "Great for kids and adults alike!",
+              "user": "Action Lover",
+              "comment": "Perfect blend of humor and epic battles!",
               "created_at": "2024-01-14T15:45:00Z"
             }
           ],
-          "views": 15000,
-          "downloads": 5000,
-          "shares": 1200
+          "views": 250000,
+          "downloads": 15000,
+          "shares": 8500,
+          "tmdb_metadata": {
+            "adult": false,
+            "budget": 220000000,
+            "revenue": 1518815515,
+            "runtime": 143,
+            "status": "Released",
+            "tagline": "Some assembly required.",
+            "vote_average": 7.7,
+            "vote_count": 28847,
+            "production_companies": [
+              {
+                "id": 420,
+                "name": "Marvel Studios"
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+              }
+            ],
+            "spoken_languages": [
+              {
+                "iso_639_1": "en",
+                "name": "English"
+              }
+            ]
+          }
         }
       },
       {
@@ -316,80 +411,141 @@
     "featured_movies": [
       {
         "id": 1,
-        "title": "Big Buck Bunny",
+        "title": "The Avengers",
         "type": "movie",
-        "label": "Animation",
-        "sublabel": "Short Film",
-        "imdb": "8.5",
-        "downloadas": "big-buck-bunny.mp4",
+        "label": "Action",
+        "sublabel": "Superhero",
+        "imdb": "8.0",
+        "tmdb_id": 24428,
+        "tmdb_rating": 7.7,
+        "downloadas": "the-avengers-2012.mp4",
         "comment": true,
         "playas": "video",
-        "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him by throwing nuts, hitting his flowers, and destroying his home, he snaps and goes after them.",
-        "classification": "G",
-        "year": "2008",
-        "duration": "10:00",
-        "rating": 8.5,
-        "views": 15000,
+        "description": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+        "classification": "PG-13",
+        "year": "2012",
+        "duration": "143:00",
+        "rating": 7.7,
+        "views": 250000,
         "created_at": "2024-01-01",
-        "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
-        "cover": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+        "image": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+        "cover": "https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+        "backdrop_path": "https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
         "genres": [
           {
-            "id": 6,
-            "title": "Animation"
+            "id": 28,
+            "title": "Action"
+          },
+          {
+            "id": 12,
+            "title": "Adventure"
+          },
+          {
+            "id": 878,
+            "title": "Science Fiction"
           }
         ],
         "sources": [
           {
             "id": 1,
-            "type": "video",
-            "title": "Big Buck Bunny 1080p",
+            "type": "embed",
+            "title": "VidSrc 1080p",
             "quality": "1080p",
-            "size": "264MB",
+            "size": "Streaming",
             "kind": "both",
             "premium": "false",
-            "external": false,
-            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            "external": true,
+            "url": "https://vidsrc.net/embed/movie/24428"
           },
           {
             "id": 2,
-            "type": "video",
-            "title": "Big Buck Bunny 720p",
+            "type": "embed",
+            "title": "VidSrc 720p",
             "quality": "720p",
-            "size": "128MB",
+            "size": "Streaming",
             "kind": "both",
             "premium": "false",
-            "external": false,
-            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            "external": true,
+            "url": "https://vidsrc.net/embed/movie/24428"
           },
           {
             "id": 3,
-            "type": "video",
-            "title": "Big Buck Bunny 480p",
+            "type": "embed",
+            "title": "VidSrc 480p",
             "quality": "480p",
-            "size": "64MB",
+            "size": "Streaming",
             "kind": "both",
             "premium": "false",
-            "external": false,
-            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            "external": true,
+            "url": "https://vidsrc.net/embed/movie/24428"
           }
         ],
         "trailer": {
           "id": 4,
           "type": "video",
-          "title": "Big Buck Bunny Trailer",
-          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          "title": "The Avengers Official Trailer",
+          "url": "https://www.youtube.com/watch?v=eOrNdBpGMv8"
         },
         "actors": [
           {
             "id": 1,
-            "name": "Tom Hanks",
+            "name": "Robert Downey Jr.",
             "type": "actor",
-            "role": "Lead Actor",
-            "image": "https://example.com/tom-hanks.jpg",
-            "born": "1956-07-09",
+            "role": "Tony Stark / Iron Man",
+            "image": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg",
+            "born": "1965-04-04",
+            "height": "5'9\"",
+            "bio": "American actor and producer"
+          },
+          {
+            "id": 2,
+            "name": "Chris Evans",
+            "type": "actor",
+            "role": "Steve Rogers / Captain America",
+            "image": "https://image.tmdb.org/t/p/w185/3bOGNsHlrswhyW79uvIHH1V43JI.jpg",
+            "born": "1981-06-13",
             "height": "6'0\"",
-            "bio": "American actor and filmmaker"
+            "bio": "American actor"
+          },
+          {
+            "id": 3,
+            "name": "Mark Ruffalo",
+            "type": "actor",
+            "role": "Bruce Banner / Hulk",
+            "image": "https://image.tmdb.org/t/p/w185/z3dvKqMNDQWk3QLxzumloQVR0pv.jpg",
+            "born": "1967-11-22",
+            "height": "5'8\"",
+            "bio": "American actor and producer"
+          },
+          {
+            "id": 4,
+            "name": "Chris Hemsworth",
+            "type": "actor",
+            "role": "Thor",
+            "image": "https://image.tmdb.org/t/p/w185/jpurJ9jAcLCYjgHHfYF32m3zJYm.jpg",
+            "born": "1983-08-11",
+            "height": "6'3\"",
+            "bio": "Australian actor"
+          },
+          {
+            "id": 5,
+            "name": "Scarlett Johansson",
+            "type": "actress",
+            "role": "Natasha Romanoff / Black Widow",
+            "image": "https://image.tmdb.org/t/p/w185/6NsMbJXRlDZuDzatN2akFdGuTvx.jpg",
+            "born": "1984-11-22",
+            "height": "5'3\"",
+            "bio": "American actress"
+          },
+          {
+            "id": 6,
+            "name": "Jeremy Renner",
+            "type": "actor",
+            "role": "Clint Barton / Hawkeye",
+            "image": "https://image.tmdb.org/t/p/w185/lB5fjqNnKLHLCEr6HL8xVjQVKMu.jpg",
+            "born": "1971-01-07",
+            "height": "5'10\"",
+            "bio": "American actor"
           }
         ],
         "subtitles": [
@@ -397,31 +553,59 @@
             "id": 1,
             "title": "English",
             "language": "en",
-            "url": "https://example.com/subtitles/big-buck-bunny-en.vtt"
+            "url": "https://example.com/subtitles/avengers-en.vtt"
           },
           {
             "id": 2,
             "title": "Spanish",
             "language": "es",
-            "url": "https://example.com/subtitles/big-buck-bunny-es.vtt"
+            "url": "https://example.com/subtitles/avengers-es.vtt"
           }
         ],
         "comments": [
           {
             "id": 1,
-            "user": "John Doe",
-            "comment": "Amazing animation! Love this movie.",
+            "user": "MCU Fan",
+            "comment": "Amazing superhero team-up! The action sequences are incredible.",
             "created_at": "2024-01-15T10:30:00Z"
           },
           {
             "id": 2,
-            "user": "Jane Smith",
-            "comment": "Great for kids and adults alike!",
+            "user": "Action Lover",
+            "comment": "Perfect blend of humor and epic battles!",
             "created_at": "2024-01-14T15:45:00Z"
           }
         ],
-        "downloads": 5000,
-        "shares": 1200
+        "downloads": 15000,
+        "shares": 8500,
+        "tmdb_metadata": {
+          "adult": false,
+          "budget": 220000000,
+          "revenue": 1518815515,
+          "runtime": 143,
+          "status": "Released",
+          "tagline": "Some assembly required.",
+          "vote_average": 7.7,
+          "vote_count": 28847,
+          "production_companies": [
+            {
+              "id": 420,
+              "name": "Marvel Studios"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "spoken_languages": [
+            {
+              "iso_639_1": "en",
+              "name": "English"
+            }
+          ]
+        }
       }
     ],
     "channels": [],
@@ -470,78 +654,89 @@
         "posters": [
           {
             "id": 1,
-            "title": "Big Buck Bunny",
+            "title": "The Avengers",
             "type": "movie",
             "label": "Action",
-            "sublabel": "Adventure",
-            "imdb": "8.5",
-            "downloadas": "big-buck-bunny.mp4",
+            "sublabel": "Superhero",
+            "imdb": "8.0",
+            "tmdb_id": 24428,
+            "tmdb_rating": 7.7,
+            "downloadas": "the-avengers-2012.mp4",
             "comment": true,
             "playas": "video",
-            "description": "An action-packed adventure where Big Buck Bunny fights against three troublesome rodents in an epic showdown.",
-            "classification": "G",
-            "year": "2008",
-            "duration": "10:00",
-            "rating": 8.5,
-            "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
-            "cover": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+            "description": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+            "classification": "PG-13",
+            "year": "2012",
+            "duration": "143:00",
+            "rating": 7.7,
+            "image": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+            "cover": "https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+            "backdrop_path": "https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
             "genres": [
               {
-                "id": 1,
+                "id": 28,
                 "title": "Action"
+              },
+              {
+                "id": 12,
+                "title": "Adventure"
+              },
+              {
+                "id": 878,
+                "title": "Science Fiction"
               }
             ],
             "sources": [
               {
                 "id": 1,
-                "type": "video",
-                "title": "Big Buck Bunny 1080p",
+                "type": "embed",
+                "title": "VidSrc 1080p",
                 "quality": "1080p",
-                "size": "264MB",
+                "size": "Streaming",
                 "kind": "both",
                 "premium": "false",
-                "external": false,
-                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                "external": true,
+                "url": "https://vidsrc.net/embed/movie/24428"
               },
               {
                 "id": 2,
-                "type": "video",
-                "title": "Big Buck Bunny 720p",
+                "type": "embed",
+                "title": "VidSrc 720p",
                 "quality": "720p",
-                "size": "128MB",
+                "size": "Streaming",
                 "kind": "both",
                 "premium": "false",
-                "external": false,
-                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                "external": true,
+                "url": "https://vidsrc.net/embed/movie/24428"
               },
               {
                 "id": 3,
-                "type": "video",
-                "title": "Big Buck Bunny 480p",
+                "type": "embed",
+                "title": "VidSrc 480p",
                 "quality": "480p",
-                "size": "64MB",
+                "size": "Streaming",
                 "kind": "both",
                 "premium": "false",
-                "external": false,
-                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                "external": true,
+                "url": "https://vidsrc.net/embed/movie/24428"
               }
             ],
             "trailer": {
               "id": 4,
               "type": "video",
-              "title": "Big Buck Bunny Trailer",
-              "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              "title": "The Avengers Official Trailer",
+              "url": "https://www.youtube.com/watch?v=eOrNdBpGMv8"
             },
             "actors": [
               {
                 "id": 1,
-                "name": "Tom Hanks",
+                "name": "Robert Downey Jr.",
                 "type": "actor",
-                "role": "Lead Actor",
-                "image": "https://example.com/tom-hanks.jpg",
-                "born": "1956-07-09",
-                "height": "6'0\"",
-                "bio": "American actor and filmmaker"
+                "role": "Tony Stark / Iron Man",
+                "image": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg",
+                "born": "1965-04-04",
+                "height": "5'9\"",
+                "bio": "American actor and producer"
               }
             ],
             "subtitles": [
@@ -549,32 +744,60 @@
                 "id": 1,
                 "title": "English",
                 "language": "en",
-                "url": "https://example.com/subtitles/big-buck-bunny-en.vtt"
+                "url": "https://example.com/subtitles/avengers-en.vtt"
               },
               {
                 "id": 2,
                 "title": "Spanish",
                 "language": "es",
-                "url": "https://example.com/subtitles/big-buck-bunny-es.vtt"
+                "url": "https://example.com/subtitles/avengers-es.vtt"
               }
             ],
             "comments": [
               {
                 "id": 1,
-                "user": "John Doe",
-                "comment": "Amazing animation! Love this movie.",
+                "user": "MCU Fan",
+                "comment": "Amazing superhero team-up! The action sequences are incredible.",
                 "created_at": "2024-01-15T10:30:00Z"
               },
               {
                 "id": 2,
-                "user": "Jane Smith",
-                "comment": "Great for kids and adults alike!",
+                "user": "Action Lover",
+                "comment": "Perfect blend of humor and epic battles!",
                 "created_at": "2024-01-14T15:45:00Z"
               }
             ],
-            "views": 15000,
-            "downloads": 5000,
-            "shares": 1200
+            "views": 250000,
+            "downloads": 15000,
+            "shares": 8500,
+            "tmdb_metadata": {
+              "adult": false,
+              "budget": 220000000,
+              "revenue": 1518815515,
+              "runtime": 143,
+              "status": "Released",
+              "tagline": "Some assembly required.",
+              "vote_average": 7.7,
+              "vote_count": 28847,
+              "production_companies": [
+                {
+                  "id": 420,
+                  "name": "Marvel Studios"
+                }
+              ],
+              "production_countries": [
+                {
+                  "iso_3166_1": "US",
+                  "name": "United States of America"
+                }
+              ],
+              "spoken_languages": [
+                {
+                  "iso_639_1": "en",
+                  "name": "English"
+                }
+              ]
+            }
           }
         ]
       },
@@ -864,194 +1087,146 @@
       {
         "id": 6,
         "title": "Animation",
-        "posters": [
-          {
-            "id": 1,
-            "title": "Big Buck Bunny",
-            "type": "movie",
-            "label": "Animation",
-            "sublabel": "Short Film",
-            "imdb": "8.5",
-            "downloadas": "big-buck-bunny.mp4",
-            "comment": true,
-            "playas": "video",
-            "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him by throwing nuts, hitting his flowers, and destroying his home, he snaps and goes after them.",
-            "classification": "G",
-            "year": "2008",
-            "duration": "10:00",
-            "rating": 8.5,
-            "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
-            "cover": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
-            "genres": [
-              {
-                "id": 6,
-                "title": "Animation"
-              }
-            ],
-            "sources": [
-              {
-                "id": 1,
-                "type": "video",
-                "title": "Big Buck Bunny 1080p",
-                "quality": "1080p",
-                "size": "264MB",
-                "kind": "both",
-                "premium": "false",
-                "external": false,
-                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-              },
-              {
-                "id": 2,
-                "type": "video",
-                "title": "Big Buck Bunny 720p",
-                "quality": "720p",
-                "size": "128MB",
-                "kind": "both",
-                "premium": "false",
-                "external": false,
-                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-              },
-              {
-                "id": 3,
-                "type": "video",
-                "title": "Big Buck Bunny 480p",
-                "quality": "480p",
-                "size": "64MB",
-                "kind": "both",
-                "premium": "false",
-                "external": false,
-                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-              }
-            ],
-            "trailer": {
-              "id": 4,
-              "type": "video",
-              "title": "Big Buck Bunny Trailer",
-              "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-            },
-            "actors": [
-              {
-                "id": 1,
-                "name": "Tom Hanks",
-                "type": "actor",
-                "role": "Lead Actor",
-                "image": "https://example.com/tom-hanks.jpg",
-                "born": "1956-07-09",
-                "height": "6'0\"",
-                "bio": "American actor and filmmaker"
-              }
-            ],
-            "subtitles": [
-              {
-                "id": 1,
-                "title": "English",
-                "language": "en",
-                "url": "https://example.com/subtitles/big-buck-bunny-en.vtt"
-              },
-              {
-                "id": 2,
-                "title": "Spanish",
-                "language": "es",
-                "url": "https://example.com/subtitles/big-buck-bunny-es.vtt"
-              }
-            ],
-            "comments": [
-              {
-                "id": 1,
-                "user": "John Doe",
-                "comment": "Amazing animation! Love this movie.",
-                "created_at": "2024-01-15T10:30:00Z"
-              },
-              {
-                "id": 2,
-                "user": "Jane Smith",
-                "comment": "Great for kids and adults alike!",
-                "created_at": "2024-01-14T15:45:00Z"
-              }
-            ],
-            "views": 15000,
-            "downloads": 5000,
-            "shares": 1200
-          }
-        ]
+        "posters": []
       }
     ]
   },
   "movies": [
     {
       "id": 1,
-      "title": "Big Buck Bunny",
+      "title": "The Avengers",
       "type": "movie",
-      "label": "Animation",
-      "sublabel": "Short Film",
-      "imdb": "8.5",
-      "downloadas": "big-buck-bunny.mp4",
+      "label": "Action",
+      "sublabel": "Superhero",
+      "imdb": "8.0",
+      "tmdb_id": 24428,
+      "tmdb_rating": 7.7,
+      "downloadas": "the-avengers-2012.mp4",
       "comment": true,
       "playas": "video",
-      "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him by throwing nuts, hitting his flowers, and destroying his home, he snaps and goes after them.",
-      "classification": "G",
-      "year": "2008",
-      "duration": "10:00",
-      "rating": 8.5,
-      "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
-      "cover": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+      "description": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+      "classification": "PG-13",
+      "year": "2012",
+      "duration": "143:00",
+      "rating": 7.7,
+      "image": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+      "cover": "https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
       "genres": [
         {
-          "id": 6,
-          "title": "Animation"
+          "id": 28,
+          "title": "Action"
+        },
+        {
+          "id": 12,
+          "title": "Adventure"
+        },
+        {
+          "id": 878,
+          "title": "Science Fiction"
         }
       ],
       "sources": [
         {
           "id": 1,
-          "type": "video",
-          "title": "Big Buck Bunny 1080p",
+          "type": "embed",
+          "title": "VidSrc 1080p",
           "quality": "1080p",
-          "size": "264MB",
+          "size": "Streaming",
           "kind": "both",
           "premium": "false",
-          "external": false,
-          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          "external": true,
+          "url": "https://vidsrc.net/embed/movie/24428"
         },
         {
           "id": 2,
-          "type": "video",
-          "title": "Big Buck Bunny 720p",
+          "type": "embed",
+          "title": "VidSrc 720p",
           "quality": "720p",
-          "size": "128MB",
+          "size": "Streaming",
           "kind": "both",
           "premium": "false",
-          "external": false,
-          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          "external": true,
+          "url": "https://vidsrc.net/embed/movie/24428"
         },
         {
           "id": 3,
-          "type": "video",
-          "title": "Big Buck Bunny 480p",
+          "type": "embed",
+          "title": "VidSrc 480p",
           "quality": "480p",
-          "size": "64MB",
+          "size": "Streaming",
           "kind": "both",
           "premium": "false",
-          "external": false,
-          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          "external": true,
+          "url": "https://vidsrc.net/embed/movie/24428"
         }
       ],
       "trailer": {
         "id": 4,
         "type": "video",
-        "title": "Big Buck Bunny Trailer",
-        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        "title": "The Avengers Official Trailer",
+        "url": "https://www.youtube.com/watch?v=eOrNdBpGMv8"
       },
       "actors": [
         {
           "id": 1,
-          "name": "Tom Hanks",
+          "name": "Robert Downey Jr.",
           "type": "actor",
-          "role": "Lead Actor",
-          "image": "https://example.com/tom-hanks.jpg",
-          "born": "1956-07-09",
+          "role": "Tony Stark / Iron Man",
+          "image": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg",
+          "born": "1965-04-04",
+          "height": "5'9\"",
+          "bio": "American actor and producer"
+        },
+        {
+          "id": 2,
+          "name": "Chris Evans",
+          "type": "actor",
+          "role": "Steve Rogers / Captain America",
+          "image": "https://image.tmdb.org/t/p/w185/3bOGNsHlrswhyW79uvIHH1V43JI.jpg",
+          "born": "1981-06-13",
           "height": "6'0\"",
-          "bio": "American actor and filmmaker"
+          "bio": "American actor"
+        },
+        {
+          "id": 3,
+          "name": "Mark Ruffalo",
+          "type": "actor",
+          "role": "Bruce Banner / Hulk",
+          "image": "https://image.tmdb.org/t/p/w185/z3dvKqMNDQWk3QLxzumloQVR0pv.jpg",
+          "born": "1967-11-22",
+          "height": "5'8\"",
+          "bio": "American actor and producer"
+        },
+        {
+          "id": 4,
+          "name": "Chris Hemsworth",
+          "type": "actor",
+          "role": "Thor",
+          "image": "https://image.tmdb.org/t/p/w185/jpurJ9jAcLCYjgHHfYF32m3zJYm.jpg",
+          "born": "1983-08-11",
+          "height": "6'3\"",
+          "bio": "Australian actor"
+        },
+        {
+          "id": 5,
+          "name": "Scarlett Johansson",
+          "type": "actress",
+          "role": "Natasha Romanoff / Black Widow",
+          "image": "https://image.tmdb.org/t/p/w185/6NsMbJXRlDZuDzatN2akFdGuTvx.jpg",
+          "born": "1984-11-22",
+          "height": "5'3\"",
+          "bio": "American actress"
+        },
+        {
+          "id": 6,
+          "name": "Jeremy Renner",
+          "type": "actor",
+          "role": "Clint Barton / Hawkeye",
+          "image": "https://image.tmdb.org/t/p/w185/lB5fjqNnKLHLCEr6HL8xVjQVKMu.jpg",
+          "born": "1971-01-07",
+          "height": "5'10\"",
+          "bio": "American actor"
         }
       ],
       "subtitles": [
@@ -1059,115 +1234,225 @@
           "id": 1,
           "title": "English",
           "language": "en",
-          "url": "https://example.com/subtitles/big-buck-bunny-en.vtt"
+          "url": "https://example.com/subtitles/avengers-en.vtt"
         },
         {
           "id": 2,
           "title": "Spanish",
           "language": "es",
-          "url": "https://example.com/subtitles/big-buck-bunny-es.vtt"
+          "url": "https://example.com/subtitles/avengers-es.vtt"
         }
       ],
       "comments": [
         {
           "id": 1,
-          "user": "John Doe",
-          "comment": "Amazing animation! Love this movie.",
+          "user": "MCU Fan",
+          "comment": "Amazing superhero team-up! The action sequences are incredible.",
           "created_at": "2024-01-15T10:30:00Z"
         },
         {
           "id": 2,
-          "user": "Jane Smith",
-          "comment": "Great for kids and adults alike!",
+          "user": "Action Lover",
+          "comment": "Perfect blend of humor and epic battles!",
           "created_at": "2024-01-14T15:45:00Z"
         }
       ],
-      "views": 15000,
-      "downloads": 5000,
-      "shares": 1200
+      "views": 250000,
+      "downloads": 15000,
+      "shares": 8500,
+      "tmdb_metadata": {
+        "adult": false,
+        "budget": 220000000,
+        "revenue": 1518815515,
+        "runtime": 143,
+        "status": "Released",
+        "tagline": "Some assembly required.",
+        "vote_average": 7.7,
+        "vote_count": 28847,
+        "production_companies": [
+          {
+            "id": 420,
+            "name": "Marvel Studios"
+          }
+        ],
+        "production_countries": [
+          {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+          }
+        ],
+        "spoken_languages": [
+          {
+            "iso_639_1": "en",
+            "name": "English"
+          }
+        ]
+      }
     },
     {
       "id": 2,
-      "title": "Sample TV Series",
+      "title": "Stranger Things",
       "type": "series",
-      "label": "Drama",
+      "label": "Sci-Fi",
       "sublabel": "2 Seasons",
-      "imdb": "8.2",
-      "downloadas": "sample-series",
+      "imdb": "8.7",
+      "tmdb_id": 66732,
+      "tmdb_rating": 8.6,
+      "downloadas": "stranger-things",
       "comment": true,
       "playas": "video",
-      "description": "A gripping drama series with 2 seasons. Each season contains 1 episode with multiple quality options and subtitles.",
+      "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
       "classification": "TV-14",
-      "year": "2023",
-      "duration": "45:00",
-      "rating": 8.2,
-      "views": 8000,
+      "year": "2016",
+      "duration": "50:00",
+      "rating": 8.6,
+      "views": 180000,
       "created_at": "2024-01-02",
-      "image": "https://example.com/sample-series.jpg",
-      "cover": "https://example.com/sample-series-cover.jpg",
+      "image": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+      "cover": "https://image.tmdb.org/t/p/w1280/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+      "backdrop_path": "https://image.tmdb.org/t/p/w1280/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
       "genres": [
         {
-          "id": 3,
+          "id": 18,
           "title": "Drama"
+        },
+        {
+          "id": 9648,
+          "title": "Mystery"
+        },
+        {
+          "id": 10765,
+          "title": "Sci-Fi & Fantasy"
         }
       ],
       "sources": [],
-      "trailer": null,
+      "trailer": {
+        "id": 5,
+        "type": "video",
+        "title": "Stranger Things Official Trailer",
+        "url": "https://www.youtube.com/watch?v=b9EkMc79ZSU"
+      },
       "actors": [
         {
-          "id": 2,
-          "name": "Emma Watson",
+          "id": 7,
+          "name": "Millie Bobby Brown",
           "type": "actress",
-          "role": "Lead Actress",
-          "image": "https://example.com/emma-watson.jpg",
-          "born": "1990-04-15",
+          "role": "Eleven",
+          "image": "https://image.tmdb.org/t/p/w185/qZtWFo5zJONlZ6kGu7SpMooSgB0.jpg",
+          "born": "2004-02-19",
+          "height": "5'4\"",
+          "bio": "British actress"
+        },
+        {
+          "id": 8,
+          "name": "Finn Wolfhard",
+          "type": "actor",
+          "role": "Mike Wheeler",
+          "image": "https://image.tmdb.org/t/p/w185/sKBWODGVbKyBjHHIrjMVPcAuKXh.jpg",
+          "born": "2002-12-23",
+          "height": "5'8\"",
+          "bio": "Canadian actor"
+        },
+        {
+          "id": 9,
+          "name": "Gaten Matarazzo",
+          "type": "actor",
+          "role": "Dustin Henderson",
+          "image": "https://image.tmdb.org/t/p/w185/mMQFIBhGxjJXXNUlQvQW6Ws7yWu.jpg",
+          "born": "2002-09-08",
           "height": "5'5\"",
-          "bio": "English actress and activist"
+          "bio": "American actor"
+        },
+        {
+          "id": 10,
+          "name": "Caleb McLaughlin",
+          "type": "actor",
+          "role": "Lucas Sinclair",
+          "image": "https://image.tmdb.org/t/p/w185/qmMG1JIMHcLZ9H8VO0jF8lLHPvI.jpg",
+          "born": "2001-10-13",
+          "height": "5'7\"",
+          "bio": "American actor"
+        },
+        {
+          "id": 11,
+          "name": "Noah Schnapp",
+          "type": "actor",
+          "role": "Will Byers",
+          "image": "https://image.tmdb.org/t/p/w185/3GSWWrqQgQTNz3Wk1aazNKaD1Iq.jpg",
+          "born": "2004-10-03",
+          "height": "5'8\"",
+          "bio": "American actor"
+        },
+        {
+          "id": 12,
+          "name": "David Harbour",
+          "type": "actor",
+          "role": "Jim Hopper",
+          "image": "https://image.tmdb.org/t/p/w185/l0qKKq0UlvZJHdHdNjOQTd4Vgeh.jpg",
+          "born": "1975-04-10",
+          "height": "6'3\"",
+          "bio": "American actor"
         }
       ],
       "subtitles": [],
       "comments": [
         {
           "id": 1,
-          "user": "Series Fan",
-          "comment": "Amazing series! Can't wait for season 2.",
+          "user": "Sci-Fi Fan",
+          "comment": "Incredible series! The 80s nostalgia is perfect.",
           "created_at": "2024-01-15T12:00:00Z"
+        },
+        {
+          "id": 2,
+          "user": "Netflix Viewer",
+          "comment": "Can't wait for more seasons!",
+          "created_at": "2024-01-14T18:30:00Z"
         }
       ],
-      "downloads": 2000,
-      "shares": 500,
+      "downloads": 25000,
+      "shares": 12000,
       "seasons": [
         {
           "id": 1,
           "title": "Season 1",
+          "season_number": 1,
+          "tmdb_season_id": 77680,
+          "air_date": "2016-07-15",
+          "overview": "In 1983, the disappearance of a young boy in small-town Indiana leads to a dark mystery involving secret experiments, terrifying supernatural forces, and a strange little girl.",
+          "poster_path": "https://image.tmdb.org/t/p/w500/rbnuP7hlynAMLdqcQRCpZW9qDkV.jpg",
           "episodes": [
             {
               "id": 1,
-              "title": "Episode 1",
+              "title": "Chapter One: The Vanishing of Will Byers",
               "episode_number": 1,
-              "image": "https://example.com/ep1.jpg",
-              "duration": "45:00",
+              "season_number": 1,
+              "tmdb_episode_id": 975084,
+              "air_date": "2016-07-15",
+              "overview": "On his way home from a friend's house, young Will sees something terrifying. Nearby, a sinister secret lurks in the depths of a government lab.",
+              "image": "https://image.tmdb.org/t/p/w500/AdwF3A0SPl8Fz8oHkVZdE4TQqNr.jpg",
+              "duration": "47:00",
+              "rating": 8.2,
               "sources": [
                 {
                   "id": 5,
-                  "type": "video",
-                  "title": "Episode 1 1080p",
+                  "type": "embed",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
-                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                  "url": "https://vidsrc.net/embed/tv/66732/1/1"
                 },
                 {
                   "id": 6,
-                  "type": "video",
-                  "title": "Episode 1 720p",
+                  "type": "embed",
+                  "title": "VidSrc 720p",
                   "quality": "720p",
-                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                  "url": "https://vidsrc.net/embed/tv/66732/1/1"
                 },
                 {
                   "id": 7,
-                  "type": "video",
-                  "title": "Episode 1 480p",
+                  "type": "embed",
+                  "title": "VidSrc 480p",
                   "quality": "480p",
-                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                  "url": "https://vidsrc.net/embed/tv/66732/1/1"
                 }
               ],
               "subtitles": [
@@ -1175,51 +1460,61 @@
                   "id": 1,
                   "title": "English",
                   "language": "en",
-                  "url": "https://example.com/subtitles/ep1-en.vtt"
+                  "url": "https://example.com/subtitles/st-s1e1-en.vtt"
                 },
                 {
                   "id": 2,
                   "title": "Spanish",
                   "language": "es",
-                  "url": "https://example.com/subtitles/ep1-es.vtt"
+                  "url": "https://example.com/subtitles/st-s1e1-es.vtt"
                 }
               ],
-              "views": 5000,
-              "downloads": 1200
+              "views": 85000,
+              "downloads": 8500
             }
           ]
         },
         {
           "id": 2,
           "title": "Season 2",
+          "season_number": 2,
+          "tmdb_season_id": 77681,
+          "air_date": "2017-10-27",
+          "overview": "It's 1984 and the citizens of Hawkins, Indiana are still reeling from the horrors of the Demogorgon and the secrets of Hawkins Lab. Will Byers has been rescued from the Upside Down but a bigger, sinister entity still threatens those who survived.",
+          "poster_path": "https://image.tmdb.org/t/p/w500/lXS60geme1LlEob5Wgvj3KilClA.jpg",
           "episodes": [
             {
               "id": 2,
-              "title": "Episode 1",
+              "title": "Chapter One: MADMAX",
               "episode_number": 1,
-              "image": "https://example.com/ep2.jpg",
-              "duration": "45:00",
+              "season_number": 2,
+              "tmdb_episode_id": 1122094,
+              "air_date": "2017-10-27",
+              "overview": "As the town preps for Halloween, a high-scoring rival shakes things up in the arcade, and a skeptical Hopper inspects a field of rotting pumpkins.",
+              "image": "https://image.tmdb.org/t/p/w500/retBkOlLHmWmHYfOILOBBrtLNiX.jpg",
+              "duration": "48:00",
+              "rating": 8.4,
               "sources": [
                 {
                   "id": 8,
-                  "type": "video",
-                  "title": "Episode 1 1080p",
+                  "type": "embed",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
-                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                  "url": "https://vidsrc.net/embed/tv/66732/2/1"
                 },
                 {
                   "id": 9,
-                  "type": "video",
-                  "title": "Episode 1 720p",
+                  "type": "embed",
+                  "title": "VidSrc 720p",
                   "quality": "720p",
-                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                  "url": "https://vidsrc.net/embed/tv/66732/2/1"
                 },
                 {
                   "id": 10,
-                  "type": "video",
-                  "title": "Episode 1 480p",
+                  "type": "embed",
+                  "title": "VidSrc 480p",
                   "quality": "480p",
-                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                  "url": "https://vidsrc.net/embed/tv/66732/2/1"
                 }
               ],
               "subtitles": [
@@ -1227,21 +1522,67 @@
                   "id": 3,
                   "title": "English",
                   "language": "en",
-                  "url": "https://example.com/subtitles/ep2-en.vtt"
+                  "url": "https://example.com/subtitles/st-s2e1-en.vtt"
                 },
                 {
                   "id": 4,
                   "title": "Spanish",
                   "language": "es",
-                  "url": "https://example.com/subtitles/ep2-es.vtt"
+                  "url": "https://example.com/subtitles/st-s2e1-es.vtt"
                 }
               ],
-              "views": 3000,
-              "downloads": 800
+              "views": 95000,
+              "downloads": 9200
             }
           ]
         }
-      ]
+      ],
+      "tmdb_metadata": {
+        "adult": false,
+        "first_air_date": "2016-07-15",
+        "last_air_date": "2022-07-01",
+        "number_of_episodes": 42,
+        "number_of_seasons": 4,
+        "status": "Ended",
+        "tagline": "Every ending has a beginning.",
+        "type": "Scripted",
+        "vote_average": 8.6,
+        "vote_count": 15234,
+        "created_by": [
+          {
+            "id": 1232186,
+            "name": "Matt Duffer"
+          },
+          {
+            "id": 1232187,
+            "name": "Ross Duffer"
+          }
+        ],
+        "networks": [
+          {
+            "id": 213,
+            "name": "Netflix"
+          }
+        ],
+        "production_companies": [
+          {
+            "id": 2575,
+            "name": "21 Laps Entertainment"
+          }
+        ],
+        "production_countries": [
+          {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+          }
+        ],
+        "spoken_languages": [
+          {
+            "iso_639_1": "en",
+            "name": "English"
+          }
+        ]
+      }
     },
     {
       "id": 3,
@@ -2475,37 +2816,39 @@
   "actors": [
     {
       "id": 1,
-      "name": "Tom Hanks",
+      "name": "Robert Downey Jr.",
       "type": "actor",
-      "role": "Lead Actor",
-      "image": "https://example.com/tom-hanks.jpg",
-      "born": "1956-07-09",
-      "height": "6'0\"",
-      "bio": "American actor and filmmaker",
+      "role": "Tony Stark / Iron Man",
+      "image": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg",
+      "born": "1965-04-04",
+      "height": "5'9\"",
+      "bio": "American actor and producer",
+      "tmdb_id": 3223,
       "movies": [
         {
           "id": 1,
-          "title": "Big Buck Bunny",
-          "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
-          "year": "2008"
+          "title": "The Avengers",
+          "image": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+          "year": "2012"
         }
       ]
     },
     {
       "id": 2,
-      "name": "Emma Watson",
+      "name": "Millie Bobby Brown",
       "type": "actress",
-      "role": "Lead Actress",
-      "image": "https://example.com/emma-watson.jpg",
-      "born": "1990-04-15",
-      "height": "5'5\"",
-      "bio": "English actress and activist",
+      "role": "Eleven",
+      "image": "https://image.tmdb.org/t/p/w185/qZtWFo5zJONlZ6kGu7SpMooSgB0.jpg",
+      "born": "2004-02-19",
+      "height": "5'4\"",
+      "bio": "British actress",
+      "tmdb_id": 1190668,
       "movies": [
         {
           "id": 2,
-          "title": "Sample TV Series",
-          "image": "https://example.com/sample-series.jpg",
-          "year": "2023"
+          "title": "Stranger Things",
+          "image": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+          "year": "2016"
         }
       ]
     }
@@ -2514,7 +2857,13 @@
     {
       "id": 1,
       "title": "Action",
-      "posters": []
+      "posters": [
+        {
+          "id": 1,
+          "title": "The Avengers",
+          "image": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg"
+        }
+      ]
     },
     {
       "id": 2,
@@ -2527,8 +2876,8 @@
       "posters": [
         {
           "id": 2,
-          "title": "Sample TV Series",
-          "image": "https://example.com/sample-series.jpg"
+          "title": "Stranger Things",
+          "image": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg"
         }
       ]
     },
@@ -2540,18 +2889,18 @@
     {
       "id": 5,
       "title": "Sci-Fi",
-      "posters": []
+      "posters": [
+        {
+          "id": 2,
+          "title": "Stranger Things",
+          "image": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg"
+        }
+      ]
     },
     {
       "id": 6,
       "title": "Animation",
-      "posters": [
-        {
-          "id": 1,
-          "title": "Big Buck Bunny",
-          "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
-        }
-      ]
+      "posters": []
     }
   ],
   "categories": [
