@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Movie API Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JSON Movie API Editor</h1>
+        <p>Load your <code>free_movie_api.json</code> file or paste the JSON content below to start editing.</p>
+
+        <div class="card">
+            <h2>1. Load Data</h2>
+            <div class="load-section">
+                <div class="load-file">
+                    <label for="fileInput">Load from file:</label>
+                    <input type="file" id="fileInput" accept=".json">
+                </div>
+                <div class="load-text">
+                    <label for="jsonTextInput">Or paste JSON here:</label>
+                    <textarea id="jsonTextInput" rows="10"></textarea>
+                    <button id="loadTextButton">Load from Text</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>2. Edit Data</h2>
+            <div id="editor" style="display: none;">
+                <button id="addNewEntry">Add New Movie/Series</button>
+                <div id="entryList"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>3. Save Data</h2>
+            <div id="save-section" style="display: none;">
+                <button id="saveButton">Save and Download JSON</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for adding/editing entries -->
+    <div id="entryModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modalTitle">Add/Edit Entry</h2>
+            <form id="entryForm">
+                <input type="hidden" id="entryId">
+
+                <div class="form-group tmdb-group">
+                    <label for="tmdbId">TMDb ID:</label>
+                    <input type="text" id="tmdbId" placeholder="Enter a TMDb movie/series ID">
+                    <button type="button" id="fetchTMDbButton">Fetch from TMDb</button>
+                </div>
+
+                <div class="form-group">
+                    <label for="entryType">Type:</label>
+                    <select id="entryType">
+                        <option value="movie">Movie</option>
+                        <option value="series">Series</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="entryTitle">Title:</label>
+                    <input type="text" id="entryTitle" required>
+                </div>
+                <div class="form-group">
+                    <label for="entryYear">Year:</label>
+                    <input type="text" id="entryYear">
+                </div>
+                <div class="form-group">
+                    <label for="entryDescription">Description:</label>
+                    <textarea id="entryDescription" rows="4"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="entryImage">Image URL:</label>
+                    <input type="text" id="entryImage">
+                </div>
+                <div class="form-group">
+                    <label for="entryCover">Cover URL:</label>
+                    <input type="text" id="entryCover">
+                </div>
+                <div class="form-group">
+                    <label for="entryTrailer">Trailer URL (YouTube or direct link):</label>
+                    <input type="text" id="entryTrailer">
+                </div>
+                <!-- More complex fields like sources, actors, genres will be handled programmatically -->
+                <button type="submit">Save Entry</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
