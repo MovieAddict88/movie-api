@@ -11,25 +11,27 @@
     "slides": [
       {
         "id": 1,
-        "title": "The Avengers",
+        "title": "Big Buck Bunny",
         "type": "movie",
-        "image": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+        "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
         "url": "movies/1",
         "poster": {
           "id": 1,
-          "title": "The Avengers",
+          "title": "Big Buck Bunny",
           "type": "movie",
-          "label": "Action",
-          "sublabel": "Superhero",
+          "label": "Animation",
+          "sublabel": "Short Film",
+          "imdb": "8.5",
           "downloadas": "big-buck-bunny.mp4",
           "comment": true,
           "playas": "video",
-          "description": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+          "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him by throwing nuts, hitting his flowers, and destroying his home, he snaps and goes after them.",
           "classification": "G",
-          "year": "2012",
+          "year": "2008",
           "duration": "10:00",
-          "image": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
-          "cover": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+          "rating": 8.5,
+          "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+          "cover": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
           "genres": [
             {
               "id": 6,
@@ -40,13 +42,35 @@
             {
               "id": 1,
               "type": "video",
-              "title": "The Avengers",
+              "title": "Big Buck Bunny 1080p",
               "quality": "1080p",
-              "size": "HD",
-              "kind": "play",
+              "size": "264MB",
+              "kind": "both",
               "premium": "false",
-              "external": true,
-              "url": "https://vidsrc.to/embed/movie/24428"
+              "external": false,
+              "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            },
+            {
+              "id": 2,
+              "type": "video",
+              "title": "Big Buck Bunny 720p",
+              "quality": "720p",
+              "size": "128MB",
+              "kind": "both",
+              "premium": "false",
+              "external": false,
+              "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            },
+            {
+              "id": 3,
+              "type": "video",
+              "title": "Big Buck Bunny 480p",
+              "quality": "480p",
+              "size": "64MB",
+              "kind": "both",
+              "premium": "false",
+              "external": false,
+              "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
             }
           ],
           "trailer": {
@@ -116,6 +140,7 @@
           "classification": "News",
           "views": 25000,
           "shares": 800,
+          "rating": 7.8,
           "comment": true,
           "image": "https://i.imgur.com/1zsdloF.png",
           "playas": "live",
@@ -207,6 +232,7 @@
           "classification": "Movies",
           "views": 0,
           "shares": 0,
+          "rating": 0,
           "comment": true,
           "image": "https://i.imgur.com/KUwrSOH.png",
           "playas": "live",
@@ -254,6 +280,7 @@
           "classification": "General",
           "views": 0,
           "shares": 0,
+          "rating": 8,
           "comment": true,
           "image": "https://i.imgur.com/Dcys2TG.png",
           "playas": "live",
@@ -289,21 +316,23 @@
     "featured_movies": [
       {
         "id": 1,
-        "title": "The Avengers",
+        "title": "Big Buck Bunny",
         "type": "movie",
-        "label": "Action",
-        "sublabel": "Superhero",
+        "label": "Animation",
+        "sublabel": "Short Film",
+        "imdb": "8.5",
         "downloadas": "big-buck-bunny.mp4",
         "comment": true,
         "playas": "video",
-        "description": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+        "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him by throwing nuts, hitting his flowers, and destroying his home, he snaps and goes after them.",
         "classification": "G",
-        "year": "2012",
+        "year": "2008",
         "duration": "10:00",
+        "rating": 8.5,
         "views": 15000,
         "created_at": "2024-01-01",
-        "image": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
-        "cover": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+        "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+        "cover": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
         "genres": [
           {
             "id": 6,
@@ -314,13 +343,35 @@
           {
             "id": 1,
             "type": "video",
-            "title": "The Avengers",
+            "title": "Big Buck Bunny 1080p",
             "quality": "1080p",
-            "size": "HD",
-            "kind": "play",
+            "size": "264MB",
+            "kind": "both",
             "premium": "false",
-            "external": true,
-            "url": "https://vidsrc.to/embed/movie/24428"
+            "external": false,
+            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          },
+          {
+            "id": 2,
+            "type": "video",
+            "title": "Big Buck Bunny 720p",
+            "quality": "720p",
+            "size": "128MB",
+            "kind": "both",
+            "premium": "false",
+            "external": false,
+            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          },
+          {
+            "id": 3,
+            "type": "video",
+            "title": "Big Buck Bunny 480p",
+            "quality": "480p",
+            "size": "64MB",
+            "kind": "both",
+            "premium": "false",
+            "external": false,
+            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
           }
         ],
         "trailer": {
@@ -369,6 +420,7 @@
             "created_at": "2024-01-14T15:45:00Z"
           }
         ],
+        "views": 15000,
         "downloads": 5000,
         "shares": 1200
       }
@@ -460,19 +512,21 @@
   "movies": [
     {
       "id": 1,
-      "title": "The Avengers",
+      "title": "Big Buck Bunny",
       "type": "movie",
-      "label": "Action",
-      "sublabel": "Superhero",
+      "label": "Animation",
+      "sublabel": "Short Film",
+      "imdb": "8.5",
       "downloadas": "big-buck-bunny.mp4",
       "comment": true,
       "playas": "video",
-      "description": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+      "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him by throwing nuts, hitting his flowers, and destroying his home, he snaps and goes after them.",
       "classification": "G",
-      "year": "2012",
+      "year": "2008",
       "duration": "10:00",
-      "image": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
-      "cover": "https://image.tmdb.org/t/p/w500/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+      "rating": 8.5,
+      "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+      "cover": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
       "genres": [
         {
           "id": 6,
@@ -483,13 +537,35 @@
         {
           "id": 1,
           "type": "video",
-          "title": "The Avengers",
+          "title": "Big Buck Bunny 1080p",
           "quality": "1080p",
-          "size": "HD",
-          "kind": "play",
+          "size": "264MB",
+          "kind": "both",
           "premium": "false",
-          "external": true,
-          "url": "https://vidsrc.to/embed/movie/24428"
+          "external": false,
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        },
+        {
+          "id": 2,
+          "type": "video",
+          "title": "Big Buck Bunny 720p",
+          "quality": "720p",
+          "size": "128MB",
+          "kind": "both",
+          "premium": "false",
+          "external": false,
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        },
+        {
+          "id": 3,
+          "type": "video",
+          "title": "Big Buck Bunny 480p",
+          "quality": "480p",
+          "size": "64MB",
+          "kind": "both",
+          "premium": "false",
+          "external": false,
+          "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
         }
       ],
       "trailer": {
@@ -540,26 +616,27 @@
       ],
       "views": 15000,
       "downloads": 5000,
-      "shares": 1200,
-      "tmdb_id": 24428
+      "shares": 1200
     },
     {
       "id": 2,
-      "title": "Game of Thrones",
+      "title": "Sample TV Series",
       "type": "series",
-      "label": "Fantasy",
-      "sublabel": "8 Seasons",
+      "label": "Drama",
+      "sublabel": "2 Seasons",
+      "imdb": "8.2",
       "downloadas": "sample-series",
       "comment": true,
       "playas": "video",
-      "description": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+      "description": "A gripping drama series with 2 seasons. Each season contains 1 episode with multiple quality options and subtitles.",
       "classification": "TV-14",
-      "year": "2011",
+      "year": "2023",
       "duration": "45:00",
-      "views": 8000,
-      "created_at": "2024-01-02",
-      "image": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg",
-      "cover": "https://image.tmdb.org/t/p/w500/2OMB0ynKlyIenMJWI2Dy9IWT4c.jpg",
+              "rating": 8.2,
+        "views": 8000,
+        "created_at": "2024-01-02",
+        "image": "https://example.com/sample-series.jpg",
+      "cover": "https://example.com/sample-series-cover.jpg",
       "genres": [
         {
           "id": 3,
@@ -589,6 +666,7 @@
           "created_at": "2024-01-15T12:00:00Z"
         }
       ],
+      "views": 8000,
       "downloads": 2000,
       "shares": 500,
       "seasons": [
@@ -600,33 +678,47 @@
               "id": 1,
               "title": "Episode 1",
               "episode_number": 1,
-              "image": "https://image.tmdb.org/t/p/w500/2OMB0ynKlyIenMJWI2Dy9IWT4c.jpg",
-              "duration": "60:00",
+              "image": "https://example.com/ep1.jpg",
+              "duration": "45:00",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 5,
                   "type": "video",
-                  "title": "Episode 1",
+                  "title": "Episode 1 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.to/embed/tv/1399/1/1"
+                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                },
+                {
+                  "id": 6,
+                  "type": "video",
+                  "title": "Episode 1 720p",
+                  "quality": "720p",
+                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                },
+                {
+                  "id": 7,
+                  "type": "video",
+                  "title": "Episode 1 480p",
+                  "quality": "480p",
+                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
                 }
-              ]
-            },
-            {
-              "id": 2,
-              "title": "Episode 2",
-              "episode_number": 2,
-              "image": "https://image.tmdb.org/t/p/w500/2OMB0ynKlyIenMJWI2Dy9IWT4c.jpg",
-              "duration": "60:00",
-              "sources": [
+              ],
+              "subtitles": [
                 {
                   "id": 1,
-                  "type": "video",
-                  "title": "Episode 2",
-                  "quality": "1080p",
-                  "url": "https://vidsrc.to/embed/tv/1399/1/2"
+                  "title": "English",
+                  "language": "en",
+                  "url": "https://example.com/subtitles/ep1-en.vtt"
+                },
+                {
+                  "id": 2,
+                  "title": "Spanish",
+                  "language": "es",
+                  "url": "https://example.com/subtitles/ep1-es.vtt"
                 }
-              ]
+              ],
+              "views": 5000,
+              "downloads": 1200
             }
           ]
         },
@@ -635,25 +727,54 @@
           "title": "Season 2",
           "episodes": [
             {
-              "id": 1,
+              "id": 2,
               "title": "Episode 1",
               "episode_number": 1,
-              "image": "https://image.tmdb.org/t/p/w500/2OMB0ynKlyIenMJWI2Dy9IWT4c.jpg",
-              "duration": "60:00",
+              "image": "https://example.com/ep2.jpg",
+              "duration": "45:00",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 8,
                   "type": "video",
-                  "title": "Episode 1",
+                  "title": "Episode 1 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.to/embed/tv/1399/2/1"
+                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                },
+                {
+                  "id": 9,
+                  "type": "video",
+                  "title": "Episode 1 720p",
+                  "quality": "720p",
+                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                },
+                {
+                  "id": 10,
+                  "type": "video",
+                  "title": "Episode 1 480p",
+                  "quality": "480p",
+                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
                 }
-              ]
+              ],
+              "subtitles": [
+                {
+                  "id": 3,
+                  "title": "English",
+                  "language": "en",
+                  "url": "https://example.com/subtitles/ep2-en.vtt"
+                },
+                {
+                  "id": 4,
+                  "title": "Spanish",
+                  "language": "es",
+                  "url": "https://example.com/subtitles/ep2-es.vtt"
+                }
+              ],
+              "views": 3000,
+              "downloads": 800
             }
           ]
         }
-      ],
-      "tmdb_id": 1399
+      ]
     }
   ],
   "channels": [
@@ -667,6 +788,7 @@
       "classification": "News",
       "views": 25000,
       "shares": 800,
+      "rating": 7.8,
       "comment": true,
       "image": "https://i.imgur.com/1zsdloF.png",
       "playas": "live",
@@ -739,8 +861,7 @@
           "title": "PH"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 2,
@@ -752,6 +873,7 @@
       "classification": "Movies",
       "views": 0,
       "shares": 0,
+      "rating": 0,
       "comment": true,
       "image": "https://i.imgur.com/KUwrSOH.png",
       "playas": "live",
@@ -780,8 +902,7 @@
           "title": "PH"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 3,
@@ -793,6 +914,7 @@
       "classification": "General",
       "views": 0,
       "shares": 0,
+      "rating": 8,
       "comment": true,
       "image": "https://i.imgur.com/Dcys2TG.png",
       "playas": "live",
@@ -821,8 +943,7 @@
           "title": "PH"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 4,
@@ -834,6 +955,7 @@
       "classification": "News",
       "views": 25000,
       "shares": 800,
+      "rating": 7.8,
       "comment": true,
       "image": "https://example.com/news-channel.jpg",
       "playas": "live",
@@ -869,8 +991,7 @@
           "comment": "Great coverage!",
           "created_at": "2024-01-15T09:15:00Z"
         }
-      ],
-      "tmdb_id": null
+      ]
     },
     {
       "id": 5,
@@ -882,6 +1003,7 @@
       "classification": "Sports",
       "views": 18000,
       "shares": 600,
+      "rating": 8.1,
       "comment": true,
       "image": "https://example.com/sports-channel.jpg",
       "playas": "live",
@@ -917,8 +1039,7 @@
           "comment": "Amazing sports coverage!",
           "created_at": "2024-01-15T11:20:00Z"
         }
-      ],
-      "tmdb_id": null
+      ]
     },
     {
       "id": 6,
@@ -930,6 +1051,7 @@
       "classification": "Movies",
       "views": 0,
       "shares": 0,
+      "rating": 4.5,
       "comment": true,
       "image": "https://i.imgur.com/7t4gFCB.png",
       "playas": "live",
@@ -958,8 +1080,7 @@
           "title": "US"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 7,
@@ -971,6 +1092,7 @@
       "classification": "Music",
       "views": 0,
       "shares": 0,
+      "rating": 4.3,
       "comment": true,
       "image": "https://i.imgur.com/S3pNx8G.png",
       "playas": "live",
@@ -999,8 +1121,7 @@
           "title": "US"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 8,
@@ -1012,6 +1133,7 @@
       "classification": "Music",
       "views": 0,
       "shares": 0,
+      "rating": 4.2,
       "comment": true,
       "image": "https://i.imgur.com/jghDgUJ.png",
       "playas": "live",
@@ -1040,8 +1162,7 @@
           "title": "US"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 9,
@@ -1053,6 +1174,7 @@
       "classification": "Movies",
       "views": 0,
       "shares": 0,
+      "rating": 4.4,
       "comment": true,
       "image": "https://i.imgur.com/zzdj40q.png",
       "playas": "live",
@@ -1081,8 +1203,7 @@
           "title": "US"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 10,
@@ -1094,6 +1215,7 @@
       "classification": "Entertainment",
       "views": 0,
       "shares": 0,
+      "rating": 4.5,
       "comment": true,
       "image": "https://i.imgur.com/Dj6tVaG.png",
       "playas": "live",
@@ -1122,8 +1244,7 @@
           "title": "US"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 11,
@@ -1135,6 +1256,7 @@
       "classification": "Entertainment",
       "views": 0,
       "shares": 0,
+      "rating": 4.6,
       "comment": true,
       "image": "https://i.imgur.com/vGEL2Ne.png",
       "playas": "live",
@@ -1163,8 +1285,7 @@
           "title": "US"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 12,
@@ -1176,6 +1297,7 @@
       "classification": "Entertainment",
       "views": 0,
       "shares": 0,
+      "rating": 4.3,
       "comment": true,
       "image": "https://i.imgur.com/Szf7VBM.png",
       "playas": "live",
@@ -1204,8 +1326,7 @@
           "title": "US"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 13,
@@ -1217,6 +1338,7 @@
       "classification": "Entertainment",
       "views": 0,
       "shares": 0,
+      "rating": 3.9,
       "comment": true,
       "image": "https://i.imgur.com/sKfzEuf.png",
       "playas": "live",
@@ -1245,8 +1367,7 @@
           "title": "MO"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 14,
@@ -1258,6 +1379,7 @@
       "classification": "General",
       "views": 0,
       "shares": 0,
+      "rating": 3.8,
       "comment": true,
       "image": "https://i.imgur.com/Org4yTu.png",
       "playas": "live",
@@ -1286,8 +1408,7 @@
           "title": "PH"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 15,
@@ -1299,6 +1420,7 @@
       "classification": "News",
       "views": 0,
       "shares": 0,
+      "rating": 3.7,
       "comment": true,
       "image": "https://i.imgur.com/Ktl7qZt.png",
       "playas": "live",
@@ -1327,8 +1449,7 @@
           "title": "PH"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 16,
@@ -1340,6 +1461,7 @@
       "classification": "Education",
       "views": 0,
       "shares": 0,
+      "rating": 4.0,
       "comment": true,
       "image": "https://i.imgur.com/TyFFBWn.png",
       "playas": "live",
@@ -1368,8 +1490,7 @@
           "title": "PH"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 17,
@@ -1381,6 +1502,7 @@
       "classification": "Education",
       "views": 0,
       "shares": 0,
+      "rating": 4.2,
       "comment": true,
       "image": "https://i.imgur.com/UIqEr2y.png",
       "playas": "live",
@@ -1409,8 +1531,7 @@
           "title": "PH"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 18,
@@ -1422,6 +1543,7 @@
       "classification": "Entertainment",
       "views": 0,
       "shares": 0,
+      "rating": 4.5,
       "comment": true,
       "image": "https://i.imgur.com/gmM3ncL.png",
       "playas": "live",
@@ -1450,8 +1572,7 @@
           "title": "KR"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 19,
@@ -1463,6 +1584,7 @@
       "classification": "Sports",
       "views": 0,
       "shares": 0,
+      "rating": 4.7,
       "comment": true,
       "image": "https://i.imgur.com/sG7zuX0.png",
       "playas": "live",
@@ -1491,8 +1613,7 @@
           "title": "PH"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 20,
@@ -1504,6 +1625,7 @@
       "classification": "Sports",
       "views": 0,
       "shares": 0,
+      "rating": 4.4,
       "comment": true,
       "image": "https://i.imgur.com/J4QCDLG.png",
       "playas": "live",
@@ -1532,8 +1654,7 @@
           "title": "PH"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 21,
@@ -1545,6 +1666,7 @@
       "classification": "Documentary",
       "views": 0,
       "shares": 0,
+      "rating": 4.8,
       "comment": true,
       "image": "https://i.imgur.com/TE9MEV1.png",
       "playas": "live",
@@ -1573,8 +1695,7 @@
           "title": "GB"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 22,
@@ -1586,6 +1707,7 @@
       "classification": "Documentary",
       "views": 0,
       "shares": 0,
+      "rating": 4.5,
       "comment": true,
       "image": "https://i.imgur.com/BkoC446.png",
       "playas": "live",
@@ -1614,8 +1736,7 @@
           "title": "US"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 23,
@@ -1627,6 +1748,7 @@
       "classification": "Documentary",
       "views": 0,
       "shares": 0,
+      "rating": 4.4,
       "comment": true,
       "image": "https://i.imgur.com/1NcoovM.png",
       "playas": "live",
@@ -1655,8 +1777,7 @@
           "title": "US"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 24,
@@ -1668,6 +1789,7 @@
       "classification": "Lifestyle",
       "views": 0,
       "shares": 0,
+      "rating": 3.9,
       "comment": true,
       "image": "https://i.imgur.com/wzjqyZE.png",
       "playas": "live",
@@ -1696,8 +1818,7 @@
           "title": "FR"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 25,
@@ -1709,6 +1830,7 @@
       "classification": "Lifestyle",
       "views": 0,
       "shares": 0,
+      "rating": 4.3,
       "comment": true,
       "image": "https://i.imgur.com/EXC1yRz.png",
       "playas": "live",
@@ -1737,8 +1859,7 @@
           "title": "US"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     },
     {
       "id": 26,
@@ -1750,6 +1871,7 @@
       "classification": "News",
       "views": 0,
       "shares": 0,
+      "rating": 4.2,
       "comment": true,
       "image": "https://i.imgur.com/pl4w2NN.png",
       "playas": "live",
@@ -1778,8 +1900,7 @@
           "title": "US"
         }
       ],
-      "comments": [],
-      "tmdb_id": null
+      "comments": []
     }
   ],
   "actors": [
