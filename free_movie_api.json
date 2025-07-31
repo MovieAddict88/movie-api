@@ -420,7 +420,6 @@
             "created_at": "2024-01-14T15:45:00Z"
           }
         ],
-        "views": 15000,
         "downloads": 5000,
         "shares": 1200
       }
@@ -468,12 +467,156 @@
       {
         "id": 1,
         "title": "Action",
-        "posters": []
+        "posters": [
+          {
+            "id": 1,
+            "title": "Big Buck Bunny",
+            "type": "movie",
+            "label": "Animation",
+            "sublabel": "Short Film",
+            "imdb": "8.5",
+            "downloadas": "big-buck-bunny.mp4",
+            "comment": true,
+            "playas": "video",
+            "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him by throwing nuts, hitting his flowers, and destroying his home, he snaps and goes after them.",
+            "classification": "G",
+            "year": "2008",
+            "duration": "10:00",
+            "rating": 8.5,
+            "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+            "cover": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+            "genres": [
+              {
+                "id": 6,
+                "title": "Animation"
+              }
+            ],
+            "sources": [
+              {
+                "id": 1,
+                "type": "video",
+                "title": "Big Buck Bunny 1080p",
+                "quality": "1080p",
+                "size": "264MB",
+                "kind": "both",
+                "premium": "false",
+                "external": false,
+                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              },
+              {
+                "id": 2,
+                "type": "video",
+                "title": "Big Buck Bunny 720p",
+                "quality": "720p",
+                "size": "128MB",
+                "kind": "both",
+                "premium": "false",
+                "external": false,
+                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              },
+              {
+                "id": 3,
+                "type": "video",
+                "title": "Big Buck Bunny 480p",
+                "quality": "480p",
+                "size": "64MB",
+                "kind": "both",
+                "premium": "false",
+                "external": false,
+                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              }
+            ],
+            "trailer": {
+              "id": 4,
+              "type": "video",
+              "title": "Big Buck Bunny Trailer",
+              "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            },
+            "actors": [
+              {
+                "id": 1,
+                "name": "Tom Hanks",
+                "type": "actor",
+                "role": "Lead Actor",
+                "image": "https://example.com/tom-hanks.jpg",
+                "born": "1956-07-09",
+                "height": "6'0\"",
+                "bio": "American actor and filmmaker"
+              }
+            ],
+            "subtitles": [
+              {
+                "id": 1,
+                "title": "English",
+                "language": "en",
+                "url": "https://example.com/subtitles/big-buck-bunny-en.vtt"
+              },
+              {
+                "id": 2,
+                "title": "Spanish",
+                "language": "es",
+                "url": "https://example.com/subtitles/big-buck-bunny-es.vtt"
+              }
+            ],
+            "comments": [
+              {
+                "id": 1,
+                "user": "John Doe",
+                "comment": "Amazing animation! Love this movie.",
+                "created_at": "2024-01-15T10:30:00Z"
+              },
+              {
+                "id": 2,
+                "user": "Jane Smith",
+                "comment": "Great for kids and adults alike!",
+                "created_at": "2024-01-14T15:45:00Z"
+              }
+            ],
+            "views": 15000,
+            "downloads": 5000,
+            "shares": 1200
+          }
+        ]
       },
       {
         "id": 2,
         "title": "Comedy",
-        "posters": []
+        "posters": [
+          {
+            "id": 3,
+            "title": "Comedy Central Series",
+            "type": "series",
+            "label": "Comedy",
+            "sublabel": "3 Seasons",
+            "imdb": "7.8",
+            "downloadas": "comedy-central-series",
+            "comment": true,
+            "playas": "video",
+            "description": "A hilarious comedy series with 3 seasons of laughs.",
+            "classification": "TV-14",
+            "year": "2022",
+            "duration": "30:00",
+            "rating": 7.8,
+            "views": 12000,
+            "created_at": "2024-01-03",
+            "image": "https://example.com/comedy-series.jpg",
+            "cover": "https://example.com/comedy-series-cover.jpg",
+            "genres": [
+              {
+                "id": 2,
+                "title": "Comedy"
+              }
+            ],
+            "sources": [],
+            "trailer": null,
+            "actors": [],
+            "subtitles": [],
+            "comments": [],
+            "downloads": 3000,
+            "shares": 800,
+            "seasons": []
+          }
+        ]
       },
       {
         "id": 3,
@@ -482,19 +625,241 @@
           {
             "id": 2,
             "title": "Sample TV Series",
-            "image": "https://example.com/sample-series.jpg"
+            "type": "series",
+            "label": "Drama",
+            "sublabel": "2 Seasons",
+            "imdb": "8.2",
+            "downloadas": "sample-series",
+            "comment": true,
+            "playas": "video",
+            "description": "A gripping drama series with 2 seasons. Each season contains 1 episode with multiple quality options and subtitles.",
+            "classification": "TV-14",
+            "year": "2023",
+            "duration": "45:00",
+            "rating": 8.2,
+            "views": 8000,
+            "created_at": "2024-01-02",
+            "image": "https://example.com/sample-series.jpg",
+            "cover": "https://example.com/sample-series-cover.jpg",
+            "genres": [
+              {
+                "id": 3,
+                "title": "Drama"
+              }
+            ],
+            "sources": [],
+            "trailer": null,
+            "actors": [
+              {
+                "id": 2,
+                "name": "Emma Watson",
+                "type": "actress",
+                "role": "Lead Actress",
+                "image": "https://example.com/emma-watson.jpg",
+                "born": "1990-04-15",
+                "height": "5'5\"",
+                "bio": "English actress and activist"
+              }
+            ],
+            "subtitles": [],
+            "comments": [
+              {
+                "id": 1,
+                "user": "Series Fan",
+                "comment": "Amazing series! Can't wait for season 2.",
+                "created_at": "2024-01-15T12:00:00Z"
+              }
+            ],
+            "downloads": 2000,
+            "shares": 500,
+            "seasons": [
+              {
+                "id": 1,
+                "title": "Season 1",
+                "episodes": [
+                  {
+                    "id": 1,
+                    "title": "Episode 1",
+                    "episode_number": 1,
+                    "image": "https://example.com/ep1.jpg",
+                    "duration": "45:00",
+                    "sources": [
+                      {
+                        "id": 5,
+                        "type": "video",
+                        "title": "Episode 1 1080p",
+                        "quality": "1080p",
+                        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                      },
+                      {
+                        "id": 6,
+                        "type": "video",
+                        "title": "Episode 1 720p",
+                        "quality": "720p",
+                        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                      },
+                      {
+                        "id": 7,
+                        "type": "video",
+                        "title": "Episode 1 480p",
+                        "quality": "480p",
+                        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                      }
+                    ],
+                    "subtitles": [
+                      {
+                        "id": 1,
+                        "title": "English",
+                        "language": "en",
+                        "url": "https://example.com/subtitles/ep1-en.vtt"
+                      },
+                      {
+                        "id": 2,
+                        "title": "Spanish",
+                        "language": "es",
+                        "url": "https://example.com/subtitles/ep1-es.vtt"
+                      }
+                    ],
+                    "views": 5000,
+                    "downloads": 1200
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "title": "Season 2",
+                "episodes": [
+                  {
+                    "id": 2,
+                    "title": "Episode 1",
+                    "episode_number": 1,
+                    "image": "https://example.com/ep2.jpg",
+                    "duration": "45:00",
+                    "sources": [
+                      {
+                        "id": 8,
+                        "type": "video",
+                        "title": "Episode 1 1080p",
+                        "quality": "1080p",
+                        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                      },
+                      {
+                        "id": 9,
+                        "type": "video",
+                        "title": "Episode 1 720p",
+                        "quality": "720p",
+                        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                      },
+                      {
+                        "id": 10,
+                        "type": "video",
+                        "title": "Episode 1 480p",
+                        "quality": "480p",
+                        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                      }
+                    ],
+                    "subtitles": [
+                      {
+                        "id": 3,
+                        "title": "English",
+                        "language": "en",
+                        "url": "https://example.com/subtitles/ep2-en.vtt"
+                      },
+                      {
+                        "id": 4,
+                        "title": "Spanish",
+                        "language": "es",
+                        "url": "https://example.com/subtitles/ep2-es.vtt"
+                      }
+                    ],
+                    "views": 3000,
+                    "downloads": 800
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
       {
         "id": 4,
         "title": "Horror",
-        "posters": []
+        "posters": [
+          {
+            "id": 5,
+            "title": "Horror Nights",
+            "type": "series",
+            "label": "Horror",
+            "sublabel": "2 Seasons",
+            "imdb": "7.2",
+            "downloadas": "horror-nights",
+            "comment": true,
+            "playas": "video",
+            "description": "A spine-chilling horror series with supernatural elements.",
+            "classification": "TV-MA",
+            "year": "2023",
+            "duration": "45:00",
+            "rating": 7.2,
+            "views": 9000,
+            "created_at": "2024-01-05",
+            "image": "https://example.com/horror-series.jpg",
+            "cover": "https://example.com/horror-series-cover.jpg",
+            "genres": [
+              {
+                "id": 4,
+                "title": "Horror"
+              }
+            ],
+            "sources": [],
+            "trailer": null,
+            "actors": [],
+            "subtitles": [],
+            "comments": [],
+            "downloads": 2500,
+            "shares": 600,
+            "seasons": []
+          }
+        ]
       },
       {
         "id": 5,
         "title": "Sci-Fi",
-        "posters": []
+        "posters": [
+          {
+            "id": 4,
+            "title": "Sci-Fi Adventures",
+            "type": "series",
+            "label": "Sci-Fi",
+            "sublabel": "1 Season",
+            "imdb": "8.5",
+            "downloadas": "sci-fi-adventures",
+            "comment": true,
+            "playas": "video",
+            "description": "An exciting sci-fi series exploring space and time.",
+            "classification": "TV-PG",
+            "year": "2024",
+            "duration": "60:00",
+            "rating": 8.5,
+            "views": 15000,
+            "created_at": "2024-01-04",
+            "image": "https://example.com/scifi-series.jpg",
+            "cover": "https://example.com/scifi-series-cover.jpg",
+            "genres": [
+              {
+                "id": 5,
+                "title": "Sci-Fi"
+              }
+            ],
+            "sources": [],
+            "trailer": null,
+            "actors": [],
+            "subtitles": [],
+            "comments": [],
+            "downloads": 4000,
+            "shares": 1200,
+            "seasons": []
+          }
+        ]
       },
       {
         "id": 6,
@@ -503,7 +868,110 @@
           {
             "id": 1,
             "title": "Big Buck Bunny",
-            "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
+            "type": "movie",
+            "label": "Animation",
+            "sublabel": "Short Film",
+            "imdb": "8.5",
+            "downloadas": "big-buck-bunny.mp4",
+            "comment": true,
+            "playas": "video",
+            "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him by throwing nuts, hitting his flowers, and destroying his home, he snaps and goes after them.",
+            "classification": "G",
+            "year": "2008",
+            "duration": "10:00",
+            "rating": 8.5,
+            "image": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+            "cover": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
+            "genres": [
+              {
+                "id": 6,
+                "title": "Animation"
+              }
+            ],
+            "sources": [
+              {
+                "id": 1,
+                "type": "video",
+                "title": "Big Buck Bunny 1080p",
+                "quality": "1080p",
+                "size": "264MB",
+                "kind": "both",
+                "premium": "false",
+                "external": false,
+                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              },
+              {
+                "id": 2,
+                "type": "video",
+                "title": "Big Buck Bunny 720p",
+                "quality": "720p",
+                "size": "128MB",
+                "kind": "both",
+                "premium": "false",
+                "external": false,
+                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              },
+              {
+                "id": 3,
+                "type": "video",
+                "title": "Big Buck Bunny 480p",
+                "quality": "480p",
+                "size": "64MB",
+                "kind": "both",
+                "premium": "false",
+                "external": false,
+                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              }
+            ],
+            "trailer": {
+              "id": 4,
+              "type": "video",
+              "title": "Big Buck Bunny Trailer",
+              "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            },
+            "actors": [
+              {
+                "id": 1,
+                "name": "Tom Hanks",
+                "type": "actor",
+                "role": "Lead Actor",
+                "image": "https://example.com/tom-hanks.jpg",
+                "born": "1956-07-09",
+                "height": "6'0\"",
+                "bio": "American actor and filmmaker"
+              }
+            ],
+            "subtitles": [
+              {
+                "id": 1,
+                "title": "English",
+                "language": "en",
+                "url": "https://example.com/subtitles/big-buck-bunny-en.vtt"
+              },
+              {
+                "id": 2,
+                "title": "Spanish",
+                "language": "es",
+                "url": "https://example.com/subtitles/big-buck-bunny-es.vtt"
+              }
+            ],
+            "comments": [
+              {
+                "id": 1,
+                "user": "John Doe",
+                "comment": "Amazing animation! Love this movie.",
+                "created_at": "2024-01-15T10:30:00Z"
+              },
+              {
+                "id": 2,
+                "user": "Jane Smith",
+                "comment": "Great for kids and adults alike!",
+                "created_at": "2024-01-14T15:45:00Z"
+              }
+            ],
+            "views": 15000,
+            "downloads": 5000,
+            "shares": 1200
           }
         ]
       }
@@ -632,10 +1100,10 @@
       "classification": "TV-14",
       "year": "2023",
       "duration": "45:00",
-              "rating": 8.2,
-        "views": 8000,
-        "created_at": "2024-01-02",
-        "image": "https://example.com/sample-series.jpg",
+      "rating": 8.2,
+      "views": 8000,
+      "created_at": "2024-01-02",
+      "image": "https://example.com/sample-series.jpg",
       "cover": "https://example.com/sample-series-cover.jpg",
       "genres": [
         {
@@ -666,7 +1134,6 @@
           "created_at": "2024-01-15T12:00:00Z"
         }
       ],
-      "views": 8000,
       "downloads": 2000,
       "shares": 500,
       "seasons": [
@@ -806,7 +1273,6 @@
       "actors": [],
       "subtitles": [],
       "comments": [],
-      "views": 12000,
       "downloads": 3000,
       "shares": 800,
       "seasons": []
@@ -841,7 +1307,6 @@
       "actors": [],
       "subtitles": [],
       "comments": [],
-      "views": 15000,
       "downloads": 4000,
       "shares": 1200,
       "seasons": []
@@ -876,7 +1341,6 @@
       "actors": [],
       "subtitles": [],
       "comments": [],
-      "views": 9000,
       "downloads": 2500,
       "shares": 600,
       "seasons": []
