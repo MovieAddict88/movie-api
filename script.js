@@ -85,18 +85,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Render Entries ---
     function renderEntries() {
         entryListDiv.innerHTML = '';
-        const allEntries = [...(jsonData.movies || []), ...(jsonData.channels || [])];
+        const allEntries = [
+            ...(jsonData.movies || []).map(e => ({ ...e, entryType: e.type || (e.seasons ? 'series' : 'movie') })),
+            ...(jsonData.channels || []).map(e => ({ ...e, entryType: 'channel' }))
+        ];
         allEntries.sort((a, b) => a.id - b.id);
 
         allEntries.forEach(entry => {
             const item = document.createElement('div');
             item.className = 'entry-item';
-            const type = entry.type || (entry.seasons ? 'series' : 'movie');
             item.innerHTML = `
-                <div class="entry-item-title">${entry.title} (${type})</div>
+                <div class="entry-item-title">${entry.title} (${entry.entryType})</div>
                 <div class="entry-item-actions">
-                    <button class="edit-btn" data-id="${entry.id}" data-type="${type}">Edit</button>
-                    <button class="delete-btn" data-id="${entry.id}" data-type="${type}">Delete</button>
+                    <button class="edit-btn" data-id="${entry.id}" data-type="${entry.entryType}">Edit</button>
+                    <button class="delete-btn" data-id="${entry.id}" data-type="${entry.entryType}">Delete</button>
                 </div>
             `;
             entryListDiv.appendChild(item);
@@ -190,10 +192,14 @@ document.addEventListener('DOMContentLoaded', () => {
             let index = -1;
             if (type === 'channel') {
                 index = jsonData.channels.findIndex(c => c.id == id);
-                if (index > -1) jsonData.channels.splice(index, 1);
+                if (index > -1) {
+                    jsonData.channels.splice(index, 1);
+                }
             } else {
                 index = jsonData.movies.findIndex(m => m.id == id);
-                if (index > -1) jsonData.movies.splice(index, 1);
+                if (index > -1) {
+                    jsonData.movies.splice(index, 1);
+                }
             }
             renderEntries();
         }
@@ -302,26 +308,40 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- TMDb Integration ---
     fetchTMDbButton.addEventListener('click', async () => {
         const tmdbId = tmdbIdInput.value.trim();
-        const type = entryTypeSelect.value;
+        let type = entryTypeSelect.value;
+        if (type === 'channel') type = 'movie'; // Default to movie for search
         if (!tmdbId) {
             alert('Please enter a TMDb ID.');
             return;
         }
 
         const baseUrl = 'https://api.themoviedb.org/3';
-        const detailsUrl = `${baseUrl}/${type}/${tmdbId}?api_key=${tmdbApiKey}`;
-        const videosUrl = `${baseUrl}/${type}/${tmdbId}/videos?api_key=${tmdbApiKey}`;
 
         try {
-            const detailsRes = await fetch(detailsUrl);
-            if (!detailsRes.ok) throw new Error('Could not fetch TMDb details.');
+            // First, try to fetch as a movie
+            let detailsRes = await fetch(`${baseUrl}/movie/${tmdbId}?api_key=${tmdbApiKey}`);
+            if (detailsRes.ok) {
+                type = 'movie';
+            } else {
+                // If that fails, try to fetch as a series
+                detailsRes = await fetch(`${baseUrl}/tv/${tmdbId}?api_key=${tmdbApiKey}`);
+                if (detailsRes.ok) {
+                    type = 'series';
+                } else {
+                    throw new Error('Could not find a movie or series with that ID.');
+                }
+            }
+
             const details = await detailsRes.json();
+            const videosUrl = `${baseUrl}/${type}/${tmdbId}/videos?api_key=${tmdbApiKey}`;
 
             const videosRes = await fetch(videosUrl);
             if (!videosRes.ok) throw new Error('Could not fetch TMDb videos.');
             const videosData = await videosRes.json();
             const trailer = videosData.results.find(v => v.site === 'YouTube' && v.type === 'Trailer');
 
+            // Update form fields
+            entryTypeSelect.value = type; // Set the dropdown to the correct type
             entryTitleInput.value = details.title || details.name || '';
             entryDescriptionInput.value = details.overview || '';
             const releaseDate = details.release_date || details.first_air_date || '';
