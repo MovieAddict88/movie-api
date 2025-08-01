@@ -98,7 +98,8 @@
                       "type": "video",
                       "title": "Episode 1 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/1"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/1",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -117,7 +118,8 @@
                       "type": "video",
                       "title": "Episode 2 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/2"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/2",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -136,7 +138,8 @@
                       "type": "video",
                       "title": "Episode 3 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/3"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/3",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -155,7 +158,8 @@
                       "type": "video",
                       "title": "Episode 4 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/4"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/4",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -174,7 +178,8 @@
                       "type": "video",
                       "title": "Episode 5 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/5"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/5",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -193,7 +198,8 @@
                       "type": "video",
                       "title": "Episode 6 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/6"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/6",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -212,7 +218,8 @@
                       "type": "video",
                       "title": "Episode 7 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/7"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/7",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -231,7 +238,8 @@
                       "type": "video",
                       "title": "Episode 8 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/8"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/8",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -250,7 +258,8 @@
                       "type": "video",
                       "title": "Episode 9 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/9"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/9",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -269,7 +278,8 @@
                       "type": "video",
                       "title": "Episode 10 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/10"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/10",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -288,7 +298,8 @@
                       "type": "video",
                       "title": "Episode 11 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/11"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/11",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -313,7 +324,8 @@
                       "type": "video",
                       "title": "Episode 1 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/1"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/1",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -332,7 +344,8 @@
                       "type": "video",
                       "title": "Episode 2 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/2"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/2",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -351,7 +364,8 @@
                       "type": "video",
                       "title": "Episode 3 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/3"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/3",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -370,7 +384,8 @@
                       "type": "video",
                       "title": "Episode 4 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/4"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/4",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -389,7 +404,8 @@
                       "type": "video",
                       "title": "Episode 5 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/5"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/5",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -408,7 +424,8 @@
                       "type": "video",
                       "title": "Episode 6 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/6"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/6",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -427,7 +444,8 @@
                       "type": "video",
                       "title": "Episode 7 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/7"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/7",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -446,7 +464,8 @@
                       "type": "video",
                       "title": "Episode 8 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/8"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/8",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -465,7 +484,8 @@
                       "type": "video",
                       "title": "Episode 9 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/9"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/9",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -484,7 +504,8 @@
                       "type": "video",
                       "title": "Episode 10 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/10"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/10",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -503,7 +524,8 @@
                       "type": "video",
                       "title": "Episode 11 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/11"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/11",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -522,7 +544,8 @@
                       "type": "video",
                       "title": "Episode 12 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/12"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/12",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -620,7 +643,8 @@
                     "type": "video",
                     "title": "Episode 1 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/1/1"
+                    "url": "https://vidsrc.net/embed/tv/90802/1/1",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -639,7 +663,8 @@
                     "type": "video",
                     "title": "Episode 2 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/1/2"
+                    "url": "https://vidsrc.net/embed/tv/90802/1/2",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -658,7 +683,8 @@
                     "type": "video",
                     "title": "Episode 3 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/1/3"
+                    "url": "https://vidsrc.net/embed/tv/90802/1/3",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -677,7 +703,8 @@
                     "type": "video",
                     "title": "Episode 4 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/1/4"
+                    "url": "https://vidsrc.net/embed/tv/90802/1/4",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -696,7 +723,8 @@
                     "type": "video",
                     "title": "Episode 5 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/1/5"
+                    "url": "https://vidsrc.net/embed/tv/90802/1/5",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -715,7 +743,8 @@
                     "type": "video",
                     "title": "Episode 6 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/1/6"
+                    "url": "https://vidsrc.net/embed/tv/90802/1/6",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -734,7 +763,8 @@
                     "type": "video",
                     "title": "Episode 7 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/1/7"
+                    "url": "https://vidsrc.net/embed/tv/90802/1/7",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -753,7 +783,8 @@
                     "type": "video",
                     "title": "Episode 8 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/1/8"
+                    "url": "https://vidsrc.net/embed/tv/90802/1/8",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -772,7 +803,8 @@
                     "type": "video",
                     "title": "Episode 9 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/1/9"
+                    "url": "https://vidsrc.net/embed/tv/90802/1/9",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -791,7 +823,8 @@
                     "type": "video",
                     "title": "Episode 10 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/1/10"
+                    "url": "https://vidsrc.net/embed/tv/90802/1/10",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -810,7 +843,8 @@
                     "type": "video",
                     "title": "Episode 11 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/1/11"
+                    "url": "https://vidsrc.net/embed/tv/90802/1/11",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -835,7 +869,8 @@
                     "type": "video",
                     "title": "Episode 1 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/2/1"
+                    "url": "https://vidsrc.net/embed/tv/90802/2/1",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -854,7 +889,8 @@
                     "type": "video",
                     "title": "Episode 2 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/2/2"
+                    "url": "https://vidsrc.net/embed/tv/90802/2/2",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -873,7 +909,8 @@
                     "type": "video",
                     "title": "Episode 3 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/2/3"
+                    "url": "https://vidsrc.net/embed/tv/90802/2/3",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -892,7 +929,8 @@
                     "type": "video",
                     "title": "Episode 4 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/2/4"
+                    "url": "https://vidsrc.net/embed/tv/90802/2/4",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -911,7 +949,8 @@
                     "type": "video",
                     "title": "Episode 5 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/2/5"
+                    "url": "https://vidsrc.net/embed/tv/90802/2/5",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -930,7 +969,8 @@
                     "type": "video",
                     "title": "Episode 6 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/2/6"
+                    "url": "https://vidsrc.net/embed/tv/90802/2/6",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -949,7 +989,8 @@
                     "type": "video",
                     "title": "Episode 7 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/2/7"
+                    "url": "https://vidsrc.net/embed/tv/90802/2/7",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -968,7 +1009,8 @@
                     "type": "video",
                     "title": "Episode 8 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/2/8"
+                    "url": "https://vidsrc.net/embed/tv/90802/2/8",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -987,7 +1029,8 @@
                     "type": "video",
                     "title": "Episode 9 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/2/9"
+                    "url": "https://vidsrc.net/embed/tv/90802/2/9",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -1006,7 +1049,8 @@
                     "type": "video",
                     "title": "Episode 10 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/2/10"
+                    "url": "https://vidsrc.net/embed/tv/90802/2/10",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -1025,7 +1069,8 @@
                     "type": "video",
                     "title": "Episode 11 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/2/11"
+                    "url": "https://vidsrc.net/embed/tv/90802/2/11",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -1044,7 +1089,8 @@
                     "type": "video",
                     "title": "Episode 12 1080p",
                     "quality": "1080p",
-                    "url": "https://vidsrc.net/embed/tv/90802/2/12"
+                    "url": "https://vidsrc.net/embed/tv/90802/2/12",
+                    "kind": "play"
                   }
                 ],
                 "subtitles": []
@@ -1199,7 +1245,8 @@
                         "type": "video",
                         "title": "Episode 1 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/1"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/1",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1218,7 +1265,8 @@
                         "type": "video",
                         "title": "Episode 2 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/2"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/2",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1237,7 +1285,8 @@
                         "type": "video",
                         "title": "Episode 3 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/3"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/3",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1256,7 +1305,8 @@
                         "type": "video",
                         "title": "Episode 4 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/4"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/4",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1275,7 +1325,8 @@
                         "type": "video",
                         "title": "Episode 5 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/5"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/5",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1294,7 +1345,8 @@
                         "type": "video",
                         "title": "Episode 6 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/6"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/6",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1313,7 +1365,8 @@
                         "type": "video",
                         "title": "Episode 7 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/7"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/7",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1332,7 +1385,8 @@
                         "type": "video",
                         "title": "Episode 8 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/8"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/8",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1351,7 +1405,8 @@
                         "type": "video",
                         "title": "Episode 9 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/9"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/9",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1370,7 +1425,8 @@
                         "type": "video",
                         "title": "Episode 10 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/10"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/10",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1389,7 +1445,8 @@
                         "type": "video",
                         "title": "Episode 11 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/11"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/11",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1414,7 +1471,8 @@
                         "type": "video",
                         "title": "Episode 1 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/1"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/1",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1433,7 +1491,8 @@
                         "type": "video",
                         "title": "Episode 2 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/2"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/2",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1452,7 +1511,8 @@
                         "type": "video",
                         "title": "Episode 3 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/3"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/3",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1471,7 +1531,8 @@
                         "type": "video",
                         "title": "Episode 4 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/4"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/4",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1490,7 +1551,8 @@
                         "type": "video",
                         "title": "Episode 5 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/5"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/5",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1509,7 +1571,8 @@
                         "type": "video",
                         "title": "Episode 6 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/6"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/6",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1528,7 +1591,8 @@
                         "type": "video",
                         "title": "Episode 7 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/7"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/7",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1547,7 +1611,8 @@
                         "type": "video",
                         "title": "Episode 8 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/8"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/8",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1566,7 +1631,8 @@
                         "type": "video",
                         "title": "Episode 9 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/9"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/9",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1585,7 +1651,8 @@
                         "type": "video",
                         "title": "Episode 10 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/10"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/10",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1604,7 +1671,8 @@
                         "type": "video",
                         "title": "Episode 11 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/11"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/11",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1623,7 +1691,8 @@
                         "type": "video",
                         "title": "Episode 12 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/12"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/12",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1721,7 +1790,8 @@
                         "type": "video",
                         "title": "Episode 1 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/1"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/1",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1740,7 +1810,8 @@
                         "type": "video",
                         "title": "Episode 2 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/2"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/2",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1759,7 +1830,8 @@
                         "type": "video",
                         "title": "Episode 3 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/3"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/3",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1778,7 +1850,8 @@
                         "type": "video",
                         "title": "Episode 4 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/4"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/4",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1797,7 +1870,8 @@
                         "type": "video",
                         "title": "Episode 5 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/5"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/5",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1816,7 +1890,8 @@
                         "type": "video",
                         "title": "Episode 6 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/6"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/6",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1835,7 +1910,8 @@
                         "type": "video",
                         "title": "Episode 7 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/7"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/7",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1854,7 +1930,8 @@
                         "type": "video",
                         "title": "Episode 8 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/8"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/8",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1873,7 +1950,8 @@
                         "type": "video",
                         "title": "Episode 9 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/9"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/9",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1892,7 +1970,8 @@
                         "type": "video",
                         "title": "Episode 10 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/10"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/10",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1911,7 +1990,8 @@
                         "type": "video",
                         "title": "Episode 11 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/11"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/11",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1936,7 +2016,8 @@
                         "type": "video",
                         "title": "Episode 1 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/1"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/1",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1955,7 +2036,8 @@
                         "type": "video",
                         "title": "Episode 2 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/2"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/2",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1974,7 +2056,8 @@
                         "type": "video",
                         "title": "Episode 3 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/3"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/3",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -1993,7 +2076,8 @@
                         "type": "video",
                         "title": "Episode 4 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/4"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/4",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2012,7 +2096,8 @@
                         "type": "video",
                         "title": "Episode 5 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/5"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/5",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2031,7 +2116,8 @@
                         "type": "video",
                         "title": "Episode 6 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/6"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/6",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2050,7 +2136,8 @@
                         "type": "video",
                         "title": "Episode 7 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/7"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/7",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2069,7 +2156,8 @@
                         "type": "video",
                         "title": "Episode 8 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/8"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/8",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2088,7 +2176,8 @@
                         "type": "video",
                         "title": "Episode 9 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/9"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/9",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2107,7 +2196,8 @@
                         "type": "video",
                         "title": "Episode 10 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/10"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/10",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2126,7 +2216,8 @@
                         "type": "video",
                         "title": "Episode 11 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/11"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/11",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2145,7 +2236,8 @@
                         "type": "video",
                         "title": "Episode 12 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/12"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/12",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2243,7 +2335,8 @@
                         "type": "video",
                         "title": "Episode 1 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/1"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/1",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2262,7 +2355,8 @@
                         "type": "video",
                         "title": "Episode 2 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/2"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/2",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2281,7 +2375,8 @@
                         "type": "video",
                         "title": "Episode 3 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/3"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/3",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2300,7 +2395,8 @@
                         "type": "video",
                         "title": "Episode 4 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/4"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/4",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2319,7 +2415,8 @@
                         "type": "video",
                         "title": "Episode 5 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/5"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/5",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2338,7 +2435,8 @@
                         "type": "video",
                         "title": "Episode 6 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/6"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/6",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2357,7 +2455,8 @@
                         "type": "video",
                         "title": "Episode 7 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/7"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/7",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2376,7 +2475,8 @@
                         "type": "video",
                         "title": "Episode 8 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/8"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/8",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2395,7 +2495,8 @@
                         "type": "video",
                         "title": "Episode 9 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/9"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/9",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2414,7 +2515,8 @@
                         "type": "video",
                         "title": "Episode 10 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/10"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/10",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2433,7 +2535,8 @@
                         "type": "video",
                         "title": "Episode 11 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/1/11"
+                        "url": "https://vidsrc.net/embed/tv/90802/1/11",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2458,7 +2561,8 @@
                         "type": "video",
                         "title": "Episode 1 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/1"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/1",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2477,7 +2581,8 @@
                         "type": "video",
                         "title": "Episode 2 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/2"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/2",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2496,7 +2601,8 @@
                         "type": "video",
                         "title": "Episode 3 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/3"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/3",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2515,7 +2621,8 @@
                         "type": "video",
                         "title": "Episode 4 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/4"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/4",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2534,7 +2641,8 @@
                         "type": "video",
                         "title": "Episode 5 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/5"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/5",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2553,7 +2661,8 @@
                         "type": "video",
                         "title": "Episode 6 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/6"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/6",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2572,7 +2681,8 @@
                         "type": "video",
                         "title": "Episode 7 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/7"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/7",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2591,7 +2701,8 @@
                         "type": "video",
                         "title": "Episode 8 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/8"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/8",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2610,7 +2721,8 @@
                         "type": "video",
                         "title": "Episode 9 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/9"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/9",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2629,7 +2741,8 @@
                         "type": "video",
                         "title": "Episode 10 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/10"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/10",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2648,7 +2761,8 @@
                         "type": "video",
                         "title": "Episode 11 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/11"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/11",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2667,7 +2781,8 @@
                         "type": "video",
                         "title": "Episode 12 1080p",
                         "quality": "1080p",
-                        "url": "https://vidsrc.net/embed/tv/90802/2/12"
+                        "url": "https://vidsrc.net/embed/tv/90802/2/12",
+                        "kind": "play"
                       }
                     ],
                     "subtitles": []
@@ -2764,7 +2879,8 @@
                   "type": "video",
                   "title": "Episode 1 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/1/1"
+                  "url": "https://vidsrc.net/embed/tv/90802/1/1",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -2783,7 +2899,8 @@
                   "type": "video",
                   "title": "Episode 2 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/1/2"
+                  "url": "https://vidsrc.net/embed/tv/90802/1/2",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -2802,7 +2919,8 @@
                   "type": "video",
                   "title": "Episode 3 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/1/3"
+                  "url": "https://vidsrc.net/embed/tv/90802/1/3",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -2821,7 +2939,8 @@
                   "type": "video",
                   "title": "Episode 4 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/1/4"
+                  "url": "https://vidsrc.net/embed/tv/90802/1/4",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -2840,7 +2959,8 @@
                   "type": "video",
                   "title": "Episode 5 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/1/5"
+                  "url": "https://vidsrc.net/embed/tv/90802/1/5",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -2859,7 +2979,8 @@
                   "type": "video",
                   "title": "Episode 6 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/1/6"
+                  "url": "https://vidsrc.net/embed/tv/90802/1/6",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -2878,7 +2999,8 @@
                   "type": "video",
                   "title": "Episode 7 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/1/7"
+                  "url": "https://vidsrc.net/embed/tv/90802/1/7",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -2897,7 +3019,8 @@
                   "type": "video",
                   "title": "Episode 8 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/1/8"
+                  "url": "https://vidsrc.net/embed/tv/90802/1/8",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -2916,7 +3039,8 @@
                   "type": "video",
                   "title": "Episode 9 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/1/9"
+                  "url": "https://vidsrc.net/embed/tv/90802/1/9",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -2935,7 +3059,8 @@
                   "type": "video",
                   "title": "Episode 10 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/1/10"
+                  "url": "https://vidsrc.net/embed/tv/90802/1/10",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -2954,7 +3079,8 @@
                   "type": "video",
                   "title": "Episode 11 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/1/11"
+                  "url": "https://vidsrc.net/embed/tv/90802/1/11",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -2979,7 +3105,8 @@
                   "type": "video",
                   "title": "Episode 1 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/2/1"
+                  "url": "https://vidsrc.net/embed/tv/90802/2/1",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -2998,7 +3125,8 @@
                   "type": "video",
                   "title": "Episode 2 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/2/2"
+                  "url": "https://vidsrc.net/embed/tv/90802/2/2",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -3017,7 +3145,8 @@
                   "type": "video",
                   "title": "Episode 3 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/2/3"
+                  "url": "https://vidsrc.net/embed/tv/90802/2/3",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -3036,7 +3165,8 @@
                   "type": "video",
                   "title": "Episode 4 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/2/4"
+                  "url": "https://vidsrc.net/embed/tv/90802/2/4",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -3055,7 +3185,8 @@
                   "type": "video",
                   "title": "Episode 5 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/2/5"
+                  "url": "https://vidsrc.net/embed/tv/90802/2/5",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -3074,7 +3205,8 @@
                   "type": "video",
                   "title": "Episode 6 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/2/6"
+                  "url": "https://vidsrc.net/embed/tv/90802/2/6",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -3093,7 +3225,8 @@
                   "type": "video",
                   "title": "Episode 7 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/2/7"
+                  "url": "https://vidsrc.net/embed/tv/90802/2/7",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -3112,7 +3245,8 @@
                   "type": "video",
                   "title": "Episode 8 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/2/8"
+                  "url": "https://vidsrc.net/embed/tv/90802/2/8",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -3131,7 +3265,8 @@
                   "type": "video",
                   "title": "Episode 9 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/2/9"
+                  "url": "https://vidsrc.net/embed/tv/90802/2/9",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -3150,7 +3285,8 @@
                   "type": "video",
                   "title": "Episode 10 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/2/10"
+                  "url": "https://vidsrc.net/embed/tv/90802/2/10",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -3169,7 +3305,8 @@
                   "type": "video",
                   "title": "Episode 11 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/2/11"
+                  "url": "https://vidsrc.net/embed/tv/90802/2/11",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -3188,7 +3325,8 @@
                   "type": "video",
                   "title": "Episode 12 1080p",
                   "quality": "1080p",
-                  "url": "https://vidsrc.net/embed/tv/90802/2/12"
+                  "url": "https://vidsrc.net/embed/tv/90802/2/12",
+                  "kind": "play"
                 }
               ],
               "subtitles": []
@@ -3343,7 +3481,8 @@
                       "type": "video",
                       "title": "Episode 1 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/1"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/1",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3362,7 +3501,8 @@
                       "type": "video",
                       "title": "Episode 2 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/2"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/2",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3381,7 +3521,8 @@
                       "type": "video",
                       "title": "Episode 3 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/3"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/3",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3400,7 +3541,8 @@
                       "type": "video",
                       "title": "Episode 4 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/4"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/4",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3419,7 +3561,8 @@
                       "type": "video",
                       "title": "Episode 5 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/5"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/5",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3438,7 +3581,8 @@
                       "type": "video",
                       "title": "Episode 6 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/6"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/6",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3457,7 +3601,8 @@
                       "type": "video",
                       "title": "Episode 7 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/7"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/7",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3476,7 +3621,8 @@
                       "type": "video",
                       "title": "Episode 8 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/8"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/8",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3495,7 +3641,8 @@
                       "type": "video",
                       "title": "Episode 9 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/9"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/9",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3514,7 +3661,8 @@
                       "type": "video",
                       "title": "Episode 10 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/10"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/10",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3533,7 +3681,8 @@
                       "type": "video",
                       "title": "Episode 11 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/11"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/11",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3558,7 +3707,8 @@
                       "type": "video",
                       "title": "Episode 1 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/1"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/1",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3577,7 +3727,8 @@
                       "type": "video",
                       "title": "Episode 2 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/2"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/2",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3596,7 +3747,8 @@
                       "type": "video",
                       "title": "Episode 3 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/3"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/3",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3615,7 +3767,8 @@
                       "type": "video",
                       "title": "Episode 4 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/4"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/4",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3634,7 +3787,8 @@
                       "type": "video",
                       "title": "Episode 5 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/5"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/5",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3653,7 +3807,8 @@
                       "type": "video",
                       "title": "Episode 6 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/6"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/6",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3672,7 +3827,8 @@
                       "type": "video",
                       "title": "Episode 7 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/7"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/7",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3691,7 +3847,8 @@
                       "type": "video",
                       "title": "Episode 8 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/8"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/8",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3710,7 +3867,8 @@
                       "type": "video",
                       "title": "Episode 9 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/9"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/9",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3729,7 +3887,8 @@
                       "type": "video",
                       "title": "Episode 10 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/10"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/10",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3748,7 +3907,8 @@
                       "type": "video",
                       "title": "Episode 11 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/11"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/11",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3767,7 +3927,8 @@
                       "type": "video",
                       "title": "Episode 12 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/12"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/12",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3865,7 +4026,8 @@
                       "type": "video",
                       "title": "Episode 1 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/1"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/1",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3884,7 +4046,8 @@
                       "type": "video",
                       "title": "Episode 2 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/2"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/2",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3903,7 +4066,8 @@
                       "type": "video",
                       "title": "Episode 3 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/3"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/3",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3922,7 +4086,8 @@
                       "type": "video",
                       "title": "Episode 4 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/4"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/4",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3941,7 +4106,8 @@
                       "type": "video",
                       "title": "Episode 5 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/5"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/5",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3960,7 +4126,8 @@
                       "type": "video",
                       "title": "Episode 6 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/6"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/6",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3979,7 +4146,8 @@
                       "type": "video",
                       "title": "Episode 7 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/7"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/7",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -3998,7 +4166,8 @@
                       "type": "video",
                       "title": "Episode 8 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/8"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/8",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4017,7 +4186,8 @@
                       "type": "video",
                       "title": "Episode 9 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/9"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/9",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4036,7 +4206,8 @@
                       "type": "video",
                       "title": "Episode 10 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/10"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/10",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4055,7 +4226,8 @@
                       "type": "video",
                       "title": "Episode 11 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/11"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/11",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4080,7 +4252,8 @@
                       "type": "video",
                       "title": "Episode 1 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/1"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/1",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4099,7 +4272,8 @@
                       "type": "video",
                       "title": "Episode 2 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/2"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/2",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4118,7 +4292,8 @@
                       "type": "video",
                       "title": "Episode 3 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/3"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/3",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4137,7 +4312,8 @@
                       "type": "video",
                       "title": "Episode 4 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/4"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/4",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4156,7 +4332,8 @@
                       "type": "video",
                       "title": "Episode 5 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/5"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/5",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4175,7 +4352,8 @@
                       "type": "video",
                       "title": "Episode 6 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/6"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/6",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4194,7 +4372,8 @@
                       "type": "video",
                       "title": "Episode 7 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/7"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/7",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4213,7 +4392,8 @@
                       "type": "video",
                       "title": "Episode 8 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/8"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/8",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4232,7 +4412,8 @@
                       "type": "video",
                       "title": "Episode 9 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/9"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/9",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4251,7 +4432,8 @@
                       "type": "video",
                       "title": "Episode 10 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/10"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/10",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4270,7 +4452,8 @@
                       "type": "video",
                       "title": "Episode 11 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/11"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/11",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4289,7 +4472,8 @@
                       "type": "video",
                       "title": "Episode 12 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/12"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/12",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4387,7 +4571,8 @@
                       "type": "video",
                       "title": "Episode 1 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/1"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/1",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4406,7 +4591,8 @@
                       "type": "video",
                       "title": "Episode 2 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/2"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/2",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4425,7 +4611,8 @@
                       "type": "video",
                       "title": "Episode 3 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/3"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/3",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4444,7 +4631,8 @@
                       "type": "video",
                       "title": "Episode 4 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/4"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/4",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4463,7 +4651,8 @@
                       "type": "video",
                       "title": "Episode 5 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/5"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/5",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4482,7 +4671,8 @@
                       "type": "video",
                       "title": "Episode 6 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/6"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/6",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4501,7 +4691,8 @@
                       "type": "video",
                       "title": "Episode 7 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/7"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/7",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4520,7 +4711,8 @@
                       "type": "video",
                       "title": "Episode 8 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/8"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/8",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4539,7 +4731,8 @@
                       "type": "video",
                       "title": "Episode 9 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/9"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/9",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4558,7 +4751,8 @@
                       "type": "video",
                       "title": "Episode 10 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/10"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/10",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4577,7 +4771,8 @@
                       "type": "video",
                       "title": "Episode 11 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/1/11"
+                      "url": "https://vidsrc.net/embed/tv/90802/1/11",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4602,7 +4797,8 @@
                       "type": "video",
                       "title": "Episode 1 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/1"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/1",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4621,7 +4817,8 @@
                       "type": "video",
                       "title": "Episode 2 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/2"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/2",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4640,7 +4837,8 @@
                       "type": "video",
                       "title": "Episode 3 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/3"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/3",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4659,7 +4857,8 @@
                       "type": "video",
                       "title": "Episode 4 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/4"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/4",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4678,7 +4877,8 @@
                       "type": "video",
                       "title": "Episode 5 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/5"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/5",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4697,7 +4897,8 @@
                       "type": "video",
                       "title": "Episode 6 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/6"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/6",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4716,7 +4917,8 @@
                       "type": "video",
                       "title": "Episode 7 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/7"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/7",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4735,7 +4937,8 @@
                       "type": "video",
                       "title": "Episode 8 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/8"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/8",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4754,7 +4957,8 @@
                       "type": "video",
                       "title": "Episode 9 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/9"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/9",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4773,7 +4977,8 @@
                       "type": "video",
                       "title": "Episode 10 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/10"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/10",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4792,7 +4997,8 @@
                       "type": "video",
                       "title": "Episode 11 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/11"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/11",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
@@ -4811,7 +5017,8 @@
                       "type": "video",
                       "title": "Episode 12 1080p",
                       "quality": "1080p",
-                      "url": "https://vidsrc.net/embed/tv/90802/2/12"
+                      "url": "https://vidsrc.net/embed/tv/90802/2/12",
+                      "kind": "play"
                     }
                   ],
                   "subtitles": []
