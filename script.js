@@ -308,40 +308,32 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- TMDb Integration ---
     fetchTMDbButton.addEventListener('click', async () => {
         const tmdbId = tmdbIdInput.value.trim();
-        let type = entryTypeSelect.value;
-        if (type === 'channel') type = 'movie'; // Default to movie for search
+        const type = entryTypeSelect.value; // Respect the user's selection
+        if (type === 'channel') {
+            alert('TMDb fetch is not applicable for channels.');
+            return;
+        }
         if (!tmdbId) {
             alert('Please enter a TMDb ID.');
             return;
         }
 
         const baseUrl = 'https://api.themoviedb.org/3';
+        const detailsUrl = `${baseUrl}/${type}/${tmdbId}?api_key=${tmdbApiKey}`;
+        const videosUrl = `${baseUrl}/${type}/${tmdbId}/videos?api_key=${tmdbApiKey}`;
 
         try {
-            // First, try to fetch as a movie
-            let detailsRes = await fetch(`${baseUrl}/movie/${tmdbId}?api_key=${tmdbApiKey}`);
-            if (detailsRes.ok) {
-                type = 'movie';
-            } else {
-                // If that fails, try to fetch as a series
-                detailsRes = await fetch(`${baseUrl}/tv/${tmdbId}?api_key=${tmdbApiKey}`);
-                if (detailsRes.ok) {
-                    type = 'series';
-                } else {
-                    throw new Error('Could not find a movie or series with that ID.');
-                }
+            const detailsRes = await fetch(detailsUrl);
+            if (!detailsRes.ok) {
+                throw new Error(`Could not fetch details for this ${type} ID. Please check the ID and selected type.`);
             }
-
             const details = await detailsRes.json();
-            const videosUrl = `${baseUrl}/${type}/${tmdbId}/videos?api_key=${tmdbApiKey}`;
 
             const videosRes = await fetch(videosUrl);
-            if (!videosRes.ok) throw new Error('Could not fetch TMDb videos.');
-            const videosData = await videosRes.json();
+            const videosData = videosRes.ok ? await videosRes.json() : { results: [] };
             const trailer = videosData.results.find(v => v.site === 'YouTube' && v.type === 'Trailer');
 
             // Update form fields
-            entryTypeSelect.value = type; // Set the dropdown to the correct type
             entryTitleInput.value = details.title || details.name || '';
             entryDescriptionInput.value = details.overview || '';
             const releaseDate = details.release_date || details.first_air_date || '';
