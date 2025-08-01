@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // --- Element References ---
     const fileInput = document.getElementById('fileInput');
     const jsonTextInput = document.getElementById('jsonTextInput');
     const loadTextButton = document.getElementById('loadTextButton');
@@ -15,19 +16,33 @@ document.addEventListener('DOMContentLoaded', () => {
     const entryForm = document.getElementById('entryForm');
     const entryIdInput = document.getElementById('entryId');
     const entryTypeSelect = document.getElementById('entryType');
+
+    // Movie/Series fields
+    const movieSeriesFields = document.getElementById('movieSeriesFields');
+    const tmdbIdInput = document.getElementById('tmdbId');
+    const fetchTMDbButton = document.getElementById('fetchTMDbButton');
     const entryTitleInput = document.getElementById('entryTitle');
     const entryYearInput = document.getElementById('entryYear');
     const entryDescriptionInput = document.getElementById('entryDescription');
     const entryImageInput = document.getElementById('entryImage');
     const entryCoverInput = document.getElementById('entryCover');
     const entryTrailerInput = document.getElementById('entryTrailer');
+    const sourceListDiv = document.getElementById('sourceList');
+    const sourceNameInput = document.getElementById('sourceNameInput');
+    const sourceUrlInput = document.getElementById('sourceUrlInput');
+    const addSourceButton = document.getElementById('addSourceButton');
 
-    // TMDb elements
-    const tmdbIdInput = document.getElementById('tmdbId');
-    const fetchTMDbButton = document.getElementById('fetchTMDbButton');
+    // Channel fields
+    const channelFields = document.getElementById('channelFields');
+    const channelTitleInput = document.getElementById('channelTitle');
+    const channelImageInput = document.getElementById('channelImage');
+    const channelRatingInput = document.getElementById('channelRating');
+    const channelDescriptionInput = document.getElementById('channelDescription');
+    const channelStreamUrlInput = document.getElementById('channelStreamUrl');
+
     const tmdbApiKey = 'ec926176bf467b3f7735e3154238c161';
-
     let jsonData = null;
+    let currentSources = [];
 
     // --- Data Loading ---
     fileInput.addEventListener('change', (event) => {
@@ -60,9 +75,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function loadData(jsonString) {
         jsonData = JSON.parse(jsonString);
-        if (!jsonData.movies) {
-            jsonData.movies = []; // Ensure movies array exists
-        }
+        if (!jsonData.movies) jsonData.movies = [];
+        if (!jsonData.channels) jsonData.channels = [];
         editorDiv.style.display = 'block';
         saveSectionDiv.style.display = 'block';
         renderEntries();
@@ -71,39 +85,52 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Render Entries ---
     function renderEntries() {
         entryListDiv.innerHTML = '';
-        if (!jsonData || !jsonData.movies) return;
+        const allEntries = [...(jsonData.movies || []), ...(jsonData.channels || [])];
+        allEntries.sort((a, b) => a.id - b.id);
 
-        jsonData.movies.forEach(entry => {
+        allEntries.forEach(entry => {
             const item = document.createElement('div');
             item.className = 'entry-item';
+            const type = entry.type || (entry.seasons ? 'series' : 'movie');
             item.innerHTML = `
-                <div class="entry-item-title">${entry.title} (${entry.type})</div>
+                <div class="entry-item-title">${entry.title} (${type})</div>
                 <div class="entry-item-actions">
-                    <button class="edit-btn" data-id="${entry.id}">Edit</button>
-                    <button class="delete-btn" data-id="${entry.id}">Delete</button>
+                    <button class="edit-btn" data-id="${entry.id}" data-type="${type}">Edit</button>
+                    <button class="delete-btn" data-id="${entry.id}" data-type="${type}">Delete</button>
                 </div>
             `;
             entryListDiv.appendChild(item);
         });
     }
 
-    // --- Modal Handling ---
+    // --- Modal & Form Type Handling ---
+    function updateFormType() {
+        const type = entryTypeSelect.value;
+        if (type === 'channel') {
+            movieSeriesFields.style.display = 'none';
+            channelFields.style.display = 'block';
+        } else {
+            movieSeriesFields.style.display = 'block';
+            channelFields.style.display = 'none';
+        }
+    }
+
+    entryTypeSelect.addEventListener('change', updateFormType);
+
     function openModal() {
         modal.style.display = 'flex';
+        updateFormType();
     }
 
     function closeModal() {
         modal.style.display = 'none';
         entryForm.reset();
         entryIdInput.value = '';
+        currentSources = [];
+        renderSources();
     }
 
     closeModalButton.addEventListener('click', closeModal);
-    window.addEventListener('click', (event) => {
-        if (event.target === modal) {
-            closeModal();
-        }
-    });
 
     // --- CRUD Operations ---
     addNewEntryButton.addEventListener('click', () => {
@@ -114,45 +141,79 @@ document.addEventListener('DOMContentLoaded', () => {
     entryListDiv.addEventListener('click', (event) => {
         const target = event.target;
         const id = target.dataset.id;
-        if (!id) return;
+        const type = target.dataset.type;
+        if (!id || !type) return;
 
         if (target.classList.contains('edit-btn')) {
-            editEntry(id);
+            editEntry(id, type);
         } else if (target.classList.contains('delete-btn')) {
-            deleteEntry(id);
+            deleteEntry(id, type);
         }
     });
 
-    function editEntry(id) {
-        const entry = jsonData.movies.find(m => m.id == id);
+    function editEntry(id, type) {
+        let entry;
+        if (type === 'channel') {
+            entry = jsonData.channels.find(c => c.id == id);
+        } else {
+            entry = jsonData.movies.find(m => m.id == id);
+        }
         if (!entry) return;
 
         modalTitle.textContent = 'Edit Entry';
         entryIdInput.value = entry.id;
-        entryTypeSelect.value = entry.type || 'movie';
-        entryTitleInput.value = entry.title || '';
-        entryYearInput.value = entry.year || '';
-        entryDescriptionInput.value = entry.description || '';
-        entryImageInput.value = entry.image || '';
-        entryCoverInput.value = entry.cover || '';
-        entryTrailerInput.value = entry.trailer ? entry.trailer.url : '';
+        entryTypeSelect.value = type;
+        updateFormType();
+
+        if (type === 'channel') {
+            channelTitleInput.value = entry.title || '';
+            channelImageInput.value = entry.image || '';
+            channelRatingInput.value = entry.rating || '';
+            channelDescriptionInput.value = entry.description || '';
+            channelStreamUrlInput.value = entry.sources && entry.sources[0] ? entry.sources[0].url : '';
+        } else {
+            entryTitleInput.value = entry.title || '';
+            entryYearInput.value = entry.year || '';
+            entryDescriptionInput.value = entry.description || '';
+            entryImageInput.value = entry.image || '';
+            entryCoverInput.value = entry.cover || '';
+            entryTrailerInput.value = entry.trailer ? entry.trailer.url : '';
+            currentSources = [...(entry.sources || [])];
+            renderSources();
+        }
 
         openModal();
     }
 
-    function deleteEntry(id) {
+    function deleteEntry(id, type) {
         if (confirm('Are you sure you want to delete this entry?')) {
-            const index = jsonData.movies.findIndex(m => m.id == id);
-            if (index > -1) {
-                jsonData.movies.splice(index, 1);
-                renderEntries();
+            let index = -1;
+            if (type === 'channel') {
+                index = jsonData.channels.findIndex(c => c.id == id);
+                if (index > -1) jsonData.channels.splice(index, 1);
+            } else {
+                index = jsonData.movies.findIndex(m => m.id == id);
+                if (index > -1) jsonData.movies.splice(index, 1);
             }
+            renderEntries();
         }
     }
 
     entryForm.addEventListener('submit', (event) => {
         event.preventDefault();
         const id = entryIdInput.value;
+        const type = entryTypeSelect.value;
+
+        if (type === 'channel') {
+            saveChannel(id);
+        } else {
+            saveMovieSeries(id);
+        }
+        renderEntries();
+        closeModal();
+    });
+
+    function saveMovieSeries(id) {
         const entryData = {
             type: entryTypeSelect.value,
             title: entryTitleInput.value,
@@ -161,31 +222,81 @@ document.addEventListener('DOMContentLoaded', () => {
             image: entryImageInput.value,
             cover: entryCoverInput.value,
             trailer: entryTrailerInput.value ? { url: entryTrailerInput.value } : null,
-            // Keep other complex properties if they exist
+            sources: currentSources,
         };
 
-        if (id) { // Update existing
+        if (id) {
             const index = jsonData.movies.findIndex(m => m.id == id);
             if (index > -1) {
                 const existingEntry = jsonData.movies[index];
                 jsonData.movies[index] = { ...existingEntry, ...entryData, id: parseInt(id) };
             }
-        } else { // Create new
-            const newId = jsonData.movies.length > 0 ? Math.max(...jsonData.movies.map(m => m.id)) + 1 : 1;
+        } else {
+            const allIds = [...jsonData.movies.map(m => m.id), ...jsonData.channels.map(c => c.id)];
+            const newId = allIds.length > 0 ? Math.max(...allIds) + 1 : 1;
             const newEntry = {
-                id: newId,
-                ...entryData,
-                // Add default structures for other properties
-                genres: [],
-                sources: [],
-                actors: [],
-                subtitles: [],
-                comments: [],
+                id: newId, ...entryData, genres: [], actors: [], subtitles: [], comments: [],
             };
             jsonData.movies.push(newEntry);
         }
-        renderEntries();
-        closeModal();
+    }
+
+    function saveChannel(id) {
+        const entryData = {
+            title: channelTitleInput.value,
+            image: channelImageInput.value,
+            rating: parseFloat(channelRatingInput.value) || 0,
+            description: channelDescriptionInput.value,
+            sources: channelStreamUrlInput.value ? [{ type: 'live', url: channelStreamUrlInput.value }] : [],
+        };
+
+        if (id) {
+            const index = jsonData.channels.findIndex(c => c.id == id);
+            if (index > -1) {
+                const existingEntry = jsonData.channels[index];
+                jsonData.channels[index] = { ...existingEntry, ...entryData, id: parseInt(id) };
+            }
+        } else {
+            const allIds = [...jsonData.movies.map(m => m.id), ...jsonData.channels.map(c => c.id)];
+            const newId = allIds.length > 0 ? Math.max(...allIds) + 1 : 1;
+            const newEntry = {
+                id: newId, ...entryData, type: 'channel', categories: [], countries: [], comments: []
+            };
+            jsonData.channels.push(newEntry);
+        }
+    }
+
+    // --- Source Management ---
+    function renderSources() {
+        sourceListDiv.innerHTML = '';
+        currentSources.forEach((source, index) => {
+            const item = document.createElement('div');
+            item.className = 'source-item';
+            item.innerHTML = `
+                <span>${source.title || 'Source'}: ${source.url}</span>
+                <button type="button" class="remove-source-btn" data-index="${index}">&times;</button>
+            `;
+            sourceListDiv.appendChild(item);
+        });
+    }
+
+    addSourceButton.addEventListener('click', () => {
+        const name = sourceNameInput.value.trim();
+        const url = sourceUrlInput.value.trim();
+        if (url) {
+            currentSources.push({ title: name, url: url, type: 'video' });
+            sourceNameInput.value = '';
+            sourceUrlInput.value = '';
+            renderSources();
+        }
+    });
+
+    sourceListDiv.addEventListener('click', (event) => {
+        if (event.target.classList.contains('remove-source-btn')) {
+            const index = parseInt(event.target.dataset.index, 10);
+            currentSources.splice(index, 1);
+            renderSources();
+        }
     });
 
     // --- TMDb Integration ---
@@ -202,27 +313,30 @@ document.addEventListener('DOMContentLoaded', () => {
         const videosUrl = `${baseUrl}/${type}/${tmdbId}/videos?api_key=${tmdbApiKey}`;
 
         try {
-            // Fetch main details
             const detailsRes = await fetch(detailsUrl);
             if (!detailsRes.ok) throw new Error('Could not fetch TMDb details.');
             const details = await detailsRes.json();
 
-            // Fetch videos
             const videosRes = await fetch(videosUrl);
             if (!videosRes.ok) throw new Error('Could not fetch TMDb videos.');
             const videosData = await videosRes.json();
             const trailer = videosData.results.find(v => v.site === 'YouTube' && v.type === 'Trailer');
 
-            // Populate form
             entryTitleInput.value = details.title || details.name || '';
             entryDescriptionInput.value = details.overview || '';
             const releaseDate = details.release_date || details.first_air_date || '';
             entryYearInput.value = releaseDate ? releaseDate.split('-')[0] : '';
             entryImageInput.value = details.poster_path ? `https://image.tmdb.org/t/p/w500${details.poster_path}` : '';
             entryCoverInput.value = details.backdrop_path ? `https://image.tmdb.org/t/p/original${details.backdrop_path}` : '';
-            if (trailer) {
-                entryTrailerInput.value = `https://www.youtube.com/watch?v=${trailer.key}`;
+            if (trailer) entryTrailerInput.value = `https://www.youtube.com/watch?v=${trailer.key}`;
+
+            // Auto-add vidsrc.net source
+            const vidsrcUrl = `https://vidsrc.net/embed/${type}?tmdb=${tmdbId}`;
+            const existingSource = currentSources.find(s => s.url === vidsrcUrl);
+            if (!existingSource) {
+                currentSources.unshift({ title: 'vidsrc.net', url: vidsrcUrl, type: 'video' });
             }
+            renderSources();
 
         } catch (error) {
             alert('Error fetching from TMDb: ' + error.message);

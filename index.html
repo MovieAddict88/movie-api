@@ -50,44 +50,82 @@
             <form id="entryForm">
                 <input type="hidden" id="entryId">
 
-                <div class="form-group tmdb-group">
-                    <label for="tmdbId">TMDb ID:</label>
-                    <input type="text" id="tmdbId" placeholder="Enter a TMDb movie/series ID">
-                    <button type="button" id="fetchTMDbButton">Fetch from TMDb</button>
-                </div>
-
                 <div class="form-group">
-                    <label for="entryType">Type:</label>
+                    <label for="entryType">Entry Type:</label>
                     <select id="entryType">
                         <option value="movie">Movie</option>
                         <option value="series">Series</option>
+                        <option value="channel">Live TV Channel</option>
                     </select>
                 </div>
-                <div class="form-group">
-                    <label for="entryTitle">Title:</label>
-                    <input type="text" id="entryTitle" required>
+
+                <!-- Fields for Movie/Series -->
+                <div id="movieSeriesFields">
+                    <div class="form-group tmdb-group">
+                        <label for="tmdbId">TMDb ID:</label>
+                        <input type="text" id="tmdbId" placeholder="Enter a TMDb movie/series ID">
+                        <button type="button" id="fetchTMDbButton">Fetch from TMDb</button>
+                    </div>
+                    <div class="form-group">
+                        <label for="entryTitle">Title:</label>
+                        <input type="text" id="entryTitle" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="entryYear">Year:</label>
+                        <input type="text" id="entryYear">
+                    </div>
+                    <div class="form-group">
+                        <label for="entryDescription">Description:</label>
+                        <textarea id="entryDescription" rows="4"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="entryImage">Image URL:</label>
+                        <input type="text" id="entryImage">
+                    </div>
+                    <div class="form-group">
+                        <label for="entryCover">Cover URL:</label>
+                        <input type="text" id="entryCover">
+                    </div>
+                    <div class="form-group">
+                        <label for="entryTrailer">Trailer URL:</label>
+                        <input type="text" id="entryTrailer" placeholder="YouTube or direct link">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Video Sources</label>
+                        <div id="sourceList"></div>
+                        <div class="source-input-group">
+                            <input type="text" id="sourceNameInput" placeholder="Source Name (e.g., 720p)">
+                            <input type="text" id="sourceUrlInput" placeholder="Source URL">
+                            <button type="button" id="addSourceButton">Add Source</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="entryYear">Year:</label>
-                    <input type="text" id="entryYear">
+
+                <!-- Fields for Live TV Channel -->
+                <div id="channelFields" style="display: none;">
+                    <div class="form-group">
+                        <label for="channelTitle">Channel Name:</label>
+                        <input type="text" id="channelTitle">
+                    </div>
+                    <div class="form-group">
+                        <label for="channelImage">Image URL:</label>
+                        <input type="text" id="channelImage">
+                    </div>
+                    <div class="form-group">
+                        <label for="channelRating">Rating:</label>
+                        <input type="text" id="channelRating">
+                    </div>
+                    <div class="form-group">
+                        <label for="channelDescription">Description:</label>
+                        <textarea id="channelDescription" rows="4"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="channelStreamUrl">Stream URL:</label>
+                        <input type="text" id="channelStreamUrl" placeholder="Main stream URL">
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="entryDescription">Description:</label>
-                    <textarea id="entryDescription" rows="4"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="entryImage">Image URL:</label>
-                    <input type="text" id="entryImage">
-                </div>
-                <div class="form-group">
-                    <label for="entryCover">Cover URL:</label>
-                    <input type="text" id="entryCover">
-                </div>
-                <div class="form-group">
-                    <label for="entryTrailer">Trailer URL (YouTube or direct link):</label>
-                    <input type="text" id="entryTrailer">
-                </div>
-                <!-- More complex fields like sources, actors, genres will be handled programmatically -->
+
                 <button type="submit">Save Entry</button>
             </form>
         </div>
