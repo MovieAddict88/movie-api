@@ -306,52 +306,83 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // --- TMDb Integration ---
+
+    // Helper function to populate form fields from TMDb data
+    async function populateFormWithTMDb(details, type, tmdbId) {
+        // Update form fields
+        entryTitleInput.value = details.title || details.name || '';
+        entryDescriptionInput.value = details.overview || '';
+        const releaseDate = details.release_date || details.first_air_date || '';
+        entryYearInput.value = releaseDate ? releaseDate.split('-')[0] : '';
+        entryImageInput.value = details.poster_path ? `https://image.tmdb.org/t/p/w500${details.poster_path}` : '';
+        entryCoverInput.value = details.backdrop_path ? `https://image.tmdb.org/t/p/original${details.backdrop_path}` : '';
+
+        // Fetch and set trailer URL
+        const videosUrl = `https://api.themoviedb.org/3/${type}/${tmdbId}/videos?api_key=${tmdbApiKey}`;
+        const videosRes = await fetch(videosUrl);
+        const videosData = videosRes.ok ? await videosRes.json() : { results: [] };
+        const trailer = videosData.results.find(v => v.site === 'YouTube' && v.type === 'Trailer');
+        if (trailer) {
+            entryTrailerInput.value = `https://www.youtube.com/watch?v=${trailer.key}`;
+        } else {
+            entryTrailerInput.value = ''; // Clear if no trailer found
+        }
+
+        // Auto-add vidsrc.net source
+        const vidsrcUrl = `https://vidsrc.net/embed/${type}?tmdb=${tmdbId}`;
+        const existingSource = currentSources.find(s => s.url === vidsrcUrl);
+        if (!existingSource) {
+            currentSources.unshift({ title: 'vidsrc.net', url: vidsrcUrl, type: 'video' });
+        }
+        renderSources();
+    }
+
     fetchTMDbButton.addEventListener('click', async () => {
         const tmdbId = tmdbIdInput.value.trim();
-        const type = entryTypeSelect.value; // Respect the user's selection
-        if (type === 'channel') {
-            alert('TMDb fetch is not applicable for channels.');
-            return;
-        }
         if (!tmdbId) {
             alert('Please enter a TMDb ID.');
             return;
         }
 
         const baseUrl = 'https://api.themoviedb.org/3';
-        const detailsUrl = `${baseUrl}/${type}/${tmdbId}?api_key=${tmdbApiKey}`;
-        const videosUrl = `${baseUrl}/${type}/${tmdbId}/videos?api_key=${tmdbApiKey}`;
+        let details = null;
+        let type = null;
 
+        // Try fetching as a movie first
         try {
-            const detailsRes = await fetch(detailsUrl);
-            if (!detailsRes.ok) {
-                throw new Error(`Could not fetch details for this ${type} ID. Please check the ID and selected type.`);
+            const movieUrl = `${baseUrl}/movie/${tmdbId}?api_key=${tmdbApiKey}`;
+            const res = await fetch(movieUrl);
+            if (res.ok) {
+                details = await res.json();
+                type = 'movie';
+            } else if (res.status === 404) {
+                // If not found, try fetching as a series
+                const seriesUrl = `${baseUrl}/tv/${tmdbId}?api_key=${tmdbApiKey}`;
+                const seriesRes = await fetch(seriesUrl);
+                if (seriesRes.ok) {
+                    details = await seriesRes.json();
+                    type = 'series';
+                } else {
+                    // If series also not found, throw an error
+                    throw new Error('ID not found as a movie or series.');
+                }
+            } else {
+                // Handle other non-404 errors for the movie fetch
+                throw new Error(`API error fetching movie: ${res.statusText}`);
             }
-            const details = await detailsRes.json();
-
-            const videosRes = await fetch(videosUrl);
-            const videosData = videosRes.ok ? await videosRes.json() : { results: [] };
-            const trailer = videosData.results.find(v => v.site === 'YouTube' && v.type === 'Trailer');
-
-            // Update form fields
-            entryTitleInput.value = details.title || details.name || '';
-            entryDescriptionInput.value = details.overview || '';
-            const releaseDate = details.release_date || details.first_air_date || '';
-            entryYearInput.value = releaseDate ? releaseDate.split('-')[0] : '';
-            entryImageInput.value = details.poster_path ? `https://image.tmdb.org/t/p/w500${details.poster_path}` : '';
-            entryCoverInput.value = details.backdrop_path ? `https://image.tmdb.org/t/p/original${details.backdrop_path}` : '';
-            if (trailer) entryTrailerInput.value = `https://www.youtube.com/watch?v=${trailer.key}`;
-
-            // Auto-add vidsrc.net source
-            const vidsrcUrl = `https://vidsrc.net/embed/${type}?tmdb=${tmdbId}`;
-            const existingSource = currentSources.find(s => s.url === vidsrcUrl);
-            if (!existingSource) {
-                currentSources.unshift({ title: 'vidsrc.net', url: vidsrcUrl, type: 'video' });
-            }
-            renderSources();
-
         } catch (error) {
-            alert('Error fetching from TMDb: ' + error.message);
+            alert(`Error fetching from TMDb: ${error.message}`);
+            return;
+        }
+
+        // If we found something, populate the form
+        if (details && type) {
+            entryTypeSelect.value = type; // Set the dropdown to the detected type
+            try {
+                await populateFormWithTMDb(details, type, tmdbId);
+            } catch (populateError) {
+                alert(`Error populating form: ${populateError.message}`);
+            }
         }
     });
 
