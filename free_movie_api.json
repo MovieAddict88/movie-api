@@ -7897,9 +7897,12 @@
                     "sources": [
                       {
                         "id": 88,
-                        "type": "video",
+                        "type": "embed",
                         "title": "Episode 1 1080p",
                         "quality": "1080p",
+                  "kind": "play",
+                  "premium": "false",
+                  "external": false,
                         "url": "https://vidsrc.net/embed/tv/90802/1/1"
                       }
                     ],
@@ -9637,9 +9640,12 @@
                     "sources": [
                       {
                         "id": 88,
-                        "type": "video",
+                        "type": "embed",
                         "title": "Episode 1 1080p",
                         "quality": "1080p",
+                  "kind": "play",
+                  "premium": "false",
+                  "external": false,
                         "url": "https://vidsrc.net/embed/tv/90802/1/1"
                       }
                     ],
@@ -12949,9 +12955,12 @@
               "sources": [
                 {
                   "id": 88,
-                  "type": "video",
-                  "title": "Episode 1 1080p",
-                  "quality": "1080p",
+                  "type": "embed",
+                        "title": "Episode 1 1080p",
+                        "quality": "1080p",
+                  "kind": "play",
+                  "premium": "false",
+                  "external": false,
                   "url": "https://vidsrc.net/embed/tv/90802/1/1"
                 }
               ],
@@ -19942,9 +19951,12 @@
                   "sources": [
                     {
                       "id": 88,
-                      "type": "video",
-                      "title": "Episode 1 1080p",
-                      "quality": "1080p",
+                      "type": "embed",
+                        "title": "Episode 1 1080p",
+                        "quality": "1080p",
+                  "kind": "play",
+                  "premium": "false",
+                  "external": false,
                       "url": "https://vidsrc.net/embed/tv/90802/1/1"
                     }
                   ],
@@ -21577,9 +21589,12 @@
                   "sources": [
                     {
                       "id": 88,
-                      "type": "video",
-                      "title": "Episode 1 1080p",
-                      "quality": "1080p",
+                      "type": "embed",
+                        "title": "Episode 1 1080p",
+                        "quality": "1080p",
+                  "kind": "play",
+                  "premium": "false",
+                  "external": false,
                       "url": "https://vidsrc.net/embed/tv/90802/1/1"
                     }
                   ],
@@ -23317,9 +23332,12 @@
                   "sources": [
                     {
                       "id": 88,
-                      "type": "video",
-                      "title": "Episode 1 1080p",
-                      "quality": "1080p",
+                      "type": "embed",
+                        "title": "Episode 1 1080p",
+                        "quality": "1080p",
+                  "kind": "play",
+                  "premium": "false",
+                  "external": false,
                       "url": "https://vidsrc.net/embed/tv/90802/1/1"
                     }
                   ],
