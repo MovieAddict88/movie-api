@@ -4537,7 +4537,7 @@
       "cover": "https://image.tmdb.org/t/p/original/7Q2CmqIVJuDAESPPp76rWIiA0AD.jpg",
       "trailer": {
         "id": 78,
-        "type": "embed",
+        "type": "youtube",
         "title": "Karate Kid: Legends Trailer",
         "url": "https://www.youtube.com/watch?v=LhRXf-yEQqA"
       },
