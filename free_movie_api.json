@@ -651,7 +651,7 @@
           "title": "vidsrc.net 1080p",
           "quality": "1080p",
           "size": "0MB",
-          "kind": "both",
+          "kind": "play",
           "premium": "false",
           "external": false,
           "url": "https://vidsrc.net/embed/movie/1011477"
