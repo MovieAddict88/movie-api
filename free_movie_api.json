@@ -6235,7 +6235,7 @@
             "sources": [],
             "trailer": {
               "id": 136,
-              "type": "youtube",
+              "type": "video",
               "title": "The Sandman Trailer",
               "url": "https://www.youtube.com/watch?v=ZJXamnPUm0I"
             },
@@ -6259,9 +6259,9 @@
                     "sources": [
                       {
                         "id": 88,
-                   "type": "embed",
-                  "title": "Episode 1 1080p",
-                  "quality": "1080p",
+                        "type": "embed",
+                        "title": "Episode 1 1080p",
+                        "quality": "1080p",
                   "kind": "play",
                   "premium": "false",
                   "external": false,
@@ -6281,12 +6281,9 @@
                     "sources": [
                       {
                         "id": 90,
-                        "type": "embed",
+                        "type": "video",
                         "title": "Episode 2 1080p",
                         "quality": "1080p",
-                  "kind": "play",
-                  "premium": "false",
-                  "external": false,
                         "url": "https://vidsrc.net/embed/tv/90802/1/2"
                       }
                     ],
