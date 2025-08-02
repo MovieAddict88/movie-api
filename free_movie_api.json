@@ -25,18 +25,18 @@
           "cover": "https://image.tmdb.org/t/p/original/7Q2CmqIVJuDAESPPp76rWIiA0AD.jpg",
           "trailer": {
             "id": 3,
-            "type": "video",
+            "type": "youtube",
             "title": "Karate Kid: Legends Trailer",
             "url": "https://www.youtube.com/watch?v=LhRXf-yEQqA"
           },
           "sources": [
             {
               "id": 1,
-              "type": "video",
+              "type": "embed",
               "title": "vidsrc.net 1080p",
               "quality": "1080p",
               "size": "0MB",
-              "kind": "both",
+              "kind": "play",
               "premium": "false",
               "external": false,
               "url": "https://vidsrc.net/embed/movie/1011477"
@@ -916,11 +916,11 @@
           "sources": [
             {
               "id": 1,
-              "type": "video",
+              "type": "embed",
               "title": "vidsrc.net 1080p",
               "quality": "1080p",
               "size": "0MB",
-              "kind": "both",
+              "kind": "play",
               "premium": "false",
               "external": false,
               "url": "https://vidsrc.net/embed/movie/1011477"
@@ -928,7 +928,7 @@
           ],
           "trailer": {
             "id": 3,
-            "type": "video",
+            "type": "youtube",
             "title": "Karate Kid: Legends Trailer",
             "url": "https://www.youtube.com/watch?v=LhRXf-yEQqA"
           },
@@ -1017,11 +1017,11 @@
           "sources": [
             {
               "id": 1,
-              "type": "video",
+              "type": "embed",
               "title": "vidsrc.net 1080p",
               "quality": "1080p",
               "size": "0MB",
-              "kind": "both",
+              "kind": "play",
               "premium": "false",
               "external": false,
               "url": "https://vidsrc.net/embed/movie/1011477"
@@ -1029,7 +1029,7 @@
           ],
           "trailer": {
             "id": 3,
-            "type": "video",
+            "type": "youtube",
             "title": "Karate Kid: Legends Trailer",
             "url": "https://www.youtube.com/watch?v=LhRXf-yEQqA"
           },
@@ -1118,11 +1118,11 @@
           "sources": [
             {
               "id": 1,
-              "type": "video",
+              "type": "embed",
               "title": "vidsrc.net 1080p",
               "quality": "1080p",
               "size": "0MB",
-              "kind": "both",
+              "kind": "play",
               "premium": "false",
               "external": false,
               "url": "https://vidsrc.net/embed/movie/1011477"
@@ -1130,7 +1130,7 @@
           ],
           "trailer": {
             "id": 3,
-            "type": "video",
+            "type": "youtube",
             "title": "Karate Kid: Legends Trailer",
             "url": "https://www.youtube.com/watch?v=LhRXf-yEQqA"
           },
