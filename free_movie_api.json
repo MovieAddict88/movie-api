@@ -5,7 +5,7 @@
     "last_updated": "2025-08-02",
     "total_movies": 2,
     "total_channels": 26,
-    "total_actors": 1
+    "total_actors": 2
   },
   "home": {
     "slides": [
@@ -129,6 +129,173 @@
       },
       {
         "id": 2,
+        "title": "Sample TV Series",
+        "type": "movie",
+        "image": "https://example.com/sample-series.jpg",
+        "url": "movies/2",
+        "poster": {
+          "id": 2,
+          "title": "Sample TV Series",
+          "type": "series",
+          "label": "Latest Movie",
+          "sublabel": "Released 2023",
+          "imdb": "8.2",
+          "downloadas": "sample-series",
+          "comment": true,
+          "playas": "video",
+          "description": "A gripping drama series with 2 seasons. Each season contains 1 episode with multiple quality options and subtitles.",
+          "classification": "TV-14",
+          "year": "2023",
+          "duration": "45:00",
+          "rating": 8.2,
+          "views": 8000,
+          "created_at": "2024-01-02",
+          "image": "https://example.com/sample-series.jpg",
+          "cover": "https://example.com/sample-series-cover.jpg",
+          "genres": [
+            {
+              "id": 3,
+              "title": "Drama"
+            }
+          ],
+          "sources": [],
+          "trailer": null,
+          "actors": [
+            {
+              "id": 2,
+              "name": "Emma Watson",
+              "type": "actress",
+              "role": "Lead Actress",
+              "image": "https://example.com/emma-watson.jpg",
+              "born": "1990-04-15",
+              "height": "5'5\"",
+              "bio": "English actress and activist"
+            }
+          ],
+          "subtitles": [],
+          "comments": [
+            {
+              "id": 1,
+              "user": "Series Fan",
+              "comment": "Amazing series! Can't wait for season 2.",
+              "created_at": "2024-01-15T12:00:00Z"
+            }
+          ],
+          "downloads": 2000,
+          "shares": 500,
+          "seasons": [
+            {
+              "id": 1,
+              "title": "Season 1",
+              "episodes": [
+                {
+                  "id": 1,
+                  "title": "Episode 1",
+                  "episode_number": 1,
+                  "image": "https://example.com/ep1.jpg",
+                  "duration": "45:00",
+                  "sources": [
+                    {
+                      "id": 5,
+                      "type": "video",
+                      "title": "Episode 1 1080p",
+                      "quality": "1080p",
+                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                    },
+                    {
+                      "id": 6,
+                      "type": "video",
+                      "title": "Episode 1 720p",
+                      "quality": "720p",
+                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                    },
+                    {
+                      "id": 7,
+                      "type": "video",
+                      "title": "Episode 1 480p",
+                      "quality": "480p",
+                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                    }
+                  ],
+                  "subtitles": [
+                    {
+                      "id": 1,
+                      "title": "English",
+                      "language": "en",
+                      "url": "https://example.com/subtitles/ep1-en.vtt"
+                    },
+                    {
+                      "id": 2,
+                      "title": "Spanish",
+                      "language": "es",
+                      "url": "https://example.com/subtitles/ep1-es.vtt"
+                    }
+                  ],
+                  "views": 5000,
+                  "downloads": 1200
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "Season 2",
+              "episodes": [
+                {
+                  "id": 2,
+                  "title": "Episode 1",
+                  "episode_number": 1,
+                  "image": "https://example.com/ep2.jpg",
+                  "duration": "45:00",
+                  "sources": [
+                    {
+                      "id": 8,
+                      "type": "video",
+                      "title": "Episode 1 1080p",
+                      "quality": "1080p",
+                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                    },
+                    {
+                      "id": 9,
+                      "type": "video",
+                      "title": "Episode 1 720p",
+                      "quality": "720p",
+                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                    },
+                    {
+                      "id": 10,
+                      "type": "video",
+                      "title": "Episode 1 480p",
+                      "quality": "480p",
+                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                    }
+                  ],
+                  "subtitles": [
+                    {
+                      "id": 3,
+                      "title": "English",
+                      "language": "en",
+                      "url": "https://example.com/subtitles/ep2-en.vtt"
+                    },
+                    {
+                      "id": 4,
+                      "title": "Spanish",
+                      "language": "es",
+                      "url": "https://example.com/subtitles/ep2-es.vtt"
+                    }
+                  ],
+                  "views": 3000,
+                  "downloads": 800
+                }
+              ]
+            }
+          ],
+          "contentType": "movie",
+          "url": "movies/2"
+        },
+        "channel": null
+      },
+      {
+        "id": 3,
         "title": "Sample Sports Channel",
         "type": "channel",
         "image": "https://example.com/sports-channel.jpg",
@@ -186,7 +353,7 @@
         }
       },
       {
-        "id": 3,
+        "id": 4,
         "title": "Kapamilya Channel",
         "type": "channel",
         "image": "https://i.imgur.com/Dcys2TG.png",
@@ -237,7 +404,7 @@
         }
       },
       {
-        "id": 4,
+        "id": 5,
         "title": "AZ2",
         "type": "channel",
         "image": "https://i.imgur.com/1zsdloF.png",
@@ -329,64 +496,6 @@
           "comments": [],
           "contentType": "channel",
           "url": "channels/1"
-        }
-      },
-      {
-        "id": 5,
-        "title": "Sample News Channel",
-        "type": "channel",
-        "image": "https://example.com/news-channel.jpg",
-        "url": "channels/4",
-        "poster": null,
-        "channel": {
-          "id": 4,
-          "title": "Sample News Channel",
-          "label": "News",
-          "sublabel": "24/7 News",
-          "description": "24/7 news coverage from around the world",
-          "website": "https://example-news.com",
-          "classification": "News",
-          "views": 25000,
-          "shares": 800,
-          "rating": 7.8,
-          "comment": true,
-          "image": "https://example.com/news-channel.jpg",
-          "playas": "live",
-          "sources": [
-            {
-              "id": 6,
-              "type": "live",
-              "title": "Live Stream",
-              "quality": "1080p",
-              "size": "Live",
-              "kind": "play",
-              "premium": "false",
-              "external": false,
-              "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-            }
-          ],
-          "categories": [
-            {
-              "id": 1,
-              "title": "News"
-            }
-          ],
-          "countries": [
-            {
-              "id": 1,
-              "title": "USA"
-            }
-          ],
-          "comments": [
-            {
-              "id": 1,
-              "user": "News Viewer",
-              "comment": "Great coverage!",
-              "created_at": "2024-01-15T09:15:00Z"
-            }
-          ],
-          "contentType": "channel",
-          "url": "channels/4"
         }
       }
     ],
@@ -499,6 +608,163 @@
         "downloads": 5000,
         "shares": 1200,
         "created_at": "2025-08-02"
+      },
+      {
+        "id": 2,
+        "title": "Sample TV Series",
+        "type": "series",
+        "label": "Drama",
+        "sublabel": "2 Seasons",
+        "imdb": "8.2",
+        "downloadas": "sample-series",
+        "comment": true,
+        "playas": "video",
+        "description": "A gripping drama series with 2 seasons. Each season contains 1 episode with multiple quality options and subtitles.",
+        "classification": "TV-14",
+        "year": "2023",
+        "duration": "45:00",
+        "rating": 8.2,
+        "views": 8000,
+        "created_at": "2024-01-02",
+        "image": "https://example.com/sample-series.jpg",
+        "cover": "https://example.com/sample-series-cover.jpg",
+        "genres": [
+          {
+            "id": 3,
+            "title": "Drama"
+          }
+        ],
+        "sources": [],
+        "trailer": null,
+        "actors": [
+          {
+            "id": 2,
+            "name": "Emma Watson",
+            "type": "actress",
+            "role": "Lead Actress",
+            "image": "https://example.com/emma-watson.jpg",
+            "born": "1990-04-15",
+            "height": "5'5\"",
+            "bio": "English actress and activist"
+          }
+        ],
+        "subtitles": [],
+        "comments": [
+          {
+            "id": 1,
+            "user": "Series Fan",
+            "comment": "Amazing series! Can't wait for season 2.",
+            "created_at": "2024-01-15T12:00:00Z"
+          }
+        ],
+        "downloads": 2000,
+        "shares": 500,
+        "seasons": [
+          {
+            "id": 1,
+            "title": "Season 1",
+            "episodes": [
+              {
+                "id": 1,
+                "title": "Episode 1",
+                "episode_number": 1,
+                "image": "https://example.com/ep1.jpg",
+                "duration": "45:00",
+                "sources": [
+                  {
+                    "id": 5,
+                    "type": "video",
+                    "title": "Episode 1 1080p",
+                    "quality": "1080p",
+                    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                  },
+                  {
+                    "id": 6,
+                    "type": "video",
+                    "title": "Episode 1 720p",
+                    "quality": "720p",
+                    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                  },
+                  {
+                    "id": 7,
+                    "type": "video",
+                    "title": "Episode 1 480p",
+                    "quality": "480p",
+                    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "id": 1,
+                    "title": "English",
+                    "language": "en",
+                    "url": "https://example.com/subtitles/ep1-en.vtt"
+                  },
+                  {
+                    "id": 2,
+                    "title": "Spanish",
+                    "language": "es",
+                    "url": "https://example.com/subtitles/ep1-es.vtt"
+                  }
+                ],
+                "views": 5000,
+                "downloads": 1200
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Season 2",
+            "episodes": [
+              {
+                "id": 2,
+                "title": "Episode 1",
+                "episode_number": 1,
+                "image": "https://example.com/ep2.jpg",
+                "duration": "45:00",
+                "sources": [
+                  {
+                    "id": 8,
+                    "type": "video",
+                    "title": "Episode 1 1080p",
+                    "quality": "1080p",
+                    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                  },
+                  {
+                    "id": 9,
+                    "type": "video",
+                    "title": "Episode 1 720p",
+                    "quality": "720p",
+                    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                  },
+                  {
+                    "id": 10,
+                    "type": "video",
+                    "title": "Episode 1 480p",
+                    "quality": "480p",
+                    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                  }
+                ],
+                "subtitles": [
+                  {
+                    "id": 3,
+                    "title": "English",
+                    "language": "en",
+                    "url": "https://example.com/subtitles/ep2-en.vtt"
+                  },
+                  {
+                    "id": 4,
+                    "title": "Spanish",
+                    "language": "es",
+                    "url": "https://example.com/subtitles/ep2-es.vtt"
+                  }
+                ],
+                "views": 3000,
+                "downloads": 800
+              }
+            ]
+          }
+        ]
       }
     ],
     "channels": [
@@ -1645,6 +1911,24 @@
             "year": "2008"
           }
         ]
+      },
+      {
+        "id": 2,
+        "name": "Emma Watson",
+        "type": "actress",
+        "role": "Lead Actress",
+        "image": "https://example.com/emma-watson.jpg",
+        "born": "1990-04-15",
+        "height": "5'5\"",
+        "bio": "English actress and activist",
+        "movies": [
+          {
+            "id": 2,
+            "title": "Sample TV Series",
+            "image": "https://example.com/sample-series.jpg",
+            "year": "2023"
+          }
+        ]
       }
     ],
     "genres": [
@@ -1762,6 +2046,169 @@
             "shares": 1200
           }
         ]
+      },
+      {
+        "id": 2,
+        "title": "Drama",
+        "posters": [
+          {
+            "id": 2,
+            "title": "Sample TV Series",
+            "type": "series",
+            "label": "Drama",
+            "sublabel": "2 Seasons",
+            "imdb": "8.2",
+            "downloadas": "sample-series",
+            "comment": true,
+            "playas": "video",
+            "description": "A gripping drama series with 2 seasons. Each season contains 1 episode with multiple quality options and subtitles.",
+            "classification": "TV-14",
+            "year": "2023",
+            "duration": "45:00",
+            "rating": 8.2,
+            "image": "https://example.com/sample-series.jpg",
+            "cover": "https://example.com/sample-series-cover.jpg",
+            "genres": [
+              {
+                "id": 3,
+                "title": "Drama"
+              }
+            ],
+            "actors": [
+              {
+                "id": 2,
+                "name": "Emma Watson",
+                "type": "actress",
+                "role": "Lead Actress",
+                "image": "https://example.com/emma-watson.jpg",
+                "born": "1990-04-15",
+                "height": "5'5\"",
+                "bio": "English actress and activist"
+              }
+            ],
+            "views": 8000,
+            "created_at": "2024-01-02",
+            "sources": [],
+            "trailer": null,
+            "subtitles": [],
+            "comments": [
+              {
+                "id": 1,
+                "user": "Series Fan",
+                "comment": "Amazing series! Can't wait for season 2.",
+                "created_at": "2024-01-15T12:00:00Z"
+              }
+            ],
+            "downloads": 2000,
+            "shares": 500,
+            "seasons": [
+              {
+                "id": 1,
+                "title": "Season 1",
+                "episodes": [
+                  {
+                    "id": 1,
+                    "title": "Episode 1",
+                    "episode_number": 1,
+                    "image": "https://example.com/ep1.jpg",
+                    "duration": "45:00",
+                    "sources": [
+                      {
+                        "id": 5,
+                        "type": "video",
+                        "title": "Episode 1 1080p",
+                        "quality": "1080p",
+                        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                      },
+                      {
+                        "id": 6,
+                        "type": "video",
+                        "title": "Episode 1 720p",
+                        "quality": "720p",
+                        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                      },
+                      {
+                        "id": 7,
+                        "type": "video",
+                        "title": "Episode 1 480p",
+                        "quality": "480p",
+                        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                      }
+                    ],
+                    "subtitles": [
+                      {
+                        "id": 1,
+                        "title": "English",
+                        "language": "en",
+                        "url": "https://example.com/subtitles/ep1-en.vtt"
+                      },
+                      {
+                        "id": 2,
+                        "title": "Spanish",
+                        "language": "es",
+                        "url": "https://example.com/subtitles/ep1-es.vtt"
+                      }
+                    ],
+                    "views": 5000,
+                    "downloads": 1200
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "title": "Season 2",
+                "episodes": [
+                  {
+                    "id": 2,
+                    "title": "Episode 1",
+                    "episode_number": 1,
+                    "image": "https://example.com/ep2.jpg",
+                    "duration": "45:00",
+                    "sources": [
+                      {
+                        "id": 8,
+                        "type": "video",
+                        "title": "Episode 1 1080p",
+                        "quality": "1080p",
+                        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                      },
+                      {
+                        "id": 9,
+                        "type": "video",
+                        "title": "Episode 1 720p",
+                        "quality": "720p",
+                        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                      },
+                      {
+                        "id": 10,
+                        "type": "video",
+                        "title": "Episode 1 480p",
+                        "quality": "480p",
+                        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                      }
+                    ],
+                    "subtitles": [
+                      {
+                        "id": 3,
+                        "title": "English",
+                        "language": "en",
+                        "url": "https://example.com/subtitles/ep2-en.vtt"
+                      },
+                      {
+                        "id": 4,
+                        "title": "Spanish",
+                        "language": "es",
+                        "url": "https://example.com/subtitles/ep2-es.vtt"
+                      }
+                    ],
+                    "views": 3000,
+                    "downloads": 800
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1876,576 +2323,157 @@
       "shares": 1200
     },
     {
-      "id": 2602,
+      "id": 2,
       "type": "series",
-      "title": "The Sandman",
-      "year": "2022",
-      "description": "After years of imprisonment, Morpheus — the King of Dreams — embarks on a journey across worlds to find what was stolen from him and restore his power.",
-      "image": "https://image.tmdb.org/t/p/w500/vfJ1nBnqiiRWZWv3ZvtFWO5zccg.jpg",
-      "cover": "https://image.tmdb.org/t/p/original/uxrP5yB9h6Dh6SbojI018pMYIIH.jpg",
-      "trailer": {
-        "id": 2602,
-        "type": "youtube",
-        "title": "The Sandman Trailer",
-        "url": "https://www.youtube.com/watch?v=ZJXamnPUm0I"
-      },
+      "title": "Sample TV Series",
+      "year": "2023",
+      "description": "A gripping drama series with 2 seasons. Each season contains 1 episode with multiple quality options and subtitles.",
+      "image": "https://example.com/sample-series.jpg",
+      "cover": "https://example.com/sample-series-cover.jpg",
+      "trailer": null,
       "sources": [],
-      "label": "Series",
+      "label": "Drama",
       "sublabel": "2 Seasons",
-      "imdb": "0.0",
-      "downloadas": "the-sandman",
+      "imdb": "8.2",
+      "downloadas": "sample-series",
       "comment": true,
       "playas": "video",
-      "classification": "TV-PG",
+      "classification": "TV-14",
       "duration": "45:00",
-      "rating": 0,
-      "created_at": "2025-08-02",
-      "genres": [],
-      "actors": [],
+      "rating": 8.2,
+      "created_at": "2024-01-02",
+      "genres": [
+        {
+          "id": 3,
+          "title": "Drama"
+        }
+      ],
+      "actors": [
+        {
+          "id": 2,
+          "name": "Emma Watson",
+          "type": "actress",
+          "role": "Lead Actress",
+          "image": "https://example.com/emma-watson.jpg",
+          "born": "1990-04-15",
+          "height": "5'5\"",
+          "bio": "English actress and activist"
+        }
+      ],
       "subtitles": [],
-      "comments": [],
-      "views": 0,
-      "downloads": 0,
-      "shares": 0,
+      "comments": [
+        {
+          "id": 1,
+          "user": "Series Fan",
+          "comment": "Amazing series! Can't wait for season 2.",
+          "created_at": "2024-01-15T12:00:00Z"
+        }
+      ],
+      "views": 8000,
+      "downloads": 2000,
+      "shares": 500,
       "seasons": [
         {
-          "id": 2602,
+          "id": 1,
           "title": "Season 1",
           "episodes": [
             {
-              "id": 2602,
+              "id": 1,
               "title": "Episode 1",
               "episode_number": 1,
-              "image": "",
+              "image": "https://example.com/ep1.jpg",
               "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
               "sources": [
                 {
-                  "id": 2602,
-                  "type": "embed",
+                  "id": 5,
+                  "type": "video",
                   "title": "Episode 1 1080p",
                   "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/1/1"
-                }
-              ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 2",
-              "episode_number": 2,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
+                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                },
                 {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 2 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/1/2"
-                }
-              ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 3",
-              "episode_number": 3,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
+                  "id": 6,
+                  "type": "video",
+                  "title": "Episode 1 720p",
+                  "quality": "720p",
+                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                },
                 {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 3 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/1/3"
+                  "id": 7,
+                  "type": "video",
+                  "title": "Episode 1 480p",
+                  "quality": "480p",
+                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
                 }
               ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 4",
-              "episode_number": 4,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
+              "subtitles": [
                 {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 4 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/1/4"
-                }
-              ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 5",
-              "episode_number": 5,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
+                  "id": 1,
+                  "title": "English",
+                  "language": "en",
+                  "url": "https://example.com/subtitles/ep1-en.vtt"
+                },
                 {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 5 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/1/5"
+                  "id": 2,
+                  "title": "Spanish",
+                  "language": "es",
+                  "url": "https://example.com/subtitles/ep1-es.vtt"
                 }
               ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 6",
-              "episode_number": 6,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
-                {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 6 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/1/6"
-                }
-              ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 7",
-              "episode_number": 7,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
-                {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 7 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/1/7"
-                }
-              ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 8",
-              "episode_number": 8,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
-                {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 8 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/1/8"
-                }
-              ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 9",
-              "episode_number": 9,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
-                {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 9 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/1/9"
-                }
-              ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 10",
-              "episode_number": 10,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
-                {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 10 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/1/10"
-                }
-              ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 11",
-              "episode_number": 11,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
-                {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 11 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/1/11"
-                }
-              ],
-              "subtitles": []
+              "views": 5000,
+              "downloads": 1200
             }
           ]
         },
         {
-          "id": 2602,
+          "id": 2,
           "title": "Season 2",
           "episodes": [
             {
-              "id": 2602,
+              "id": 2,
               "title": "Episode 1",
               "episode_number": 1,
-              "image": "",
+              "image": "https://example.com/ep2.jpg",
               "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
               "sources": [
                 {
-                  "id": 2602,
-                  "type": "embed",
+                  "id": 8,
+                  "type": "video",
                   "title": "Episode 1 1080p",
                   "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/2/1"
-                }
-              ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 2",
-              "episode_number": 2,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
+                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                },
                 {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 2 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/2/2"
-                }
-              ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 3",
-              "episode_number": 3,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
+                  "id": 9,
+                  "type": "video",
+                  "title": "Episode 1 720p",
+                  "quality": "720p",
+                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                },
                 {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 3 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/2/3"
+                  "id": 10,
+                  "type": "video",
+                  "title": "Episode 1 480p",
+                  "quality": "480p",
+                  "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
                 }
               ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 4",
-              "episode_number": 4,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
+              "subtitles": [
                 {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 4 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/2/4"
-                }
-              ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 5",
-              "episode_number": 5,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
+                  "id": 3,
+                  "title": "English",
+                  "language": "en",
+                  "url": "https://example.com/subtitles/ep2-en.vtt"
+                },
                 {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 5 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/2/5"
+                  "id": 4,
+                  "title": "Spanish",
+                  "language": "es",
+                  "url": "https://example.com/subtitles/ep2-es.vtt"
                 }
               ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 6",
-              "episode_number": 6,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
-                {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 6 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/2/6"
-                }
-              ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 7",
-              "episode_number": 7,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
-                {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 7 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/2/7"
-                }
-              ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 8",
-              "episode_number": 8,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
-                {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 8 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/2/8"
-                }
-              ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 9",
-              "episode_number": 9,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
-                {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 9 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/2/9"
-                }
-              ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 10",
-              "episode_number": 10,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
-                {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 10 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/2/10"
-                }
-              ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 11",
-              "episode_number": 11,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
-                {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 11 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/2/11"
-                }
-              ],
-              "subtitles": []
-            },
-            {
-              "id": 2602,
-              "title": "Episode 12",
-              "episode_number": 12,
-              "image": "",
-              "duration": "45:00",
-              "views": 0,
-              "downloads": 0,
-              "sources": [
-                {
-                  "id": 2602,
-                  "type": "embed",
-                  "title": "Episode 12 1080p",
-                  "quality": "1080p",
-                  "size": "0MB",
-                  "kind": "embed",
-                  "premium": "false",
-                  "external": false,
-                  "url": "https://vidsrc.net/embed/tv/90802/2/12"
-                }
-              ],
-              "subtitles": []
+              "views": 3000,
+              "downloads": 800
             }
           ]
         }
@@ -3596,6 +3624,24 @@
           "year": "2008"
         }
       ]
+    },
+    {
+      "id": 2,
+      "name": "Emma Watson",
+      "type": "actress",
+      "role": "Lead Actress",
+      "image": "https://example.com/emma-watson.jpg",
+      "born": "1990-04-15",
+      "height": "5'5\"",
+      "bio": "English actress and activist",
+      "movies": [
+        {
+          "id": 2,
+          "title": "Sample TV Series",
+          "image": "https://example.com/sample-series.jpg",
+          "year": "2023"
+        }
+      ]
     }
   ],
   "genres": [
@@ -3711,6 +3757,169 @@
           ],
           "downloads": 5000,
           "shares": 1200
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Drama",
+      "posters": [
+        {
+          "id": 2,
+          "title": "Sample TV Series",
+          "type": "series",
+          "label": "Drama",
+          "sublabel": "2 Seasons",
+          "imdb": "8.2",
+          "downloadas": "sample-series",
+          "comment": true,
+          "playas": "video",
+          "description": "A gripping drama series with 2 seasons. Each season contains 1 episode with multiple quality options and subtitles.",
+          "classification": "TV-14",
+          "year": "2023",
+          "duration": "45:00",
+          "rating": 8.2,
+          "image": "https://example.com/sample-series.jpg",
+          "cover": "https://example.com/sample-series-cover.jpg",
+          "genres": [
+            {
+              "id": 3,
+              "title": "Drama"
+            }
+          ],
+          "actors": [
+            {
+              "id": 2,
+              "name": "Emma Watson",
+              "type": "actress",
+              "role": "Lead Actress",
+              "image": "https://example.com/emma-watson.jpg",
+              "born": "1990-04-15",
+              "height": "5'5\"",
+              "bio": "English actress and activist"
+            }
+          ],
+          "views": 8000,
+          "created_at": "2024-01-02",
+          "sources": [],
+          "trailer": null,
+          "subtitles": [],
+          "comments": [
+            {
+              "id": 1,
+              "user": "Series Fan",
+              "comment": "Amazing series! Can't wait for season 2.",
+              "created_at": "2024-01-15T12:00:00Z"
+            }
+          ],
+          "downloads": 2000,
+          "shares": 500,
+          "seasons": [
+            {
+              "id": 1,
+              "title": "Season 1",
+              "episodes": [
+                {
+                  "id": 1,
+                  "title": "Episode 1",
+                  "episode_number": 1,
+                  "image": "https://example.com/ep1.jpg",
+                  "duration": "45:00",
+                  "sources": [
+                    {
+                      "id": 5,
+                      "type": "video",
+                      "title": "Episode 1 1080p",
+                      "quality": "1080p",
+                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                    },
+                    {
+                      "id": 6,
+                      "type": "video",
+                      "title": "Episode 1 720p",
+                      "quality": "720p",
+                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                    },
+                    {
+                      "id": 7,
+                      "type": "video",
+                      "title": "Episode 1 480p",
+                      "quality": "480p",
+                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                    }
+                  ],
+                  "subtitles": [
+                    {
+                      "id": 1,
+                      "title": "English",
+                      "language": "en",
+                      "url": "https://example.com/subtitles/ep1-en.vtt"
+                    },
+                    {
+                      "id": 2,
+                      "title": "Spanish",
+                      "language": "es",
+                      "url": "https://example.com/subtitles/ep1-es.vtt"
+                    }
+                  ],
+                  "views": 5000,
+                  "downloads": 1200
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "Season 2",
+              "episodes": [
+                {
+                  "id": 2,
+                  "title": "Episode 1",
+                  "episode_number": 1,
+                  "image": "https://example.com/ep2.jpg",
+                  "duration": "45:00",
+                  "sources": [
+                    {
+                      "id": 8,
+                      "type": "video",
+                      "title": "Episode 1 1080p",
+                      "quality": "1080p",
+                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                    },
+                    {
+                      "id": 9,
+                      "type": "video",
+                      "title": "Episode 1 720p",
+                      "quality": "720p",
+                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                    },
+                    {
+                      "id": 10,
+                      "type": "video",
+                      "title": "Episode 1 480p",
+                      "quality": "480p",
+                      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                    }
+                  ],
+                  "subtitles": [
+                    {
+                      "id": 3,
+                      "title": "English",
+                      "language": "en",
+                      "url": "https://example.com/subtitles/ep2-en.vtt"
+                    },
+                    {
+                      "id": 4,
+                      "title": "Spanish",
+                      "language": "es",
+                      "url": "https://example.com/subtitles/ep2-es.vtt"
+                    }
+                  ],
+                  "views": 3000,
+                  "downloads": 800
+                }
+              ]
+            }
+          ]
         }
       ]
     }
