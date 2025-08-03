@@ -1359,7 +1359,7 @@
               ]
             }
           ],
-          "views": 10501,
+          "views": 4551,
           "created_at": "2025-08-03"
         }
       }
@@ -2709,7 +2709,7 @@
             ]
           }
         ],
-        "views": 10501,
+        "views": 4551,
         "created_at": "2025-08-03"
       }
     ],
@@ -4060,7 +4060,7 @@
           ]
         }
       ],
-      "views": 10501,
+      "views": 4551,
       "created_at": "2025-08-03"
     }
   ],
@@ -4182,7 +4182,7 @@
               "bio": "Actor information from TMDB"
             }
           ],
-          "views": 10501,
+          "views": 4551,
           "created_at": "2025-08-03",
           "sources": [],
           "trailer": {
@@ -5535,7 +5535,7 @@
               "bio": "Actor information from TMDB"
             }
           ],
-          "views": 10501,
+          "views": 4551,
           "created_at": "2025-08-03",
           "sources": [],
           "trailer": {
@@ -6888,7 +6888,7 @@
               "bio": "Actor information from TMDB"
             }
           ],
-          "views": 10501,
+          "views": 4551,
           "created_at": "2025-08-03",
           "sources": [],
           "trailer": {
@@ -8180,5 +8180,6 @@
         }
       ]
     }
-  ]
+  ],
+  "channels": []
 }
