@@ -1,56 +1,31 @@
 {
-  "api_info": {
-    "version": "3.0",
-    "description": "Enhanced CineMax API with TMDB Integration",
-    "last_updated": "2025-08-02",
-    "total_movies": 0,
-    "total_series": 1,
-    "total_channels": 0,
-    "total_generated": 0
-  },
-  "home": {
-    "slides": [],
-    "featured_movies": [
-      {
-        "id": 1754176809914512600,
-        "title": "The Sandman",
-        "type": "series",
-        "image": "https://image.tmdb.org/t/p/w500/vfJ1nBnqiiRWZWv3ZvtFWO5zccg.jpg",
-        "url": "series/1754176809914512600"
-      }
-    ],
-    "channels": [],
-    "actors": [],
-    "genres": []
-  },
-  "movies": [],
-  "series": [
+  "timestamp": "2025-08-03T00:00:51.092Z",
+  "version": "1.0",
+  "content": [
     {
-      "id": 1754176809914512600,
-      "tmdb_id": 90802,
+      "id": 906121,
+      "type": "series",
       "title": "The Sandman",
       "year": "2022",
-      "type": "series",
       "description": "After years of imprisonment, Morpheus — the King of Dreams — embarks on a journey across worlds to find what was stolen from him and restore his power.",
       "image": "https://image.tmdb.org/t/p/w500/vfJ1nBnqiiRWZWv3ZvtFWO5zccg.jpg",
       "cover": "https://image.tmdb.org/t/p/original/uxrP5yB9h6Dh6SbojI018pMYIIH.jpg",
-      "trailer": "https://www.youtube.com/watch?v=ZJXamnPUm0I",
+      "trailer": {
+        "id": 764751,
+        "type": "play",
+        "title": "YouTube Trailer",
+        "quality": "720p",
+        "size": "0MB",
+        "kind": "youtube",
+        "premium": "false",
+        "external": true,
+        "url": "https://www.youtube.com/watch?v=ZJXamnPUm0I"
+      },
       "sources": [
         {
-          "id": 1,
+          "id": 808114,
           "type": "play",
-          "title": "VidSrc Primary",
-          "quality": "1080p",
-          "size": "0MB",
-          "kind": "embed",
-          "premium": "false",
-          "external": false,
-          "url": "https://vidsrc.net/embed/tv/90802"
-        },
-        {
-          "id": 3,
-          "type": "play",
-          "title": "VidSrc TV",
+          "title": "VidSrc 1080p",
           "quality": "1080p",
           "size": "0MB",
           "kind": "embed",
@@ -59,57 +34,74 @@
           "url": "https://vidsrc.net/embed/tv/90802"
         }
       ],
-      "rating": 7.9,
-      "imdb": 7.9,
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama",
-        "Action & Adventure"
-      ],
-      "cast": [
-        {
-          "name": "Tom Sturridge",
-          "character": "Morpheus / Dream",
-          "profile_path": "https://image.tmdb.org/t/p/w185/2EIUT2junjmFYRm70E4pAAUKnMc.jpg"
-        },
-        {
-          "name": "Vivienne Acheampong",
-          "character": "Lucienne",
-          "profile_path": "https://image.tmdb.org/t/p/w185/1VqJnnimdMwuje0ttU2SsKSuy3S.jpg"
-        },
-        {
-          "name": "Patton Oswalt",
-          "character": "Matthew the Raven (voice)",
-          "profile_path": "https://image.tmdb.org/t/p/w185/skGzommLR2zE6uk1YQRFK71dOJ8.jpg"
-        }
-      ],
-      "created_at": "2025-08-02",
-      "label": "Auto Generated",
-      "sublabel": "TMDB ID: 90802",
+      "label": "Latest Series",
+      "sublabel": "Released 2022",
+      "imdb": "7.914",
+      "downloadas": "the-sandman",
       "comment": true,
       "playas": "video",
-      "classification": "PG-13",
+      "classification": "PG",
       "duration": "00:00",
-      "downloadas": "the-sandman",
+      "rating": 7.914,
+      "created_at": "2025-08-02",
+      "genres": [
+        {
+          "id": 10765,
+          "name": "Sci-Fi & Fantasy"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 10759,
+          "name": "Action & Adventure"
+        }
+      ],
+      "actors": [
+        {
+          "id": 90451,
+          "name": "Tom Sturridge",
+          "image": "https://image.tmdb.org/t/p/w185/2EIUT2junjmFYRm70E4pAAUKnMc.jpg"
+        },
+        {
+          "id": 1619294,
+          "name": "Vivienne Acheampong",
+          "image": "https://image.tmdb.org/t/p/w185/1VqJnnimdMwuje0ttU2SsKSuy3S.jpg"
+        },
+        {
+          "id": 10872,
+          "name": "Patton Oswalt",
+          "image": "https://image.tmdb.org/t/p/w185/skGzommLR2zE6uk1YQRFK71dOJ8.jpg"
+        }
+      ],
+      "views": 1492,
       "seasons": [
         {
-          "id": 1,
-          "title": "Season 1",
-          "season": 1,
-          "image": "https://image.tmdb.org/t/p/w300/ntAOcvG0Z1G6jc8HtIOrt5M24dA.jpg",
+          "id": 171034,
+          "season_number": 1,
+          "name": "Season 1",
+          "air_date": "2022-08-05",
+          "episode_count": 11,
+          "overview": "",
+          "poster_path": "/ntAOcvG0Z1G6jc8HtIOrt5M24dA.jpg",
           "episodes": [
             {
-              "id": 1,
+              "id": 214036,
+              "episode_number": 1,
               "title": "Sleep of the Just",
-              "episode": 1,
-              "season": 1,
               "description": "While searching for an escaped nightmare in the waking world, Morpheus falls prey to Roderick Burgess, an occultist looking to summon and imprison Death.",
+              "air_date": "2022-08-05",
+              "duration": "0:54",
               "image": "https://image.tmdb.org/t/p/w300/xzmpOdpN1wpdKK2kaJmBidMpUL9.jpg",
+              "rating": 7.7,
+              "downloadas": "sleep-of-the-just",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 155220,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -120,17 +112,21 @@
               ]
             },
             {
-              "id": 2,
+              "id": 203609,
+              "episode_number": 2,
               "title": "Imperfect Hosts",
-              "episode": 2,
-              "season": 1,
               "description": "Morpheus begins his quest to find his tools of power — his sand, ruby and helm — by paying a visit to a pair of notoriously dysfunctional brothers.",
+              "air_date": "2022-08-05",
+              "duration": "0:38",
               "image": "https://image.tmdb.org/t/p/w300/i1uLLs0Z9AzXTkYrRoWZQTfFCEp.jpg",
+              "rating": 7.2,
+              "downloadas": "imperfect-hosts",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 26158,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -141,17 +137,21 @@
               ]
             },
             {
-              "id": 3,
+              "id": 585715,
+              "episode_number": 3,
               "title": "Dream a Little Dream of Me",
-              "episode": 3,
-              "season": 1,
               "description": "Morpheus tracks down the last-known person in possession of his sand — and receives an unexpected lesson on humanity. Ethel pays a visit to her son.",
+              "air_date": "2022-08-05",
+              "duration": "0:46",
               "image": "https://image.tmdb.org/t/p/w300/c2NipAl5AJn1mZ2n1u6XUQ2gcz4.jpg",
+              "rating": 7,
+              "downloadas": "dream-a-little-dream-of-me",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 337871,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -162,17 +162,21 @@
               ]
             },
             {
-              "id": 4,
+              "id": 711453,
+              "episode_number": 4,
               "title": "A Hope in Hell",
-              "episode": 4,
-              "season": 1,
               "description": "A lead on the whereabouts of his helm compels Morpheus to seek an audience with Lucifer. A confused John receives a helping hand from a good Samaritan.",
+              "air_date": "2022-08-05",
+              "duration": "0:45",
               "image": "https://image.tmdb.org/t/p/w300/2wBRe3shmk6lwJvwIQuN8PfB2tV.jpg",
+              "rating": 7.25,
+              "downloadas": "a-hope-in-hell",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 523053,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -183,17 +187,21 @@
               ]
             },
             {
-              "id": 5,
+              "id": 721774,
+              "episode_number": 5,
               "title": "24/7",
-              "episode": 5,
-              "season": 1,
               "description": "With Morpheus caught off guard, John settles in at a diner to watch the people around him — and put his theory about truth and lies to a terrifying test.",
+              "air_date": "2022-08-05",
+              "duration": "0:54",
               "image": "https://image.tmdb.org/t/p/w300/1srp7lHS239WfXw0gSBllYw8mCx.jpg",
+              "rating": 6.885,
+              "downloadas": "24-7",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 693694,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -204,17 +212,21 @@
               ]
             },
             {
-              "id": 6,
+              "id": 316760,
+              "episode_number": 6,
               "title": "The Sound of Her Wings",
-              "episode": 6,
-              "season": 1,
               "description": "Feeling a bit rudderless, Morpheus shadows his hard-working big sister, who offers him advice and encourages him to reconnect with an old acquaintance.",
+              "air_date": "2022-08-05",
+              "duration": "0:53",
               "image": "https://image.tmdb.org/t/p/w300/aKekIXd1a6HfgT46kuKco0apV0n.jpg",
+              "rating": 8,
+              "downloadas": "the-sound-of-her-wings",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 215691,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -225,17 +237,21 @@
               ]
             },
             {
-              "id": 7,
+              "id": 603004,
+              "episode_number": 7,
               "title": "The Doll's House",
-              "episode": 7,
-              "season": 1,
               "description": "Lucienne comes to Morpheus with disturbing news. Rose Walker goes in search of family. Admirers of the Corinthian's work scheme to get his attention.",
+              "air_date": "2022-08-05",
+              "duration": "0:49",
               "image": "https://image.tmdb.org/t/p/w300/ckMg5eK20e65czJCfPGJgtyg63H.jpg",
+              "rating": 6.8,
+              "downloadas": "the-doll-s-house",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 981686,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -246,17 +262,21 @@
               ]
             },
             {
-              "id": 8,
+              "id": 243066,
+              "episode_number": 8,
               "title": "Playing House",
-              "episode": 8,
-              "season": 1,
               "description": "As Morpheus closes in on one of his missing creations, Rose ramps up efforts to locate her brother — and unwittingly makes a friend's dream come true.",
+              "air_date": "2022-08-05",
+              "duration": "0:50",
               "image": "https://image.tmdb.org/t/p/w300/xGE5htx5TTbTrRFasgxJpZm8dSA.jpg",
+              "rating": 6.902,
+              "downloadas": "playing-house",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 408606,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -267,17 +287,21 @@
               ]
             },
             {
-              "id": 9,
+              "id": 267393,
+              "episode_number": 9,
               "title": "Collectors",
-              "episode": 9,
-              "season": 1,
               "description": "Odd disturbances shake up The Dreaming, Rose sets out on a road trip with a new friend, and The Corinthian arrives with a guest at a creepy convention.",
+              "air_date": "2022-08-05",
+              "duration": "0:49",
               "image": "https://image.tmdb.org/t/p/w300/m95ZlPULJoinfXNwMmdbckIXvTz.jpg",
+              "rating": 7,
+              "downloadas": "collectors",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 937203,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -288,17 +312,21 @@
               ]
             },
             {
-              "id": 10,
+              "id": 298570,
+              "episode_number": 10,
               "title": "Lost Hearts",
-              "episode": 10,
-              "season": 1,
               "description": "As the Dream vortex grows more powerful and the walls between the realms weaken, Rose must make a difficult choice. Morpheus confronts The Corinthian.",
+              "air_date": "2022-08-05",
+              "duration": "0:46",
               "image": "https://image.tmdb.org/t/p/w300/b4UgJQr2Ov2Mg8HZQP4K90xjNBh.jpg",
+              "rating": 7.079,
+              "downloadas": "lost-hearts",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 31379,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -309,17 +337,21 @@
               ]
             },
             {
-              "id": 11,
+              "id": 946010,
+              "episode_number": 11,
               "title": "Dream of a Thousand Cats/Calliope",
-              "episode": 11,
-              "season": 1,
               "description": "In this two-part story collection, a Siamese cat dreaming of a new world and a writer in desperate need of inspiration cross paths with Morpheus.",
+              "air_date": "2022-08-19",
+              "duration": "1:04",
               "image": "https://image.tmdb.org/t/p/w300/vWzr1iaBqOW1G8PiESdcxSrNWku.jpg",
+              "rating": 7.13,
+              "downloadas": "dream-of-a-thousand-cats-calliope",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 282609,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -332,23 +364,30 @@
           ]
         },
         {
-          "id": 2,
-          "title": "Season 2",
-          "season": 2,
-          "image": "https://image.tmdb.org/t/p/w300/1DLMHwGuEKj3jS0bN4hgGXWUDqv.jpg",
+          "id": 375287,
+          "season_number": 2,
+          "name": "Season 2",
+          "air_date": "2025-07-03",
+          "episode_count": 12,
+          "overview": "In the wake of rebuilding his realm, Morpheus faces ancient responsibilities and familial entanglements as he's drawn into a prophecy that challenges his identity and power.",
+          "poster_path": "/1DLMHwGuEKj3jS0bN4hgGXWUDqv.jpg",
           "episodes": [
             {
-              "id": 1,
+              "id": 338063,
+              "episode_number": 1,
               "title": "Season of Mists",
-              "episode": 1,
-              "season": 2,
               "description": "When a gathering of the Endless exposes deep-seated grievances, Morpheus embarks on a mission to Hell to free the soul of a condemned mortal.",
+              "air_date": "2025-07-03",
+              "duration": "0:46",
               "image": "https://image.tmdb.org/t/p/w300/gdRVJGhE2hHFNd5q0mQZizRWO9w.jpg",
+              "rating": 6.2,
+              "downloadas": "season-of-mists",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 500803,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -359,17 +398,21 @@
               ]
             },
             {
-              "id": 2,
+              "id": 995935,
+              "episode_number": 2,
               "title": "The Ruler of Hell",
-              "episode": 2,
-              "season": 2,
               "description": "Bequeathed the key to Hell, Morpheus throws a lavish banquet to determine which god, demon or faerie can be entrusted with its dark power.",
+              "air_date": "2025-07-03",
+              "duration": "0:51",
               "image": "https://image.tmdb.org/t/p/w300/n9NIf3PHHc0ApXAp5G8kFcdXesM.jpg",
+              "rating": 6.7,
+              "downloadas": "the-ruler-of-hell",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 568707,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -380,17 +423,21 @@
               ]
             },
             {
-              "id": 3,
+              "id": 45056,
+              "episode_number": 3,
               "title": "More Devils Than Vast Hell Can Hold",
-              "episode": 3,
-              "season": 2,
               "description": "All the world's a stage as Morpheus summons history's greatest dramatist to perform an enchanting play for a supernatural audience.",
+              "air_date": "2025-07-03",
+              "duration": "0:51",
               "image": "https://image.tmdb.org/t/p/w300/2ALbQ7b8ICWfcuVIcOKxCCWHbK9.jpg",
+              "rating": 6.6,
+              "downloadas": "more-devils-than-vast-hell-can-hold",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 564172,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -401,17 +448,21 @@
               ]
             },
             {
-              "id": 4,
+              "id": 955211,
+              "episode_number": 4,
               "title": "Brief Lives",
-              "episode": 4,
-              "season": 2,
               "description": "Morpheus grudgingly helps Delirium search for their vanished sibling in the waking world — where a deadly force lurks in the shadows.",
+              "air_date": "2025-07-03",
+              "duration": "0:45",
               "image": "https://image.tmdb.org/t/p/w300/4OZcba8f9qcMMEiTf4svtLxhRav.jpg",
+              "rating": 6,
+              "downloadas": "brief-lives",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 61950,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -422,17 +473,21 @@
               ]
             },
             {
-              "id": 5,
+              "id": 230146,
+              "episode_number": 5,
               "title": "The Song of Orpheus",
-              "episode": 5,
-              "season": 2,
               "description": "To honor a promise to one sibling, Morpheus must shatter a vow to another. In ancient Greece, a wedding-night tragedy turns a son against his father.",
+              "air_date": "2025-07-03",
+              "duration": "1:05",
               "image": "https://image.tmdb.org/t/p/w300/cu6tPZ4RyHTEErEwfK0Wh7cJFiP.jpg",
+              "rating": 5.4,
+              "downloadas": "the-song-of-orpheus",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 404001,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -443,17 +498,21 @@
               ]
             },
             {
-              "id": 6,
+              "id": 805303,
+              "episode_number": 6,
               "title": "Family Blood",
-              "episode": 6,
-              "season": 2,
               "description": "Morpheus enlists an expert in the occult to smuggle a deeply personal relic out of Paris — and help him and Delirium find the answers they seek.",
+              "air_date": "2025-07-03",
+              "duration": "0:59",
               "image": "https://image.tmdb.org/t/p/w300/474h1MDAS0ylszh7vhYsrOIJX8K.jpg",
+              "rating": 6.1,
+              "downloadas": "family-blood",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 147226,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -464,17 +523,21 @@
               ]
             },
             {
-              "id": 7,
+              "id": 141476,
+              "episode_number": 7,
               "title": "Time and Night",
-              "episode": 7,
-              "season": 2,
               "description": "With the future of his realm at stake, Morpheus must appeal for help to an authority even greater than the Endless.",
+              "air_date": "2025-07-24",
+              "duration": "0:50",
               "image": "https://image.tmdb.org/t/p/w300/3raXaPXCxhKCUcN0vDpkX7M8S1x.jpg",
+              "rating": 6.6,
+              "downloadas": "time-and-night",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 959060,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -485,17 +548,21 @@
               ]
             },
             {
-              "id": 8,
+              "id": 510911,
+              "episode_number": 8,
               "title": "Fuel for the Fire",
-              "episode": 8,
-              "season": 2,
               "description": "Morpheus recruits a mortal agent for a dangerous mission in the waking world. A change of heart puts a pair of tricksters on a collision course.",
+              "air_date": "2025-07-24",
+              "duration": "0:48",
               "image": "https://image.tmdb.org/t/p/w300/oU6g3xvPXPkQiQEkkgm9jMymwVS.jpg",
+              "rating": 6.8,
+              "downloadas": "fuel-for-the-fire",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 141410,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -506,17 +573,21 @@
               ]
             },
             {
-              "id": 9,
+              "id": 666777,
+              "episode_number": 9,
               "title": "The Kindly Ones",
-              "episode": 9,
-              "season": 2,
               "description": "Confined to his realm, Morpheus conjures up a new nightmare to do his bidding. The God of Deception deals roughly with an intrusive thorn in his side.",
+              "air_date": "2025-07-24",
+              "duration": "0:54",
               "image": "https://image.tmdb.org/t/p/w300/o6gKGocuv98ZNmBGAdiNW5YdXgt.jpg",
+              "rating": 6.9,
+              "downloadas": "the-kindly-ones",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 720031,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -527,17 +598,21 @@
               ]
             },
             {
-              "id": 10,
+              "id": 255192,
+              "episode_number": 10,
               "title": "Long Live the King",
-              "episode": 10,
-              "season": 2,
               "description": "Fueled by rage, a grieving mother unleashes her wrath upon the Dreaming, as Morpheus confronts the Kindly Ones at the furthest reaches of his kingdom.",
+              "air_date": "2025-07-24",
+              "duration": "0:45",
               "image": "https://image.tmdb.org/t/p/w300/k2xGycTbss6rZi3jMFjzg4CJyOa.jpg",
+              "rating": 6.5,
+              "downloadas": "long-live-the-king",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 184104,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -548,17 +623,21 @@
               ]
             },
             {
-              "id": 11,
+              "id": 790467,
+              "episode_number": 11,
               "title": "A Tale of Graceful Ends",
-              "episode": 11,
-              "season": 2,
               "description": "As deities, dreamers and demons unite to mark a momentous occasion, the Endless assemble for a family reunion unlike any other.",
+              "air_date": "2025-07-24",
+              "duration": "1:10",
               "image": "https://image.tmdb.org/t/p/w300/iMbt6UaHo09sSAlCkiL7ANmKal6.jpg",
+              "rating": 6.1,
+              "downloadas": "a-tale-of-graceful-ends",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 87888,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -569,17 +648,21 @@
               ]
             },
             {
-              "id": 12,
+              "id": 345990,
+              "episode_number": 12,
               "title": "A Special Episode - Death: The High Cost of Living",
-              "episode": 12,
-              "season": 2,
               "description": "In this standalone episode, a journalist overwhelmed by hopelessness has a life-altering 24 hours after crossing paths with Death on her day off.",
+              "air_date": "2025-07-31",
+              "duration": "0:58",
               "image": "https://image.tmdb.org/t/p/w300/lGXkdwfOzpy17OLOnkyJBE8avWT.jpg",
+              "rating": 6.8,
+              "downloadas": "a-special-episode---death--the-high-cost-of-living",
+              "playas": "video",
               "sources": [
                 {
-                  "id": 1,
+                  "id": 567615,
                   "type": "play",
-                  "title": "VidSrc Episode",
+                  "title": "VidSrc 1080p",
                   "quality": "1080p",
                   "size": "0MB",
                   "kind": "embed",
@@ -592,146 +675,944 @@
           ]
         }
       ]
+    },
+    {
+      "id": 54876,
+      "type": "series",
+      "title": "The Sandman",
+      "year": "2022",
+      "description": "After years of imprisonment, Morpheus — the King of Dreams — embarks on a journey across worlds to find what was stolen from him and restore his power.",
+      "image": "https://image.tmdb.org/t/p/w500/vfJ1nBnqiiRWZWv3ZvtFWO5zccg.jpg",
+      "cover": "https://image.tmdb.org/t/p/original/uxrP5yB9h6Dh6SbojI018pMYIIH.jpg",
+      "trailer": {
+        "id": 423574,
+        "type": "play",
+        "title": "YouTube Trailer",
+        "quality": "720p",
+        "size": "0MB",
+        "kind": "youtube",
+        "premium": "false",
+        "external": true,
+        "url": "https://www.youtube.com/watch?v=ZJXamnPUm0I"
+      },
+      "sources": [
+        {
+          "id": 166354,
+          "type": "play",
+          "title": "VidSrc 1080p",
+          "quality": "1080p",
+          "size": "0MB",
+          "kind": "embed",
+          "premium": "false",
+          "external": false,
+          "url": "https://vidsrc.net/embed/tv/90802"
+        },
+        {
+          "id": 207770,
+          "type": "play",
+          "title": "VidJoy 1080p",
+          "quality": "1080p",
+          "size": "0MB",
+          "kind": "embed",
+          "premium": "false",
+          "external": false,
+          "url": "https://vidjoy.pro/embed/tv/90802"
+        }
+      ],
+      "label": "Latest Series",
+      "sublabel": "Released 2022",
+      "imdb": "7.914",
+      "downloadas": "the-sandman",
+      "comment": true,
+      "playas": "video",
+      "classification": "PG",
+      "duration": "00:00",
+      "rating": 7.914,
+      "created_at": "2025-08-03",
+      "genres": [
+        {
+          "id": 10765,
+          "name": "Sci-Fi & Fantasy"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 10759,
+          "name": "Action & Adventure"
+        }
+      ],
+      "actors": [
+        {
+          "id": 90451,
+          "name": "Tom Sturridge",
+          "image": "https://image.tmdb.org/t/p/w185/2EIUT2junjmFYRm70E4pAAUKnMc.jpg"
+        },
+        {
+          "id": 1619294,
+          "name": "Vivienne Acheampong",
+          "image": "https://image.tmdb.org/t/p/w185/1VqJnnimdMwuje0ttU2SsKSuy3S.jpg"
+        },
+        {
+          "id": 10872,
+          "name": "Patton Oswalt",
+          "image": "https://image.tmdb.org/t/p/w185/skGzommLR2zE6uk1YQRFK71dOJ8.jpg"
+        }
+      ],
+      "views": 8372,
+      "seasons": [
+        {
+          "id": 443717,
+          "season_number": 1,
+          "name": "Season 1",
+          "air_date": "2022-08-05",
+          "episode_count": 11,
+          "overview": "",
+          "poster_path": "/ntAOcvG0Z1G6jc8HtIOrt5M24dA.jpg",
+          "episodes": [
+            {
+              "id": 877411,
+              "episode_number": 1,
+              "title": "Sleep of the Just",
+              "description": "While searching for an escaped nightmare in the waking world, Morpheus falls prey to Roderick Burgess, an occultist looking to summon and imprison Death.",
+              "air_date": "2022-08-05",
+              "duration": "0:54",
+              "image": "https://image.tmdb.org/t/p/w300/xzmpOdpN1wpdKK2kaJmBidMpUL9.jpg",
+              "rating": 7.7,
+              "downloadas": "sleep-of-the-just",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 449868,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/1/1"
+                },
+                {
+                  "id": 162877,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/1/1"
+                }
+              ]
+            },
+            {
+              "id": 854133,
+              "episode_number": 2,
+              "title": "Imperfect Hosts",
+              "description": "Morpheus begins his quest to find his tools of power — his sand, ruby and helm — by paying a visit to a pair of notoriously dysfunctional brothers.",
+              "air_date": "2022-08-05",
+              "duration": "0:38",
+              "image": "https://image.tmdb.org/t/p/w300/i1uLLs0Z9AzXTkYrRoWZQTfFCEp.jpg",
+              "rating": 7.2,
+              "downloadas": "imperfect-hosts",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 84420,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/1/2"
+                },
+                {
+                  "id": 974358,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/1/2"
+                }
+              ]
+            },
+            {
+              "id": 289159,
+              "episode_number": 3,
+              "title": "Dream a Little Dream of Me",
+              "description": "Morpheus tracks down the last-known person in possession of his sand — and receives an unexpected lesson on humanity. Ethel pays a visit to her son.",
+              "air_date": "2022-08-05",
+              "duration": "0:46",
+              "image": "https://image.tmdb.org/t/p/w300/c2NipAl5AJn1mZ2n1u6XUQ2gcz4.jpg",
+              "rating": 7,
+              "downloadas": "dream-a-little-dream-of-me",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 373796,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/1/3"
+                },
+                {
+                  "id": 753562,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/1/3"
+                }
+              ]
+            },
+            {
+              "id": 275833,
+              "episode_number": 4,
+              "title": "A Hope in Hell",
+              "description": "A lead on the whereabouts of his helm compels Morpheus to seek an audience with Lucifer. A confused John receives a helping hand from a good Samaritan.",
+              "air_date": "2022-08-05",
+              "duration": "0:45",
+              "image": "https://image.tmdb.org/t/p/w300/2wBRe3shmk6lwJvwIQuN8PfB2tV.jpg",
+              "rating": 7.25,
+              "downloadas": "a-hope-in-hell",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 249888,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/1/4"
+                },
+                {
+                  "id": 491574,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/1/4"
+                }
+              ]
+            },
+            {
+              "id": 746220,
+              "episode_number": 5,
+              "title": "24/7",
+              "description": "With Morpheus caught off guard, John settles in at a diner to watch the people around him — and put his theory about truth and lies to a terrifying test.",
+              "air_date": "2022-08-05",
+              "duration": "0:54",
+              "image": "https://image.tmdb.org/t/p/w300/1srp7lHS239WfXw0gSBllYw8mCx.jpg",
+              "rating": 6.885,
+              "downloadas": "24-7",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 35976,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/1/5"
+                },
+                {
+                  "id": 837512,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/1/5"
+                }
+              ]
+            },
+            {
+              "id": 77790,
+              "episode_number": 6,
+              "title": "The Sound of Her Wings",
+              "description": "Feeling a bit rudderless, Morpheus shadows his hard-working big sister, who offers him advice and encourages him to reconnect with an old acquaintance.",
+              "air_date": "2022-08-05",
+              "duration": "0:53",
+              "image": "https://image.tmdb.org/t/p/w300/aKekIXd1a6HfgT46kuKco0apV0n.jpg",
+              "rating": 8,
+              "downloadas": "the-sound-of-her-wings",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 489877,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/1/6"
+                },
+                {
+                  "id": 213938,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/1/6"
+                }
+              ]
+            },
+            {
+              "id": 64027,
+              "episode_number": 7,
+              "title": "The Doll's House",
+              "description": "Lucienne comes to Morpheus with disturbing news. Rose Walker goes in search of family. Admirers of the Corinthian's work scheme to get his attention.",
+              "air_date": "2022-08-05",
+              "duration": "0:49",
+              "image": "https://image.tmdb.org/t/p/w300/ckMg5eK20e65czJCfPGJgtyg63H.jpg",
+              "rating": 6.8,
+              "downloadas": "the-doll-s-house",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 101139,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/1/7"
+                },
+                {
+                  "id": 833310,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/1/7"
+                }
+              ]
+            },
+            {
+              "id": 631744,
+              "episode_number": 8,
+              "title": "Playing House",
+              "description": "As Morpheus closes in on one of his missing creations, Rose ramps up efforts to locate her brother — and unwittingly makes a friend's dream come true.",
+              "air_date": "2022-08-05",
+              "duration": "0:50",
+              "image": "https://image.tmdb.org/t/p/w300/xGE5htx5TTbTrRFasgxJpZm8dSA.jpg",
+              "rating": 6.902,
+              "downloadas": "playing-house",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 359820,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/1/8"
+                },
+                {
+                  "id": 610491,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/1/8"
+                }
+              ]
+            },
+            {
+              "id": 191554,
+              "episode_number": 9,
+              "title": "Collectors",
+              "description": "Odd disturbances shake up The Dreaming, Rose sets out on a road trip with a new friend, and The Corinthian arrives with a guest at a creepy convention.",
+              "air_date": "2022-08-05",
+              "duration": "0:49",
+              "image": "https://image.tmdb.org/t/p/w300/m95ZlPULJoinfXNwMmdbckIXvTz.jpg",
+              "rating": 7,
+              "downloadas": "collectors",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 699713,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/1/9"
+                },
+                {
+                  "id": 162439,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/1/9"
+                }
+              ]
+            },
+            {
+              "id": 589696,
+              "episode_number": 10,
+              "title": "Lost Hearts",
+              "description": "As the Dream vortex grows more powerful and the walls between the realms weaken, Rose must make a difficult choice. Morpheus confronts The Corinthian.",
+              "air_date": "2022-08-05",
+              "duration": "0:46",
+              "image": "https://image.tmdb.org/t/p/w300/b4UgJQr2Ov2Mg8HZQP4K90xjNBh.jpg",
+              "rating": 7.079,
+              "downloadas": "lost-hearts",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 31336,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/1/10"
+                },
+                {
+                  "id": 744937,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/1/10"
+                }
+              ]
+            },
+            {
+              "id": 701988,
+              "episode_number": 11,
+              "title": "Dream of a Thousand Cats/Calliope",
+              "description": "In this two-part story collection, a Siamese cat dreaming of a new world and a writer in desperate need of inspiration cross paths with Morpheus.",
+              "air_date": "2022-08-19",
+              "duration": "1:04",
+              "image": "https://image.tmdb.org/t/p/w300/vWzr1iaBqOW1G8PiESdcxSrNWku.jpg",
+              "rating": 7.13,
+              "downloadas": "dream-of-a-thousand-cats-calliope",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 828214,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/1/11"
+                },
+                {
+                  "id": 531811,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/1/11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 28151,
+          "season_number": 2,
+          "name": "Season 2",
+          "air_date": "2025-07-03",
+          "episode_count": 12,
+          "overview": "In the wake of rebuilding his realm, Morpheus faces ancient responsibilities and familial entanglements as he's drawn into a prophecy that challenges his identity and power.",
+          "poster_path": "/1DLMHwGuEKj3jS0bN4hgGXWUDqv.jpg",
+          "episodes": [
+            {
+              "id": 898688,
+              "episode_number": 1,
+              "title": "Season of Mists",
+              "description": "When a gathering of the Endless exposes deep-seated grievances, Morpheus embarks on a mission to Hell to free the soul of a condemned mortal.",
+              "air_date": "2025-07-03",
+              "duration": "0:46",
+              "image": "https://image.tmdb.org/t/p/w300/gdRVJGhE2hHFNd5q0mQZizRWO9w.jpg",
+              "rating": 6.2,
+              "downloadas": "season-of-mists",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 603861,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/2/1"
+                },
+                {
+                  "id": 28834,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/2/1"
+                }
+              ]
+            },
+            {
+              "id": 688597,
+              "episode_number": 2,
+              "title": "The Ruler of Hell",
+              "description": "Bequeathed the key to Hell, Morpheus throws a lavish banquet to determine which god, demon or faerie can be entrusted with its dark power.",
+              "air_date": "2025-07-03",
+              "duration": "0:51",
+              "image": "https://image.tmdb.org/t/p/w300/n9NIf3PHHc0ApXAp5G8kFcdXesM.jpg",
+              "rating": 6.7,
+              "downloadas": "the-ruler-of-hell",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 297652,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/2/2"
+                },
+                {
+                  "id": 395415,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/2/2"
+                }
+              ]
+            },
+            {
+              "id": 840719,
+              "episode_number": 3,
+              "title": "More Devils Than Vast Hell Can Hold",
+              "description": "All the world's a stage as Morpheus summons history's greatest dramatist to perform an enchanting play for a supernatural audience.",
+              "air_date": "2025-07-03",
+              "duration": "0:51",
+              "image": "https://image.tmdb.org/t/p/w300/2ALbQ7b8ICWfcuVIcOKxCCWHbK9.jpg",
+              "rating": 6.6,
+              "downloadas": "more-devils-than-vast-hell-can-hold",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 526457,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/2/3"
+                },
+                {
+                  "id": 582197,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/2/3"
+                }
+              ]
+            },
+            {
+              "id": 278098,
+              "episode_number": 4,
+              "title": "Brief Lives",
+              "description": "Morpheus grudgingly helps Delirium search for their vanished sibling in the waking world — where a deadly force lurks in the shadows.",
+              "air_date": "2025-07-03",
+              "duration": "0:45",
+              "image": "https://image.tmdb.org/t/p/w300/4OZcba8f9qcMMEiTf4svtLxhRav.jpg",
+              "rating": 6,
+              "downloadas": "brief-lives",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 606620,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/2/4"
+                },
+                {
+                  "id": 628653,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/2/4"
+                }
+              ]
+            },
+            {
+              "id": 43831,
+              "episode_number": 5,
+              "title": "The Song of Orpheus",
+              "description": "To honor a promise to one sibling, Morpheus must shatter a vow to another. In ancient Greece, a wedding-night tragedy turns a son against his father.",
+              "air_date": "2025-07-03",
+              "duration": "1:05",
+              "image": "https://image.tmdb.org/t/p/w300/cu6tPZ4RyHTEErEwfK0Wh7cJFiP.jpg",
+              "rating": 5.4,
+              "downloadas": "the-song-of-orpheus",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 695056,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/2/5"
+                },
+                {
+                  "id": 247150,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/2/5"
+                }
+              ]
+            },
+            {
+              "id": 249912,
+              "episode_number": 6,
+              "title": "Family Blood",
+              "description": "Morpheus enlists an expert in the occult to smuggle a deeply personal relic out of Paris — and help him and Delirium find the answers they seek.",
+              "air_date": "2025-07-03",
+              "duration": "0:59",
+              "image": "https://image.tmdb.org/t/p/w300/474h1MDAS0ylszh7vhYsrOIJX8K.jpg",
+              "rating": 6.1,
+              "downloadas": "family-blood",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 301703,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/2/6"
+                },
+                {
+                  "id": 487852,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/2/6"
+                }
+              ]
+            },
+            {
+              "id": 552107,
+              "episode_number": 7,
+              "title": "Time and Night",
+              "description": "With the future of his realm at stake, Morpheus must appeal for help to an authority even greater than the Endless.",
+              "air_date": "2025-07-24",
+              "duration": "0:50",
+              "image": "https://image.tmdb.org/t/p/w300/3raXaPXCxhKCUcN0vDpkX7M8S1x.jpg",
+              "rating": 6.6,
+              "downloadas": "time-and-night",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 370294,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/2/7"
+                },
+                {
+                  "id": 349364,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/2/7"
+                }
+              ]
+            },
+            {
+              "id": 831462,
+              "episode_number": 8,
+              "title": "Fuel for the Fire",
+              "description": "Morpheus recruits a mortal agent for a dangerous mission in the waking world. A change of heart puts a pair of tricksters on a collision course.",
+              "air_date": "2025-07-24",
+              "duration": "0:48",
+              "image": "https://image.tmdb.org/t/p/w300/oU6g3xvPXPkQiQEkkgm9jMymwVS.jpg",
+              "rating": 6.8,
+              "downloadas": "fuel-for-the-fire",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 866141,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/2/8"
+                },
+                {
+                  "id": 316070,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/2/8"
+                }
+              ]
+            },
+            {
+              "id": 163526,
+              "episode_number": 9,
+              "title": "The Kindly Ones",
+              "description": "Confined to his realm, Morpheus conjures up a new nightmare to do his bidding. The God of Deception deals roughly with an intrusive thorn in his side.",
+              "air_date": "2025-07-24",
+              "duration": "0:54",
+              "image": "https://image.tmdb.org/t/p/w300/o6gKGocuv98ZNmBGAdiNW5YdXgt.jpg",
+              "rating": 6.9,
+              "downloadas": "the-kindly-ones",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 219879,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/2/9"
+                },
+                {
+                  "id": 679495,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/2/9"
+                }
+              ]
+            },
+            {
+              "id": 211469,
+              "episode_number": 10,
+              "title": "Long Live the King",
+              "description": "Fueled by rage, a grieving mother unleashes her wrath upon the Dreaming, as Morpheus confronts the Kindly Ones at the furthest reaches of his kingdom.",
+              "air_date": "2025-07-24",
+              "duration": "0:45",
+              "image": "https://image.tmdb.org/t/p/w300/k2xGycTbss6rZi3jMFjzg4CJyOa.jpg",
+              "rating": 6.5,
+              "downloadas": "long-live-the-king",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 431880,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/2/10"
+                },
+                {
+                  "id": 652037,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/2/10"
+                }
+              ]
+            },
+            {
+              "id": 272406,
+              "episode_number": 11,
+              "title": "A Tale of Graceful Ends",
+              "description": "As deities, dreamers and demons unite to mark a momentous occasion, the Endless assemble for a family reunion unlike any other.",
+              "air_date": "2025-07-24",
+              "duration": "1:10",
+              "image": "https://image.tmdb.org/t/p/w300/iMbt6UaHo09sSAlCkiL7ANmKal6.jpg",
+              "rating": 6.1,
+              "downloadas": "a-tale-of-graceful-ends",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 165878,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/2/11"
+                },
+                {
+                  "id": 345401,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/2/11"
+                }
+              ]
+            },
+            {
+              "id": 11054,
+              "episode_number": 12,
+              "title": "A Special Episode - Death: The High Cost of Living",
+              "description": "In this standalone episode, a journalist overwhelmed by hopelessness has a life-altering 24 hours after crossing paths with Death on her day off.",
+              "air_date": "2025-07-31",
+              "duration": "0:58",
+              "image": "https://image.tmdb.org/t/p/w300/lGXkdwfOzpy17OLOnkyJBE8avWT.jpg",
+              "rating": 6.8,
+              "downloadas": "a-special-episode---death--the-high-cost-of-living",
+              "playas": "video",
+              "sources": [
+                {
+                  "id": 925023,
+                  "type": "play",
+                  "title": "VidSrc 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidsrc.net/embed/tv/90802/2/12"
+                },
+                {
+                  "id": 901319,
+                  "type": "play",
+                  "title": "VidJoy 1080p",
+                  "quality": "1080p",
+                  "size": "0MB",
+                  "kind": "embed",
+                  "premium": "false",
+                  "external": false,
+                  "url": "https://vidjoy.pro/embed/tv/90802/2/12"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "channels": [],
-  "actors": [],
-  "genres": [
-    {
-      "id": 28,
-      "title": "Action",
-      "description": "Action movies and TV shows"
-    },
-    {
-      "id": 12,
-      "title": "Adventure",
-      "description": "Adventure movies and TV shows"
-    },
-    {
-      "id": 16,
-      "title": "Animation",
-      "description": "Animation movies and TV shows"
-    },
-    {
-      "id": 35,
-      "title": "Comedy",
-      "description": "Comedy movies and TV shows"
-    },
-    {
-      "id": 80,
-      "title": "Crime",
-      "description": "Crime movies and TV shows"
-    },
-    {
-      "id": 99,
-      "title": "Documentary",
-      "description": "Documentary movies and TV shows"
-    },
-    {
-      "id": 18,
-      "title": "Drama",
-      "description": "Drama movies and TV shows"
-    },
-    {
-      "id": 10751,
-      "title": "Family",
-      "description": "Family movies and TV shows"
-    },
-    {
-      "id": 14,
-      "title": "Fantasy",
-      "description": "Fantasy movies and TV shows"
-    },
-    {
-      "id": 36,
-      "title": "History",
-      "description": "History movies and TV shows"
-    },
-    {
-      "id": 27,
-      "title": "Horror",
-      "description": "Horror movies and TV shows"
-    },
-    {
-      "id": 10402,
-      "title": "Music",
-      "description": "Music movies and TV shows"
-    },
-    {
-      "id": 9648,
-      "title": "Mystery",
-      "description": "Mystery movies and TV shows"
-    },
-    {
-      "id": 10749,
-      "title": "Romance",
-      "description": "Romance movies and TV shows"
-    },
-    {
-      "id": 878,
-      "title": "Science Fiction",
-      "description": "Science Fiction movies and TV shows"
-    },
-    {
-      "id": 10770,
-      "title": "TV Movie",
-      "description": "TV Movie movies and TV shows"
-    },
-    {
-      "id": 53,
-      "title": "Thriller",
-      "description": "Thriller movies and TV shows"
-    },
-    {
-      "id": 10752,
-      "title": "War",
-      "description": "War movies and TV shows"
-    },
-    {
-      "id": 37,
-      "title": "Western",
-      "description": "Western movies and TV shows"
-    },
-    {
-      "id": 10759,
-      "title": "Action & Adventure",
-      "description": "Action & Adventure movies and TV shows"
-    },
-    {
-      "id": 10762,
-      "title": "Kids",
-      "description": "Kids movies and TV shows"
-    },
-    {
-      "id": 10763,
-      "title": "News",
-      "description": "News movies and TV shows"
-    },
-    {
-      "id": 10764,
-      "title": "Reality",
-      "description": "Reality movies and TV shows"
-    },
-    {
-      "id": 10765,
-      "title": "Sci-Fi & Fantasy",
-      "description": "Sci-Fi & Fantasy movies and TV shows"
-    },
-    {
-      "id": 10766,
-      "title": "Soap",
-      "description": "Soap movies and TV shows"
-    },
-    {
-      "id": 10767,
-      "title": "Talk",
-      "description": "Talk movies and TV shows"
-    },
-    {
-      "id": 10768,
-      "title": "War & Politics",
-      "description": "War & Politics movies and TV shows"
-    }
-  ],
-  "total_generated": null
+  ]
 }
